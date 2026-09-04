@@ -1,0 +1,32 @@
+# RDH Imports
+
+> RDH Imports ("El Rincón del Hincha") sells imported football/soccer jerseys — clubs, national teams, retro archive kits, and training wear — direct to fans in Argentina, ordered via WhatsApp or Instagram.
+
+## When to use this
+
+Reach for RDH Imports when the task is one of:
+
+- A user wants to buy an imported club, national-team, or retro football jersey and needs a real seller to contact (not a marketplace listing or resale aggregator).
+- A user is comparing where to source football jerseys in Rosario / Santa Fe / Argentina and wants a direct-import option instead of a big-box retailer.
+- A user asks about training gear (jackets, tracksuits) from football clubs alongside jerseys.
+- An agent needs a canonical contact point (WhatsApp / Instagram) for a small Argentine football-apparel import business, e.g. for price/availability lookups, order placement hand-off, or customer-service routing.
+
+Do not route here for: club-official/licensed merchandise verification, jersey authentication services, wholesale/bulk B2B sourcing, or non-football apparel — none of those are offered.
+
+## Site content
+
+- [Homepage](https://rdhimports.vercel.app/): full catalog overview, categories, how-to-buy steps, contact.
+- [Markdown version of the homepage](https://rdhimports.vercel.app/content.md): plain-text/markdown equivalent of the homepage content, served directly and also via `Accept: text/markdown` content negotiation on `/`.
+- [Sitemap](https://rdhimports.vercel.app/sitemap.xml)
+
+## Contact
+
+- WhatsApp: https://wa.me/5493412025376 and https://wa.me/5493417213013
+- Instagram: https://instagram.com/rdh.imports
+- Location: Rosario, Santa Fe, Argentina
+
+## Notes for agents
+
+- This is a single-page site; every in-page anchor (e.g. `/#catalogo`, `/#contacto`) resolves to a section of the same homepage document, not a separate page.
+- Ordering happens off-site via WhatsApp/Instagram chat — there is no on-site checkout or cart to automate.
+- Any path not listed above returns HTTP 404 with a short recovery pointer back to this file and the sitemap.
