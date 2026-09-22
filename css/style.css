@@ -367,6 +367,10 @@ ul{list-style:none;margin:0;padding:0;}
 }
 .product-card:hover .product-media img{transform:scale(1.04);}
 .product-body{padding:26px 26px 30px;display:flex;flex-direction:column;gap:10px;flex:1;}
+.product-price{
+  font-family:var(--font-display);
+  font-size:1.05rem;color:var(--rust);margin:0;
+}
 .product-tag{
   font-size:.72rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;
   color:var(--rust);margin:0;
@@ -378,7 +382,7 @@ ul{list-style:none;margin:0;padding:0;}
   letter-spacing:.01em;
   margin:0;
 }
-.product-body p:not(.product-tag){
+.product-body p:not(.product-tag):not(.product-price){
   color:var(--olive-700);
   font-size:.9rem;
   line-height:1.55;
@@ -422,6 +426,7 @@ ul{list-style:none;margin:0;padding:0;}
 .pdp-gallery-main:hover img{transform:scale(1.03);}
 .pdp-gallery-main img.is-switching{opacity:0;transform:scale(1.06);}
 .pdp-gallery-thumbs{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;}
+.pdp-gallery-thumbs.thumbs-2{grid-template-columns:repeat(2,1fr);}
 .pdp-gallery-thumbs button{
   padding:0;border:1px solid var(--line);background:var(--cream-dim);cursor:pointer;
   aspect-ratio:1;overflow:hidden;transition:border-color .25s var(--ease), transform .25s var(--ease);
@@ -466,7 +471,12 @@ ul{list-style:none;margin:0;padding:0;}
 }
 .pdp-subtitle{
   font-family:var(--font-accent);font-style:italic;font-weight:600;
-  color:var(--olive-700);font-size:1.1rem;margin:0 0 24px;
+  color:var(--olive-700);font-size:1.1rem;margin:0 0 14px;
+}
+.pdp-price{
+  font-family:var(--font-display);
+  font-size:clamp(1.4rem,2.4vw,1.8rem);
+  color:var(--rust);margin:0 0 22px;
 }
 .pdp-desc{color:var(--olive-700);font-size:.98rem;line-height:1.65;margin:0 0 28px;}
 
@@ -675,6 +685,11 @@ ul{list-style:none;margin:0;padding:0;}
   .contact-cards{grid-template-columns:1fr;}
 }
 @media (max-width:560px){
+  .hero-bg{
+    background-size:contain;
+    background-position:center 38%;
+    background-color:var(--olive-950);
+  }
   .wrap{padding:0 20px;}
   .cat-grid{grid-template-columns:1fr;}
   .product-grid{grid-template-columns:1fr;}
