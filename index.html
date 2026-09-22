@@ -92,11 +92,27 @@
     <nav class="main-nav" id="main-nav">
       <div class="has-dropdown">
         <a href="tienda.html">Tienda</a>
-        <div class="dropdown">
-          <a href="tienda/clubes/index.html">Clubes</a>
-          <a href="tienda/selecciones/index.html">Selecciones</a>
-          <a href="tienda/mundial-2026/index.html">Mundial 2026</a>
-          <a href="tienda/retro/index.html">Retro</a>
+        <div class="dropdown dropdown-wide">
+          <div class="dropdown-col">
+            <p class="dropdown-heading">Categorías</p>
+            <a href="tienda/clubes/index.html">Clubes</a>
+            <a href="tienda/selecciones/index.html">Selecciones</a>
+            <a href="tienda/mundial-2026/index.html">Mundial 2026</a>
+            <a href="tienda/retro/index.html">Retro</a>
+            <a href="tienda/shorts/index.html">Shorts</a>
+          </div>
+          <div class="dropdown-col">
+            <p class="dropdown-heading">Ligas</p>
+            <a href="tienda/clubes/index.html#liga-alemana">Liga Alemana</a>
+            <a href="tienda/clubes/index.html#liga-argentina">Liga Argentina</a>
+            <a href="tienda/clubes/index.html#liga-brasilena">Liga Brasileña</a>
+            <a href="tienda/clubes/index.html#liga-espanola">Liga Española</a>
+            <a href="tienda/clubes/index.html#liga-francesa">Liga Francesa</a>
+            <a href="tienda/clubes/index.html#liga-inglesa">Liga Inglesa</a>
+            <a href="tienda/clubes/index.html#liga-italiana">Liga Italiana</a>
+            <a href="tienda/clubes/index.html#liga-portuguesa">Liga Portuguesa</a>
+            <a href="tienda/clubes/index.html#resto-del-mundo">Resto del Mundo</a>
+          </div>
         </div>
       </div>
       <a href="#como-comprar">Cómo comprar</a>
@@ -105,16 +121,32 @@
     </nav>
 
     <div class="header-cta">
+      <button class="search-toggle" id="searchToggle" aria-label="Buscar camisetas">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+      </button>
       <a class="btn btn-ghost-sm" href="https://instagram.com/rdh.imports" target="_blank" rel="noopener">
-        <span class="icon-ig" aria-hidden="true"></span>
+        <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M12 2c-2.717 0-3.056.012-4.123.06-1.066.049-1.793.218-2.428.465a4.902 4.902 0 0 0-1.772 1.153A4.902 4.902 0 0 0 2.525 5.45c-.247.635-.416 1.362-.465 2.428C2.012 8.944 2 9.283 2 12s.012 3.056.06 4.123c.049 1.066.218 1.793.465 2.428a4.902 4.902 0 0 0 1.153 1.772 4.902 4.902 0 0 0 1.772 1.153c.635.247 1.362.416 2.428.465C8.944 21.988 9.283 22 12 22s3.056-.012 4.123-.06c1.066-.049 1.793-.218 2.428-.465a4.902 4.902 0 0 0 1.772-1.153 4.902 4.902 0 0 0 1.153-1.772c.247-.635.416-1.362.465-2.428C21.988 15.056 22 14.717 22 12s-.012-3.056-.06-4.123c-.049-1.066-.218-1.793-.465-2.428a4.902 4.902 0 0 0-1.153-1.772A4.902 4.902 0 0 0 18.55 2.525c-.635-.247-1.362-.416-2.428-.465C15.056 2.012 14.717 2 12 2zm0 1.802c2.67 0 2.986.01 4.04.059.976.045 1.505.207 1.858.344.467.182.8.399 1.15.748.35.35.566.683.748 1.15.137.353.3.882.344 1.857.048 1.055.059 1.37.059 4.04s-.01 2.986-.059 4.04c-.045.976-.207 1.505-.344 1.858a3.1 3.1 0 0 1-.748 1.15 3.1 3.1 0 0 1-1.15.748c-.353.137-.882.3-1.857.344-1.054.048-1.37.059-4.041.059s-2.987-.01-4.041-.059c-.976-.045-1.505-.207-1.858-.344a3.1 3.1 0 0 1-1.15-.748 3.1 3.1 0 0 1-.748-1.15c-.137-.353-.3-.882-.344-1.857-.048-1.055-.059-1.37-.059-4.041s.01-2.986.059-4.04c.045-.976.207-1.505.344-1.858.182-.467.399-.8.748-1.15a3.1 3.1 0 0 1 1.15-.748c.353-.137.882-.3 1.857-.344 1.055-.048 1.37-.059 4.041-.059zm0 3.063a5.135 5.135 0 1 0 0 10.27 5.135 5.135 0 0 0 0-10.27zm0 8.468a3.333 3.333 0 1 1 0-6.666 3.333 3.333 0 0 1 0 6.666zm6.538-8.671a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0z"/></svg>
         @rdh.imports
       </a>
-      <a class="btn btn-primary-sm" href="https://wa.me/5493412025376" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="btn btn-primary-sm" href="https://wa.me/5493412025376" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M17.6 6.3A8.9 8.9 0 0 0 12.04 3.6 8.9 8.9 0 0 0 3.5 12.5c0 1.57.4 3.1 1.16 4.45L3.4 21.4l4.6-1.2a8.9 8.9 0 0 0 4.04.98h.01a8.9 8.9 0 0 0 8.55-8.9c0-2.38-.93-4.62-2.6-6.98Zm-5.56 13.7a7.4 7.4 0 0 1-3.77-1.03l-.27-.16-2.72.72.73-2.66-.18-.27a7.4 7.4 0 0 1-1.14-3.95 7.4 7.4 0 0 1 12.63-5.23 7.36 7.36 0 0 1 2.17 5.24 7.4 7.4 0 0 1-7.45 7.34Zm4.06-5.53c-.22-.11-1.32-.65-1.53-.73-.2-.08-.35-.11-.5.11-.15.22-.57.73-.7.88-.13.15-.26.16-.48.05-.22-.11-.94-.35-1.79-1.11a6.72 6.72 0 0 1-1.24-1.55c-.13-.22-.01-.34.1-.45.1-.1.22-.26.33-.4.11-.13.15-.22.22-.37.07-.15.04-.28-.02-.4-.06-.11-.5-1.21-.69-1.66-.18-.43-.36-.37-.5-.38h-.43c-.15 0-.4.06-.6.28-.2.22-.8.78-.8 1.9s.82 2.2.94 2.36c.11.15 1.62 2.48 3.93 3.47.55.24.98.38 1.31.48.55.18 1.06.15 1.46.09.44-.07 1.32-.54 1.51-1.06.19-.52.19-.96.13-1.06-.06-.1-.2-.15-.42-.26Z"/></svg>
+        WhatsApp
+      </a>
     </div>
 
     <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
+  </div>
+  <div class="search-overlay" id="searchOverlay" role="dialog" aria-modal="true" aria-label="Buscar camisetas" data-pre="">
+    <div class="search-panel">
+      <div class="search-input-row">
+        <svg class="search-input-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input type="search" id="searchInput" placeholder="Buscar por equipo, selección o liga..." autocomplete="off">
+        <button class="search-close" id="searchClose" aria-label="Cerrar búsqueda">&times;</button>
+      </div>
+      <div class="search-results" id="searchResults"></div>
+    </div>
   </div>
   <div class="mobile-nav" id="mobile-nav">
     <a href="tienda.html">Tienda</a>
@@ -123,15 +155,19 @@
       <a href="tienda/selecciones/index.html">Selecciones</a>
       <a href="tienda/mundial-2026/index.html">Mundial 2026</a>
       <a href="tienda/retro/index.html">Retro</a>
+      <a href="tienda/shorts/index.html">Shorts</a>
     </div>
     <a href="#como-comprar">Cómo comprar</a>
     <a href="#nosotros">Nosotros</a>
     <a href="#contacto">Contacto</a>
     <a href="https://instagram.com/rdh.imports" target="_blank" rel="noopener" class="mobile-nav-ig">
-      <span class="icon-ig icon-ig-sm" aria-hidden="true"></span>
+      <svg viewBox="0 0 24 24" class="icon-sm" aria-hidden="true"><path d="M12 2c-2.717 0-3.056.012-4.123.06-1.066.049-1.793.218-2.428.465a4.902 4.902 0 0 0-1.772 1.153A4.902 4.902 0 0 0 2.525 5.45c-.247.635-.416 1.362-.465 2.428C2.012 8.944 2 9.283 2 12s.012 3.056.06 4.123c.049 1.066.218 1.793.465 2.428a4.902 4.902 0 0 0 1.153 1.772 4.902 4.902 0 0 0 1.772 1.153c.635.247 1.362.416 2.428.465C8.944 21.988 9.283 22 12 22s3.056-.012 4.123-.06c1.066-.049 1.793-.218 2.428-.465a4.902 4.902 0 0 0 1.772-1.153 4.902 4.902 0 0 0 1.153-1.772c.247-.635.416-1.362.465-2.428C21.988 15.056 22 14.717 22 12s-.012-3.056-.06-4.123c-.049-1.066-.218-1.793-.465-2.428a4.902 4.902 0 0 0-1.153-1.772A4.902 4.902 0 0 0 18.55 2.525c-.635-.247-1.362-.416-2.428-.465C15.056 2.012 14.717 2 12 2zm0 1.802c2.67 0 2.986.01 4.04.059.976.045 1.505.207 1.858.344.467.182.8.399 1.15.748.35.35.566.683.748 1.15.137.353.3.882.344 1.857.048 1.055.059 1.37.059 4.04s-.01 2.986-.059 4.04c-.045.976-.207 1.505-.344 1.858a3.1 3.1 0 0 1-.748 1.15 3.1 3.1 0 0 1-1.15.748c-.353.137-.882.3-1.857.344-1.054.048-1.37.059-4.041.059s-2.987-.01-4.041-.059c-.976-.045-1.505-.207-1.858-.344a3.1 3.1 0 0 1-1.15-.748 3.1 3.1 0 0 1-.748-1.15c-.137-.353-.3-.882-.344-1.857-.048-1.055-.059-1.37-.059-4.041s.01-2.986.059-4.04c.045-.976.207-1.505.344-1.858.182-.467.399-.8.748-1.15a3.1 3.1 0 0 1 1.15-.748c.353-.137.882-.3 1.857-.344 1.055-.048 1.37-.059 4.041-.059zm0 3.063a5.135 5.135 0 1 0 0 10.27 5.135 5.135 0 0 0 0-10.27zm0 8.468a3.333 3.333 0 1 1 0-6.666 3.333 3.333 0 0 1 0 6.666zm6.538-8.671a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0z"/></svg>
       @rdh.imports
     </a>
-    <a class="btn btn-primary-sm" href="https://wa.me/5493412025376" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+    <a class="btn btn-primary-sm" href="https://wa.me/5493412025376" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M17.6 6.3A8.9 8.9 0 0 0 12.04 3.6 8.9 8.9 0 0 0 3.5 12.5c0 1.57.4 3.1 1.16 4.45L3.4 21.4l4.6-1.2a8.9 8.9 0 0 0 4.04.98h.01a8.9 8.9 0 0 0 8.55-8.9c0-2.38-.93-4.62-2.6-6.98Zm-5.56 13.7a7.4 7.4 0 0 1-3.77-1.03l-.27-.16-2.72.72.73-2.66-.18-.27a7.4 7.4 0 0 1-1.14-3.95 7.4 7.4 0 0 1 12.63-5.23 7.36 7.36 0 0 1 2.17 5.24 7.4 7.4 0 0 1-7.45 7.34Zm4.06-5.53c-.22-.11-1.32-.65-1.53-.73-.2-.08-.35-.11-.5.11-.15.22-.57.73-.7.88-.13.15-.26.16-.48.05-.22-.11-.94-.35-1.79-1.11a6.72 6.72 0 0 1-1.24-1.55c-.13-.22-.01-.34.1-.45.1-.1.22-.26.33-.4.11-.13.15-.22.22-.37.07-.15.04-.28-.02-.4-.06-.11-.5-1.21-.69-1.66-.18-.43-.36-.37-.5-.38h-.43c-.15 0-.4.06-.6.28-.2.22-.8.78-.8 1.9s.82 2.2.94 2.36c.11.15 1.62 2.48 3.93 3.47.55.24.98.38 1.31.48.55.18 1.06.15 1.46.09.44-.07 1.32-.54 1.51-1.06.19-.52.19-.96.13-1.06-.06-.1-.2-.15-.42-.26Z"/></svg>
+      Pedir por WhatsApp
+    </a>
   </div>
 </header>
 
@@ -163,17 +199,16 @@
 <div class="marquee" id="marquee">
   <div class="marquee-track">
     <a href="tienda.html#cat-clubes">CLUBES</a><span>·</span><a href="tienda.html#cat-selecciones">SELECCIONES</a><span>·</span><a href="tienda.html#cat-retro">RETRO</a><span>·</span><a href="tienda.html#cat-entrenamiento">ENTRENAMIENTO</a><span>·</span>
-    <a href="tienda.html#cat-clubes" tabindex="-1" aria-hidden="true">CLUBES</a><span>·</span><a href="tienda.html#cat-selecciones" tabindex="-1" aria-hidden="true">SELECCIONES</a><span>·</span><a href="tienda.html#cat-retro" tabindex="-1" aria-hidden="true">RETRO</a><span>·</span><a href="tienda.html#cat-entrenamiento" tabindex="-1" aria-hidden="true">ENTRENAMIENTO</a><span>·</span>
-    <a href="tienda.html#cat-clubes" tabindex="-1" aria-hidden="true">CLUBES</a><span>·</span><a href="tienda.html#cat-selecciones" tabindex="-1" aria-hidden="true">SELECCIONES</a><span>·</span><a href="tienda.html#cat-retro" tabindex="-1" aria-hidden="true">RETRO</a><span>·</span><a href="tienda.html#cat-entrenamiento" tabindex="-1" aria-hidden="true">ENTRENAMIENTO</a><span>·</span>
-    <a href="tienda.html#cat-clubes" tabindex="-1" aria-hidden="true">CLUBES</a><span>·</span><a href="tienda.html#cat-selecciones" tabindex="-1" aria-hidden="true">SELECCIONES</a><span>·</span><a href="tienda.html#cat-retro" tabindex="-1" aria-hidden="true">RETRO</a><span>·</span><a href="tienda.html#cat-entrenamiento" tabindex="-1" aria-hidden="true">ENTRENAMIENTO</a><span>·</span>
-    <a href="tienda.html#cat-clubes" tabindex="-1" aria-hidden="true">CLUBES</a><span>·</span><a href="tienda.html#cat-selecciones" tabindex="-1" aria-hidden="true">SELECCIONES</a><span>·</span><a href="tienda.html#cat-retro" tabindex="-1" aria-hidden="true">RETRO</a><span>·</span><a href="tienda.html#cat-entrenamiento" tabindex="-1" aria-hidden="true">ENTRENAMIENTO</a><span>·</span>
-    <a href="tienda.html#cat-clubes" tabindex="-1" aria-hidden="true">CLUBES</a><span>·</span><a href="tienda.html#cat-selecciones" tabindex="-1" aria-hidden="true">SELECCIONES</a><span>·</span><a href="tienda.html#cat-retro" tabindex="-1" aria-hidden="true">RETRO</a><span>·</span><a href="tienda.html#cat-entrenamiento" tabindex="-1" aria-hidden="true">ENTRENAMIENTO</a><span>·</span>
-    <a href="tienda.html#cat-clubes" tabindex="-1" aria-hidden="true">CLUBES</a><span>·</span><a href="tienda.html#cat-selecciones" tabindex="-1" aria-hidden="true">SELECCIONES</a><span>·</span><a href="tienda.html#cat-retro" tabindex="-1" aria-hidden="true">RETRO</a><span>·</span><a href="tienda.html#cat-entrenamiento" tabindex="-1" aria-hidden="true">ENTRENAMIENTO</a><span>·</span>
-    <a href="tienda.html#cat-clubes" tabindex="-1" aria-hidden="true">CLUBES</a><span>·</span><a href="tienda.html#cat-selecciones" tabindex="-1" aria-hidden="true">SELECCIONES</a><span>·</span><a href="tienda.html#cat-retro" tabindex="-1" aria-hidden="true">RETRO</a><span>·</span><a href="tienda.html#cat-entrenamiento" tabindex="-1" aria-hidden="true">ENTRENAMIENTO</a><span>·</span>
-    <a href="tienda.html#cat-clubes" tabindex="-1" aria-hidden="true">CLUBES</a><span>·</span><a href="tienda.html#cat-selecciones" tabindex="-1" aria-hidden="true">SELECCIONES</a><span>·</span><a href="tienda.html#cat-retro" tabindex="-1" aria-hidden="true">RETRO</a><span>·</span><a href="tienda.html#cat-entrenamiento" tabindex="-1" aria-hidden="true">ENTRENAMIENTO</a><span>·</span>
-    <a href="tienda.html#cat-clubes" tabindex="-1" aria-hidden="true">CLUBES</a><span>·</span><a href="tienda.html#cat-selecciones" tabindex="-1" aria-hidden="true">SELECCIONES</a><span>·</span><a href="tienda.html#cat-retro" tabindex="-1" aria-hidden="true">RETRO</a><span>·</span><a href="tienda.html#cat-entrenamiento" tabindex="-1" aria-hidden="true">ENTRENAMIENTO</a><span>·</span>
-    <a href="tienda.html#cat-clubes" tabindex="-1" aria-hidden="true">CLUBES</a><span>·</span><a href="tienda.html#cat-selecciones" tabindex="-1" aria-hidden="true">SELECCIONES</a><span>·</span><a href="tienda.html#cat-retro" tabindex="-1" aria-hidden="true">RETRO</a><span>·</span><a href="tienda.html#cat-entrenamiento" tabindex="-1" aria-hidden="true">ENTRENAMIENTO</a><span>·</span>
-    <a href="tienda.html#cat-clubes" tabindex="-1" aria-hidden="true">CLUBES</a><span>·</span><a href="tienda.html#cat-selecciones" tabindex="-1" aria-hidden="true">SELECCIONES</a><span>·</span><a href="tienda.html#cat-retro" tabindex="-1" aria-hidden="true">RETRO</a><span>·</span><a href="tienda.html#cat-entrenamiento" tabindex="-1" aria-hidden="true">ENTRENAMIENTO</a><span>·</span>
+    <a href="tienda/clubes/index.html" tabindex="-1" aria-hidden="true">CLUBES</a><span>·</span><a href="tienda/selecciones/index.html" tabindex="-1" aria-hidden="true">SELECCIONES</a><span>·</span><a href="tienda/retro/index.html" tabindex="-1" aria-hidden="true">RETRO</a><span>·</span><a href="tienda/shorts/index.html" tabindex="-1" aria-hidden="true">SHORTS</a><span>·</span>
+    <a href="tienda/clubes/index.html" tabindex="-1" aria-hidden="true">CLUBES</a><span>·</span><a href="tienda/selecciones/index.html" tabindex="-1" aria-hidden="true">SELECCIONES</a><span>·</span><a href="tienda/retro/index.html" tabindex="-1" aria-hidden="true">RETRO</a><span>·</span><a href="tienda/shorts/index.html" tabindex="-1" aria-hidden="true">SHORTS</a><span>·</span>
+    <a href="tienda/clubes/index.html" tabindex="-1" aria-hidden="true">CLUBES</a><span>·</span><a href="tienda/selecciones/index.html" tabindex="-1" aria-hidden="true">SELECCIONES</a><span>·</span><a href="tienda/retro/index.html" tabindex="-1" aria-hidden="true">RETRO</a><span>·</span><a href="tienda/shorts/index.html" tabindex="-1" aria-hidden="true">SHORTS</a><span>·</span>
+    <a href="tienda/clubes/index.html" tabindex="-1" aria-hidden="true">CLUBES</a><span>·</span><a href="tienda/selecciones/index.html" tabindex="-1" aria-hidden="true">SELECCIONES</a><span>·</span><a href="tienda/retro/index.html" tabindex="-1" aria-hidden="true">RETRO</a><span>·</span><a href="tienda/shorts/index.html" tabindex="-1" aria-hidden="true">SHORTS</a><span>·</span>
+    <a href="tienda/clubes/index.html" tabindex="-1" aria-hidden="true">CLUBES</a><span>·</span><a href="tienda/selecciones/index.html" tabindex="-1" aria-hidden="true">SELECCIONES</a><span>·</span><a href="tienda/retro/index.html" tabindex="-1" aria-hidden="true">RETRO</a><span>·</span><a href="tienda/shorts/index.html" tabindex="-1" aria-hidden="true">SHORTS</a><span>·</span>
+    <a href="tienda/clubes/index.html" tabindex="-1" aria-hidden="true">CLUBES</a><span>·</span><a href="tienda/selecciones/index.html" tabindex="-1" aria-hidden="true">SELECCIONES</a><span>·</span><a href="tienda/retro/index.html" tabindex="-1" aria-hidden="true">RETRO</a><span>·</span><a href="tienda/shorts/index.html" tabindex="-1" aria-hidden="true">SHORTS</a><span>·</span>
+    <a href="tienda/clubes/index.html" tabindex="-1" aria-hidden="true">CLUBES</a><span>·</span><a href="tienda/selecciones/index.html" tabindex="-1" aria-hidden="true">SELECCIONES</a><span>·</span><a href="tienda/retro/index.html" tabindex="-1" aria-hidden="true">RETRO</a><span>·</span><a href="tienda/shorts/index.html" tabindex="-1" aria-hidden="true">SHORTS</a><span>·</span>
+    <a href="tienda/clubes/index.html" tabindex="-1" aria-hidden="true">CLUBES</a><span>·</span><a href="tienda/selecciones/index.html" tabindex="-1" aria-hidden="true">SELECCIONES</a><span>·</span><a href="tienda/retro/index.html" tabindex="-1" aria-hidden="true">RETRO</a><span>·</span><a href="tienda/shorts/index.html" tabindex="-1" aria-hidden="true">SHORTS</a><span>·</span>
+    <a href="tienda/clubes/index.html" tabindex="-1" aria-hidden="true">CLUBES</a><span>·</span><a href="tienda/selecciones/index.html" tabindex="-1" aria-hidden="true">SELECCIONES</a><span>·</span><a href="tienda/retro/index.html" tabindex="-1" aria-hidden="true">RETRO</a><span>·</span><a href="tienda/shorts/index.html" tabindex="-1" aria-hidden="true">SHORTS</a><span>·</span>
+    <a href="tienda/clubes/index.html" tabindex="-1" aria-hidden="true">CLUBES</a><span>·</span><a href="tienda/selecciones/index.html" tabindex="-1" aria-hidden="true">SELECCIONES</a><span>·</span><a href="tienda/retro/index.html" tabindex="-1" aria-hidden="true">RETRO</a><span>·</span><a href="tienda/shorts/index.html" tabindex="-1" aria-hidden="true">SHORTS</a><span>·</span>
   </div>
 </div>
 
@@ -188,22 +223,27 @@
       <article class="cat-card reveal">
         <h3>Camisetas de Clubes</h3>
         <p>Titular, alternativa y tercera de los clubes más grandes de Europa y Sudamérica.</p>
-        <a href="tienda.html#cat-clubes" class="cat-link">Ver productos <span>→</span></a>
+        <a href="tienda/clubes/index.html" class="cat-link">Ver productos <span>→</span></a>
       </article>
       <article class="cat-card reveal">
         <h3>Selecciones</h3>
         <p>Camisetas de selecciones nacionales para vivir cada Mundial y Copa América.</p>
-        <a href="tienda.html#cat-selecciones" class="cat-link">Ver productos <span>→</span></a>
+        <a href="tienda/selecciones/index.html" class="cat-link">Ver productos <span>→</span></a>
+      </article>
+      <article class="cat-card reveal">
+        <h3>Mundial 2026</h3>
+        <p>Camisetas oficiales rumbo al Mundial 2026.</p>
+        <a href="tienda/mundial-2026/index.html" class="cat-link">Ver productos <span>→</span></a>
       </article>
       <article class="cat-card reveal">
         <h3>Retro</h3>
         <p>Camisetas de temporadas pasadas para los que juegan de memoria.</p>
-        <a href="tienda.html#cat-retro" class="cat-link">Ver productos <span>→</span></a>
+        <a href="tienda/retro/index.html" class="cat-link">Ver productos <span>→</span></a>
       </article>
       <article class="cat-card reveal">
-        <h3>Entrenamiento &amp; Accesorios</h3>
-        <p>Buzos, shorts y accesorios para completar tu look de hincha.</p>
-        <a href="tienda.html#cat-entrenamiento" class="cat-link">Ver productos <span>→</span></a>
+        <h3>Shorts</h3>
+        <p>Shorts a juego con tu camiseta para armar el conjunto completo.</p>
+        <a href="tienda/shorts/index.html" class="cat-link">Ver productos <span>→</span></a>
       </article>
     </div>
   </div>
@@ -336,7 +376,7 @@
         <span class="contact-value">341 721-3013</span>
       </a>
       <a class="contact-card reveal" href="https://instagram.com/rdh.imports" target="_blank" rel="noopener">
-        <span class="icon-ig icon-ig-lg" aria-hidden="true"></span>
+        <svg viewBox="0 0 24 24" class="icon-lg" aria-hidden="true"><path d="M12 2c-2.717 0-3.056.012-4.123.06-1.066.049-1.793.218-2.428.465a4.902 4.902 0 0 0-1.772 1.153A4.902 4.902 0 0 0 2.525 5.45c-.247.635-.416 1.362-.465 2.428C2.012 8.944 2 9.283 2 12s.012 3.056.06 4.123c.049 1.066.218 1.793.465 2.428a4.902 4.902 0 0 0 1.153 1.772 4.902 4.902 0 0 0 1.772 1.153c.635.247 1.362.416 2.428.465C8.944 21.988 9.283 22 12 22s3.056-.012 4.123-.06c1.066-.049 1.793-.218 2.428-.465a4.902 4.902 0 0 0 1.772-1.153 4.902 4.902 0 0 0 1.153-1.772c.247-.635.416-1.362.465-2.428C21.988 15.056 22 14.717 22 12s-.012-3.056-.06-4.123c-.049-1.066-.218-1.793-.465-2.428a4.902 4.902 0 0 0-1.153-1.772A4.902 4.902 0 0 0 18.55 2.525c-.635-.247-1.362-.416-2.428-.465C15.056 2.012 14.717 2 12 2zm0 1.802c2.67 0 2.986.01 4.04.059.976.045 1.505.207 1.858.344.467.182.8.399 1.15.748.35.35.566.683.748 1.15.137.353.3.882.344 1.857.048 1.055.059 1.37.059 4.04s-.01 2.986-.059 4.04c-.045.976-.207 1.505-.344 1.858a3.1 3.1 0 0 1-.748 1.15 3.1 3.1 0 0 1-1.15.748c-.353.137-.882.3-1.857.344-1.054.048-1.37.059-4.041.059s-2.987-.01-4.041-.059c-.976-.045-1.505-.207-1.858-.344a3.1 3.1 0 0 1-1.15-.748 3.1 3.1 0 0 1-.748-1.15c-.137-.353-.3-.882-.344-1.857-.048-1.055-.059-1.37-.059-4.041s.01-2.986.059-4.04c.045-.976.207-1.505.344-1.858.182-.467.399-.8.748-1.15a3.1 3.1 0 0 1 1.15-.748c.353-.137.882-.3 1.857-.344 1.055-.048 1.37-.059 4.041-.059zm0 3.063a5.135 5.135 0 1 0 0 10.27 5.135 5.135 0 0 0 0-10.27zm0 8.468a3.333 3.333 0 1 1 0-6.666 3.333 3.333 0 0 1 0 6.666zm6.538-8.671a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0z"/></svg>
         <span class="contact-label">Instagram</span>
         <span class="contact-value">@rdh.imports</span>
       </a>
@@ -358,10 +398,10 @@
       <a href="#contacto">Contacto</a>
     </div>
     <div class="footer-social">
-      <a href="https://wa.me/5493412025376" target="_blank" rel="noopener">WhatsApp 1</a>
-      <a href="https://wa.me/5493417213013" target="_blank" rel="noopener">WhatsApp 2</a>
+      <a href="https://wa.me/5493412025376" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" class="icon-sm" aria-hidden="true"><path d="M17.6 6.3A8.9 8.9 0 0 0 12.04 3.6 8.9 8.9 0 0 0 3.5 12.5c0 1.57.4 3.1 1.16 4.45L3.4 21.4l4.6-1.2a8.9 8.9 0 0 0 4.04.98h.01a8.9 8.9 0 0 0 8.55-8.9c0-2.38-.93-4.62-2.6-6.98Zm-5.56 13.7a7.4 7.4 0 0 1-3.77-1.03l-.27-.16-2.72.72.73-2.66-.18-.27a7.4 7.4 0 0 1-1.14-3.95 7.4 7.4 0 0 1 12.63-5.23 7.36 7.36 0 0 1 2.17 5.24 7.4 7.4 0 0 1-7.45 7.34Zm4.06-5.53c-.22-.11-1.32-.65-1.53-.73-.2-.08-.35-.11-.5.11-.15.22-.57.73-.7.88-.13.15-.26.16-.48.05-.22-.11-.94-.35-1.79-1.11a6.72 6.72 0 0 1-1.24-1.55c-.13-.22-.01-.34.1-.45.1-.1.22-.26.33-.4.11-.13.15-.22.22-.37.07-.15.04-.28-.02-.4-.06-.11-.5-1.21-.69-1.66-.18-.43-.36-.37-.5-.38h-.43c-.15 0-.4.06-.6.28-.2.22-.8.78-.8 1.9s.82 2.2.94 2.36c.11.15 1.62 2.48 3.93 3.47.55.24.98.38 1.31.48.55.18 1.06.15 1.46.09.44-.07 1.32-.54 1.51-1.06.19-.52.19-.96.13-1.06-.06-.1-.2-.15-.42-.26Z"/></svg>WhatsApp 1</a>
+      <a href="https://wa.me/5493417213013" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" class="icon-sm" aria-hidden="true"><path d="M17.6 6.3A8.9 8.9 0 0 0 12.04 3.6 8.9 8.9 0 0 0 3.5 12.5c0 1.57.4 3.1 1.16 4.45L3.4 21.4l4.6-1.2a8.9 8.9 0 0 0 4.04.98h.01a8.9 8.9 0 0 0 8.55-8.9c0-2.38-.93-4.62-2.6-6.98Zm-5.56 13.7a7.4 7.4 0 0 1-3.77-1.03l-.27-.16-2.72.72.73-2.66-.18-.27a7.4 7.4 0 0 1-1.14-3.95 7.4 7.4 0 0 1 12.63-5.23 7.36 7.36 0 0 1 2.17 5.24 7.4 7.4 0 0 1-7.45 7.34Zm4.06-5.53c-.22-.11-1.32-.65-1.53-.73-.2-.08-.35-.11-.5.11-.15.22-.57.73-.7.88-.13.15-.26.16-.48.05-.22-.11-.94-.35-1.79-1.11a6.72 6.72 0 0 1-1.24-1.55c-.13-.22-.01-.34.1-.45.1-.1.22-.26.33-.4.11-.13.15-.22.22-.37.07-.15.04-.28-.02-.4-.06-.11-.5-1.21-.69-1.66-.18-.43-.36-.37-.5-.38h-.43c-.15 0-.4.06-.6.28-.2.22-.8.78-.8 1.9s.82 2.2.94 2.36c.11.15 1.62 2.48 3.93 3.47.55.24.98.38 1.31.48.55.18 1.06.15 1.46.09.44-.07 1.32-.54 1.51-1.06.19-.52.19-.96.13-1.06-.06-.1-.2-.15-.42-.26Z"/></svg>WhatsApp 2</a>
       <a href="https://instagram.com/rdh.imports" target="_blank" rel="noopener">
-        <span class="icon-ig icon-ig-sm" aria-hidden="true"></span>
+        <svg viewBox="0 0 24 24" class="icon-sm" aria-hidden="true"><path d="M12 2c-2.717 0-3.056.012-4.123.06-1.066.049-1.793.218-2.428.465a4.902 4.902 0 0 0-1.772 1.153A4.902 4.902 0 0 0 2.525 5.45c-.247.635-.416 1.362-.465 2.428C2.012 8.944 2 9.283 2 12s.012 3.056.06 4.123c.049 1.066.218 1.793.465 2.428a4.902 4.902 0 0 0 1.153 1.772 4.902 4.902 0 0 0 1.772 1.153c.635.247 1.362.416 2.428.465C8.944 21.988 9.283 22 12 22s3.056-.012 4.123-.06c1.066-.049 1.793-.218 2.428-.465a4.902 4.902 0 0 0 1.772-1.153 4.902 4.902 0 0 0 1.153-1.772c.247-.635.416-1.362.465-2.428C21.988 15.056 22 14.717 22 12s-.012-3.056-.06-4.123c-.049-1.066-.218-1.793-.465-2.428a4.902 4.902 0 0 0-1.153-1.772A4.902 4.902 0 0 0 18.55 2.525c-.635-.247-1.362-.416-2.428-.465C15.056 2.012 14.717 2 12 2zm0 1.802c2.67 0 2.986.01 4.04.059.976.045 1.505.207 1.858.344.467.182.8.399 1.15.748.35.35.566.683.748 1.15.137.353.3.882.344 1.857.048 1.055.059 1.37.059 4.04s-.01 2.986-.059 4.04c-.045.976-.207 1.505-.344 1.858a3.1 3.1 0 0 1-.748 1.15 3.1 3.1 0 0 1-1.15.748c-.353.137-.882.3-1.857.344-1.054.048-1.37.059-4.041.059s-2.987-.01-4.041-.059c-.976-.045-1.505-.207-1.858-.344a3.1 3.1 0 0 1-1.15-.748 3.1 3.1 0 0 1-.748-1.15c-.137-.353-.3-.882-.344-1.857-.048-1.055-.059-1.37-.059-4.041s.01-2.986.059-4.04c.045-.976.207-1.505.344-1.858.182-.467.399-.8.748-1.15a3.1 3.1 0 0 1 1.15-.748c.353-.137.882-.3 1.857-.344 1.055-.048 1.37-.059 4.041-.059zm0 3.063a5.135 5.135 0 1 0 0 10.27 5.135 5.135 0 0 0 0-10.27zm0 8.468a3.333 3.333 0 1 1 0-6.666 3.333 3.333 0 0 1 0 6.666zm6.538-8.671a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0z"/></svg>
         Instagram
       </a>
     </div>

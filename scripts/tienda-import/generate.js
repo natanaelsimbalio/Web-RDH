@@ -2,12 +2,27 @@
 // for every jersey into tienda/<section>/[<league>/]<slug>.html plus category index pages.
 const fs = require("fs");
 const path = require("path");
-const { classify } = require("./classify");
+const { classify, classifyShort } = require("./classify");
+const teams = require("./teams");
 
 const ROOT = path.join(__dirname, "..", "..");
 const DATA_FILE = path.join(ROOT, "data", "productos.json");
 
 const WA1 = "5493412025376";
+
+const WA_ICON_PATH =
+  "M17.6 6.3A8.9 8.9 0 0 0 12.04 3.6 8.9 8.9 0 0 0 3.5 12.5c0 1.57.4 3.1 1.16 4.45L3.4 21.4l4.6-1.2a8.9 8.9 0 0 0 4.04.98h.01a8.9 8.9 0 0 0 8.55-8.9c0-2.38-.93-4.62-2.6-6.98Zm-5.56 13.7a7.4 7.4 0 0 1-3.77-1.03l-.27-.16-2.72.72.73-2.66-.18-.27a7.4 7.4 0 0 1-1.14-3.95 7.4 7.4 0 0 1 12.63-5.23 7.36 7.36 0 0 1 2.17 5.24 7.4 7.4 0 0 1-7.45 7.34Zm4.06-5.53c-.22-.11-1.32-.65-1.53-.73-.2-.08-.35-.11-.5.11-.15.22-.57.73-.7.88-.13.15-.26.16-.48.05-.22-.11-.94-.35-1.79-1.11a6.72 6.72 0 0 1-1.24-1.55c-.13-.22-.01-.34.1-.45.1-.1.22-.26.33-.4.11-.13.15-.22.22-.37.07-.15.04-.28-.02-.4-.06-.11-.5-1.21-.69-1.66-.18-.43-.36-.37-.5-.38h-.43c-.15 0-.4.06-.6.28-.2.22-.8.78-.8 1.9s.82 2.2.94 2.36c.11.15 1.62 2.48 3.93 3.47.55.24.98.38 1.31.48.55.18 1.06.15 1.46.09.44-.07 1.32-.54 1.51-1.06.19-.52.19-.96.13-1.06-.06-.1-.2-.15-.42-.26Z";
+
+const IG_ICON_PATH =
+  "M12 2c-2.717 0-3.056.012-4.123.06-1.066.049-1.793.218-2.428.465a4.902 4.902 0 0 0-1.772 1.153A4.902 4.902 0 0 0 2.525 5.45c-.247.635-.416 1.362-.465 2.428C2.012 8.944 2 9.283 2 12s.012 3.056.06 4.123c.049 1.066.218 1.793.465 2.428a4.902 4.902 0 0 0 1.153 1.772 4.902 4.902 0 0 0 1.772 1.153c.635.247 1.362.416 2.428.465C8.944 21.988 9.283 22 12 22s3.056-.012 4.123-.06c1.066-.049 1.793-.218 2.428-.465a4.902 4.902 0 0 0 1.772-1.153 4.902 4.902 0 0 0 1.153-1.772c.247-.635.416-1.362.465-2.428C21.988 15.056 22 14.717 22 12s-.012-3.056-.06-4.123c-.049-1.066-.218-1.793-.465-2.428a4.902 4.902 0 0 0-1.153-1.772A4.902 4.902 0 0 0 18.55 2.525c-.635-.247-1.362-.416-2.428-.465C15.056 2.012 14.717 2 12 2zm0 1.802c2.67 0 2.986.01 4.04.059.976.045 1.505.207 1.858.344.467.182.8.399 1.15.748.35.35.566.683.748 1.15.137.353.3.882.344 1.857.048 1.055.059 1.37.059 4.04s-.01 2.986-.059 4.04c-.045.976-.207 1.505-.344 1.858a3.1 3.1 0 0 1-.748 1.15 3.1 3.1 0 0 1-1.15.748c-.353.137-.882.3-1.857.344-1.054.048-1.37.059-4.041.059s-2.987-.01-4.041-.059c-.976-.045-1.505-.207-1.858-.344a3.1 3.1 0 0 1-1.15-.748 3.1 3.1 0 0 1-.748-1.15c-.137-.353-.3-.882-.344-1.857-.048-1.055-.059-1.37-.059-4.041s.01-2.986.059-4.04c.045-.976.207-1.505.344-1.858.182-.467.399-.8.748-1.15a3.1 3.1 0 0 1 1.15-.748c.353-.137.882-.3 1.857-.344 1.055-.048 1.37-.059 4.041-.059zm0 3.063a5.135 5.135 0 1 0 0 10.27 5.135 5.135 0 0 0 0-10.27zm0 8.468a3.333 3.333 0 1 1 0-6.666 3.333 3.333 0 0 1 0 6.666zm6.538-8.671a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0z";
+
+function waIconSvg(cls) {
+  return `<svg class="${cls}" viewBox="0 0 24 24" aria-hidden="true"><path d="${WA_ICON_PATH}"/></svg>`;
+}
+
+function igIconSvg(cls) {
+  return `<svg class="${cls}" viewBox="0 0 24 24" aria-hidden="true"><path d="${IG_ICON_PATH}"/></svg>`;
+}
 
 function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
@@ -35,13 +50,17 @@ function relPrefix(depth) {
 }
 
 function sectionLabel(section) {
-  return { clubes: "Clubes", selecciones: "Selecciones", "mundial-2026": "Mundial 2026", retro: "Retro" }[section] || section;
+  return { clubes: "Clubes", selecciones: "Selecciones", "mundial-2026": "Mundial 2026", retro: "Retro", shorts: "Shorts" }[section] || section;
 }
 
 function displayName(p) {
-  let n = p.name.replace(/^Camiseta\s+/i, "");
+  let n = p.name.replace(/^Camiseta\s+/i, "").replace(/^Short\s+/i, "");
   n = n.replace(/\bFAN\b/gi, "").replace(/\bPLAYER\b/gi, "").trim();
-  n = n.replace(/\s{2,}/g, " ");
+  n = n.replace(/\bSupl\s*3\b/gi, "Tercera Equipación");
+  n = n.replace(/\bSupl\b/gi, "Alternativa");
+  n = n.replace(/\bHome\b/gi, "Titular");
+  n = n.replace(/\s{2,}/g, " ").trim();
+  if (p.section === "shorts") n = `Short ${n}`;
   return n;
 }
 
@@ -49,10 +68,96 @@ function priceFmt(n) {
   return "$" + n.toLocaleString("es-AR");
 }
 
+function hashSeed(str) {
+  let h = 0;
+  for (let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) >>> 0;
+  return h;
+}
+
+function pick(arr, seed) {
+  return arr[seed % arr.length];
+}
+
+function teamDisplay(p) {
+  return (p.teamMeta && (p.teamMeta.displayName || p.teamMeta.canonical)) || p.teamKey;
+}
+
+const CLUB_OPENERS = [
+  (team, league) => `Vestí los colores de ${team} con esta camiseta de la ${league}.`,
+  (team, league) => `Directo de la ${league}: la camiseta oficial de ${team}.`,
+  (team, league) => `Para el hincha de ${team}, la casaca que se usa hoy en la ${league}.`,
+];
+const SELECCION_OPENERS = [
+  (team) => `La camiseta con la que ${team} sale a jugar.`,
+  (team) => `Representá a ${team} en cada partido con esta camiseta oficial.`,
+  (team) => `Un clásico del fútbol de selecciones: la de ${team}.`,
+];
+const MUNDIAL_OPENERS = [
+  (team) => `${team} rumbo al Mundial 2026, con la camiseta que va a usar en la cita máxima.`,
+  (team) => `La camiseta de ${team} pensada para el camino al Mundial 2026.`,
+];
+const RETRO_OPENERS = [
+  (team) => `Un ícono: la camiseta retro de ${team} que marcó una época.`,
+  (team) => `Para los nostálgicos del fútbol, la casaca histórica de ${team}.`,
+  (team) => `Revivís un pedazo de la historia de ${team} con esta camiseta retro.`,
+];
+
+const PLAYER_LINES = [
+  "Versión Player: el mismo corte y la misma tela técnica que usan los jugadores en cancha.",
+  "Edición Player, con tecnología de ventilación pensada para el rendimiento en cancha.",
+  "Corte Player ajustado al cuerpo, con la calidad de la que se usa en partidos oficiales.",
+];
+const FAN_LINES = [
+  "Versión Fan, pensada para el uso diario: liviana y cómoda para la calle o el club.",
+  "Edición Fan, con un corte más relajado, ideal para el día a día.",
+  "Corte Fan cómodo y liviano, la opción de siempre para hinchas.",
+];
+
+const CLOSERS = [
+  "Te confirmamos talle, precio y stock por WhatsApp al toque.",
+  "Escribinos por WhatsApp y coordinamos talle, envío y forma de pago.",
+  "Consultá stock y talles disponibles por WhatsApp.",
+];
+
+const SHORTS_OPENERS = [
+  (team) => `El short que combina con la camiseta de ${team}, para armar el conjunto completo.`,
+  (team) => `Short a juego con la casaca de ${team}, ideal para completar el conjunto.`,
+  (team) => `Sumá el short de ${team} y llevá el conjunto entero, de arriba a abajo.`,
+];
+
+function productDesc(p) {
+  const team = teamDisplay(p);
+  const seed = hashSeed(p.slug);
+  let opener;
+  if (p.section === "shorts") {
+    opener = pick(SHORTS_OPENERS, seed)(team);
+  } else if (p.section === "clubes") {
+    opener = pick(CLUB_OPENERS, seed)(team, p.leagueName || "liga");
+  } else if (p.section === "mundial-2026") {
+    opener = pick(MUNDIAL_OPENERS, seed)(team);
+  } else if (p.section === "retro") {
+    opener = pick(RETRO_OPENERS, seed)(team);
+  } else {
+    opener = pick(SELECCION_OPENERS, seed)(team);
+  }
+  const qualityLine = p.quality === "player" ? pick(PLAYER_LINES, seed) : pick(FAN_LINES, seed);
+  return `${opener} ${qualityLine}`;
+}
+
+function productDescShort(p) {
+  const team = teamDisplay(p);
+  const qualityWord = p.quality === "player" ? "Player" : "Fan";
+  if (p.section === "shorts") return `Conjunto con ${team} · Edición ${qualityWord}.`;
+  if (p.section === "clubes") return `${team} · Edición ${qualityWord}, importada.`;
+  if (p.section === "mundial-2026") return `Rumbo al Mundial 2026 · Edición ${qualityWord}.`;
+  if (p.section === "retro") return `Retro · Edición ${qualityWord}, importada.`;
+  return `Selección de ${team} · Edición ${qualityWord}.`;
+}
+
 function productPageHtml(p, depth) {
   const pre = relPrefix(depth);
   const title = `${displayName(p)} · ${p.quality === "player" ? "Versión Player" : "Versión Fan"} — RDH Imports`;
-  const desc = `Camiseta ${displayName(p)}, edición ${p.quality === "player" ? "Player" : "Fan"}. Tela liviana e importada. Consultá talle y stock por WhatsApp.`;
+  const desc = productDesc(p);
   const catHref = `${pre}tienda/${p.section}/index.html`;
   const images = p.localImages.map((f) => `assets/tienda/${p.section}/${p.slug}/${f}`);
   const mainImg = `${pre}${images[0]}`;
@@ -152,7 +257,7 @@ ${thumbs}
         <h1 class="pdp-title">${displayName(p)}</h1>
         <p class="pdp-subtitle">Edición ${p.quality === "player" ? "Player" : "Fan"}</p>
         <p class="pdp-price">${priceFmt(p.priceDisplay)}</p>
-        <p class="pdp-desc">Camiseta importada ${displayName(p)}, edición ${p.quality === "player" ? "Player" : "Fan"}. Tela liviana y transpirable, ideal para usar en la cancha o de calle.</p>
+        <p class="pdp-desc">${productDesc(p)}</p>
 
         <div class="pdp-cta">
           <a class="btn btn-primary" href="${waLink(waText)}" target="_blank" rel="noopener">Consultar por WhatsApp</a>
@@ -205,8 +310,19 @@ ${footerHtml(pre)}
 `;
 }
 
+const LEAGUE_LIST = (() => {
+  const seen = new Map();
+  Object.values(teams).forEach((m) => {
+    if (m.type === "club" && !seen.has(m.league)) seen.set(m.league, m.leagueName);
+  });
+  return [...seen.entries()].sort((a, b) => a[1].localeCompare(b[1], "es"));
+})();
+
 function headerHtml(pre) {
-  return `<header class="site-header" id="header">
+  const leagueLinks = LEAGUE_LIST.map(
+    ([slug, name]) => `          <a href="${pre}tienda/clubes/index.html#${slug}">${name}</a>`
+  ).join("\n");
+  return `<header class="site-header header-solid" id="header">
   <div class="wrap header-inner">
     <a href="${pre}index.html" class="brand-mark">
       <img class="brand-logo brand-logo-light" src="${pre}assets/img/logo-horizontal-white.png" alt="RDH Imports" width="764" height="173">
@@ -216,11 +332,19 @@ function headerHtml(pre) {
     <nav class="main-nav" id="main-nav">
       <div class="has-dropdown">
         <a href="${pre}tienda.html">Tienda</a>
-        <div class="dropdown">
-          <a href="${pre}tienda/clubes/index.html">Clubes</a>
-          <a href="${pre}tienda/selecciones/index.html">Selecciones</a>
-          <a href="${pre}tienda/mundial-2026/index.html">Mundial 2026</a>
-          <a href="${pre}tienda/retro/index.html">Retro</a>
+        <div class="dropdown dropdown-wide">
+          <div class="dropdown-col">
+            <p class="dropdown-heading">Categorías</p>
+            <a href="${pre}tienda/clubes/index.html">Clubes</a>
+            <a href="${pre}tienda/selecciones/index.html">Selecciones</a>
+            <a href="${pre}tienda/mundial-2026/index.html">Mundial 2026</a>
+            <a href="${pre}tienda/retro/index.html">Retro</a>
+            <a href="${pre}tienda/shorts/index.html">Shorts</a>
+          </div>
+          <div class="dropdown-col">
+            <p class="dropdown-heading">Ligas</p>
+${leagueLinks}
+          </div>
         </div>
       </div>
       <a href="${pre}index.html#como-comprar">Cómo comprar</a>
@@ -229,16 +353,32 @@ function headerHtml(pre) {
     </nav>
 
     <div class="header-cta">
+      <button class="search-toggle" id="searchToggle" aria-label="Buscar camisetas">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+      </button>
       <a class="btn btn-ghost-sm" href="https://instagram.com/rdh.imports" target="_blank" rel="noopener">
-        <span class="icon-ig" aria-hidden="true"></span>
+        ${igIconSvg("icon")}
         @rdh.imports
       </a>
-      <a class="btn btn-primary-sm" href="https://wa.me/${WA1}" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="btn btn-primary-sm" href="https://wa.me/${WA1}" target="_blank" rel="noopener">
+        ${waIconSvg("icon")}
+        WhatsApp
+      </a>
     </div>
 
     <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
+  </div>
+  <div class="search-overlay" id="searchOverlay" role="dialog" aria-modal="true" aria-label="Buscar camisetas" data-pre="${pre}">
+    <div class="search-panel">
+      <div class="search-input-row">
+        <svg class="search-input-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input type="search" id="searchInput" placeholder="Buscar por equipo, selección o liga..." autocomplete="off">
+        <button class="search-close" id="searchClose" aria-label="Cerrar búsqueda">&times;</button>
+      </div>
+      <div class="search-results" id="searchResults"></div>
+    </div>
   </div>
   <div class="mobile-nav" id="mobile-nav">
     <a href="${pre}tienda.html">Tienda</a>
@@ -247,15 +387,19 @@ function headerHtml(pre) {
       <a href="${pre}tienda/selecciones/index.html">Selecciones</a>
       <a href="${pre}tienda/mundial-2026/index.html">Mundial 2026</a>
       <a href="${pre}tienda/retro/index.html">Retro</a>
+      <a href="${pre}tienda/shorts/index.html">Shorts</a>
     </div>
     <a href="${pre}index.html#como-comprar">Cómo comprar</a>
     <a href="${pre}index.html#nosotros">Nosotros</a>
     <a href="${pre}index.html#contacto">Contacto</a>
     <a href="https://instagram.com/rdh.imports" target="_blank" rel="noopener" class="mobile-nav-ig">
-      <span class="icon-ig icon-ig-sm" aria-hidden="true"></span>
+      ${igIconSvg("icon-sm")}
       @rdh.imports
     </a>
-    <a class="btn btn-primary-sm" href="https://wa.me/${WA1}" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+    <a class="btn btn-primary-sm" href="https://wa.me/${WA1}" target="_blank" rel="noopener">
+      ${waIconSvg("icon")}
+      Pedir por WhatsApp
+    </a>
   </div>
 </header>`;
 }
@@ -274,10 +418,10 @@ function footerHtml(pre) {
       <a href="${pre}index.html#contacto">Contacto</a>
     </div>
     <div class="footer-social">
-      <a href="https://wa.me/${WA1}" target="_blank" rel="noopener">WhatsApp 1</a>
-      <a href="https://wa.me/5493417213013" target="_blank" rel="noopener">WhatsApp 2</a>
+      <a href="https://wa.me/${WA1}" target="_blank" rel="noopener">${waIconSvg("icon-sm")}WhatsApp 1</a>
+      <a href="https://wa.me/5493417213013" target="_blank" rel="noopener">${waIconSvg("icon-sm")}WhatsApp 2</a>
       <a href="https://instagram.com/rdh.imports" target="_blank" rel="noopener">
-        <span class="icon-ig icon-ig-sm" aria-hidden="true"></span>
+        ${igIconSvg("icon-sm")}
         Instagram
       </a>
     </div>
@@ -301,7 +445,7 @@ function productCardHtml(p, depth) {
           <p class="product-tag">${sectionLabel(p.section)}${p.leagueName ? " · " + p.leagueName : ""}</p>
           <p class="product-price">${priceFmt(p.priceDisplay)}</p>
           <h3><a href="${href}">${displayName(p)}</a></h3>
-          <p>Edición ${p.quality === "player" ? "Player" : "Fan"}, importada, tela liviana y transpirable.</p>
+          <p>${productDescShort(p)}</p>
           <a href="${href}" class="btn btn-primary-sm">Ver producto</a>
           <a href="${waLink(waText)}" target="_blank" rel="noopener" class="btn btn-ghost-sm">Consultar por WhatsApp</a>
         </div>
@@ -377,14 +521,19 @@ ${headerHtml(pre)}
 </section>
 
 <section class="category-block">
-  <div class="wrap">
-    <div class="quality-filter">
-      <button class="active" data-quality="all">Todas</button>
-      <button data-quality="player">Player</button>
-      <button data-quality="fan">Fan</button>
-    </div>
+  <div class="wrap category-layout">
+    <aside class="category-sidebar">
+      <p class="sidebar-heading">Filtrar</p>
+      <div class="quality-filter quality-filter-vertical">
+        <button class="active" data-quality="all">Todas</button>
+        <button data-quality="player">Player</button>
+        <button data-quality="fan">Fan</button>
+      </div>
+    </aside>
+    <div class="category-content">
 ${bodySections}
 ${extraNote || ""}
+    </div>
   </div>
 </section>
 
@@ -412,7 +561,11 @@ ${QUALITY_FILTER_SCRIPT}
 async function main() {
   const data = JSON.parse(fs.readFileSync(DATA_FILE, "utf8"));
   const camisetas = data.products.filter((p) => p.name.toLowerCase().startsWith("camiseta") && p.price > 0);
-  const classified = camisetas.map(classify).filter((p) => p.section !== "sin-clasificar");
+  const shorts = data.products.filter((p) => p.name.toLowerCase().startsWith("short") && p.price > 0);
+  const classified = camisetas
+    .map(classify)
+    .filter((p) => p.section !== "sin-clasificar")
+    .concat(shorts.map(classifyShort));
 
   console.log(`Classified ${classified.length} products.`);
 
@@ -421,7 +574,7 @@ async function main() {
   for (const p of classified) {
     const imgDir = path.join(ROOT, "assets", "tienda", p.section, p.slug);
     ensureDir(imgDir);
-    const urls = [p.image, ...p.gallery.filter((g) => g !== p.image)].slice(0, 4);
+    const urls = [p.image, ...p.gallery.filter((g) => g !== p.image)].slice(0, 8);
     const localImages = [];
     for (let i = 0; i < urls.length; i++) {
       const ext = ".webp";
@@ -449,7 +602,7 @@ async function main() {
   }
 
   // ---- Category index pages ----
-  const bySection = { clubes: [], selecciones: [], "mundial-2026": [], retro: [] };
+  const bySection = { clubes: [], selecciones: [], "mundial-2026": [], retro: [], shorts: [] };
   classified.forEach((p) => bySection[p.section].push(p));
 
   // Clubes: grouped by league, with a sub-nav.
@@ -521,7 +674,29 @@ async function main() {
     })
   );
 
+  // Shorts (sold as sets to complete a jersey's conjunto)
+  ensureDir(path.join(ROOT, "tienda", "shorts"));
+  fs.writeFileSync(
+    path.join(ROOT, "tienda", "shorts", "index.html"),
+    categoryIndexHtml({
+      section: "shorts",
+      title: "Shorts",
+      desc: "Shorts a juego con tu camiseta para armar el conjunto completo.",
+      bodySections: `    <div class="product-grid">\n${bySection.shorts.map((p) => productCardHtml(p, 2)).join("\n")}\n    </div>`,
+    })
+  );
+
   fs.writeFileSync(path.join(ROOT, "data", "clasificados.json"), JSON.stringify(classified, null, 2));
+
+  // ---- Search index (consumed client-side by the header search overlay) ----
+  const searchIndex = classified.map((p) => ({
+    name: displayName(p),
+    href: `tienda/${p.section}/${p.league ? p.league + "/" : ""}${p.slug}.html`,
+    img: `assets/tienda/${p.section}/${p.slug}/${p.localImages[0]}`,
+    tag: `${sectionLabel(p.section)}${p.leagueName ? " · " + p.leagueName : ""}`,
+  }));
+  fs.writeFileSync(path.join(ROOT, "search-index.json"), JSON.stringify(searchIndex));
+
   console.log(`Done. Wrote ${classified.length} product pages + 4 category index pages.`);
   console.log("Section counts:", Object.fromEntries(Object.entries(bySection).map(([k, v]) => [k, v.length])));
 }

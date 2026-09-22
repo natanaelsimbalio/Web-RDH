@@ -42,4 +42,7 @@ module.exports = {
   "Real Betis": { type: "club", league: "liga-espanola", leagueName: "Liga Española" },
   "Real Madrid": { type: "club", league: "liga-espanola", leagueName: "Liga Española" },
   "River Plate": { type: "club", league: "liga-argentina", leagueName: "Liga Argentina" },
+  "PSV": { type: "club", league: "resto-del-mundo", leagueName: "Resto del Mundo" },
+  "L.A Galaxy": { type: "club", league: "resto-del-mundo", leagueName: "Resto del Mundo", displayName: "LA Galaxy" },
+  "Santos": { type: "club", league: "liga-brasilena", leagueName: "Liga Brasileña" },
 };

@@ -181,6 +181,13 @@ ul{list-style:none;margin:0;padding:0;}
   cursor:pointer;transition:background .2s,color .2s,border-color .2s;
 }
 .quality-filter button.active{background:var(--ink);color:var(--paper);border-color:var(--ink);}
+
+.category-layout{display:flex;gap:48px;align-items:flex-start;}
+.category-sidebar{flex:0 0 200px;position:sticky;top:110px;}
+.category-content{flex:1;min-width:0;}
+.sidebar-heading{font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;font-weight:600;margin:0 0 14px;color:var(--ink);}
+.quality-filter-vertical{flex-direction:column;align-items:stretch;margin-bottom:0;}
+.quality-filter-vertical button{text-align:left;}
 .league-subnav{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 40px;}
 .league-subnav a{
   padding:7px 16px;border:1px solid var(--line);font-size:.74rem;
@@ -201,6 +208,70 @@ ul{list-style:none;margin:0;padding:0;}
   transition:transform .3s var(--ease), opacity .3s, background .3s;
 }
 .site-header:not(.scrolled) .burger span{background:var(--cream);}
+
+/* Pages with no dark hero directly under the header (PDP, category listings)
+   render it permanently solid instead of relying on the scroll toggle. */
+.site-header.header-solid{
+  background:rgba(250,248,242,.92);
+  backdrop-filter:blur(10px);
+  box-shadow:0 1px 0 var(--line);
+}
+.site-header.header-solid .brand-logo-light{opacity:0;}
+.site-header.header-solid .brand-logo-dark{opacity:1;}
+.site-header.header-solid .main-nav a{color:var(--ink);}
+.site-header.header-solid .btn-ghost-sm{color:var(--ink);border-color:var(--line);}
+.site-header.header-solid .burger span{background:var(--ink);}
+.site-header.header-solid .search-toggle{color:var(--ink);}
+
+.main-nav .dropdown.dropdown-wide{flex-direction:row;min-width:380px;padding:14px 0;gap:0;}
+.dropdown-wide .dropdown-col{display:flex;flex-direction:column;padding:0 4px;}
+.dropdown-wide .dropdown-col:first-child{border-right:1px solid var(--line);}
+.dropdown-heading{
+  padding:6px 20px;margin:0;font-size:.7rem;text-transform:uppercase;
+  letter-spacing:.08em;color:var(--olive-500);font-weight:600;
+}
+
+.search-toggle{
+  display:flex;align-items:center;justify-content:center;
+  width:38px;height:38px;background:none;border:none;cursor:pointer;
+  color:var(--ink);padding:0;
+}
+.site-header:not(.scrolled):not(.header-solid) .search-toggle{color:var(--cream);}
+.search-toggle svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;}
+
+.search-overlay{
+  position:fixed;inset:0;z-index:300;
+  background:rgba(20,19,13,.6);
+  display:flex;align-items:flex-start;justify-content:center;
+  padding:12vh 20px 0;
+  opacity:0;visibility:hidden;pointer-events:none;
+  transition:opacity .25s var(--ease);
+}
+.search-overlay.open{opacity:1;visibility:visible;pointer-events:auto;}
+.search-panel{
+  background:var(--paper);border:1px solid var(--line);
+  box-shadow:0 30px 60px rgba(0,0,0,.35);
+  width:100%;max-width:560px;max-height:70vh;
+  display:flex;flex-direction:column;overflow:hidden;
+}
+.search-input-row{display:flex;align-items:center;gap:12px;padding:16px 20px;border-bottom:1px solid var(--line);}
+.search-input-icon{width:20px;height:20px;flex:none;fill:none;stroke:var(--olive-500);stroke-width:2;}
+.search-input-row input{
+  flex:1;border:none;background:none;font-family:var(--font-body);
+  font-size:1rem;color:var(--ink);outline:none;
+}
+.search-close{background:none;border:none;font-size:1.4rem;line-height:1;cursor:pointer;color:var(--olive-500);padding:4px;}
+.search-results{overflow-y:auto;padding:8px 0;}
+.search-result{
+  display:flex;align-items:center;gap:14px;padding:10px 20px;
+  color:var(--ink);
+}
+.search-result:hover,.search-result.active{background:var(--sand,#f3ede2);}
+.search-result img{width:44px;height:44px;object-fit:cover;border:1px solid var(--line);flex:none;}
+.search-result-info p{margin:0;}
+.search-result-name{font-size:.86rem;font-weight:500;}
+.search-result-tag{font-size:.72rem;color:var(--olive-500);text-transform:uppercase;letter-spacing:.04em;}
+.search-empty,.search-hint{padding:24px 20px;color:var(--olive-500);font-size:.86rem;text-align:center;}
 .mobile-nav{
   display:none;flex-direction:column;gap:0;
   background:var(--paper);
@@ -493,6 +564,22 @@ ul{list-style:none;margin:0;padding:0;}
   transition:background .25s var(--ease);
 }
 .pdp-lightbox-close:hover{background:rgba(243,239,228,.2);}
+.pdp-lightbox-nav{
+  position:absolute;top:50%;transform:translateY(-50%);
+  width:52px;height:52px;border-radius:50%;
+  background:rgba(243,239,228,.1);border:1px solid var(--line-inv);
+  color:var(--cream);font-size:2rem;line-height:1;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;
+  transition:background .25s var(--ease);
+}
+.pdp-lightbox-nav:hover{background:rgba(243,239,228,.2);}
+.pdp-lightbox-prev{left:20px;}
+.pdp-lightbox-next{right:20px;}
+@media (max-width:560px){
+  .pdp-lightbox-nav{width:42px;height:42px;font-size:1.6rem;}
+  .pdp-lightbox-prev{left:8px;}
+  .pdp-lightbox-next{right:8px;}
+}
 
 .pdp-info{position:sticky;top:110px;}
 .pdp-tag{
@@ -666,20 +753,6 @@ ul{list-style:none;margin:0;padding:0;}
 .footer-links a:hover,.footer-social a:hover{color:var(--cream);}
 .footer-social a{display:inline-flex;align-items:center;gap:8px;}
 .icon-sm{width:16px;height:16px;fill:currentColor;flex:none;}
-
-/* Real Instagram glyph, recolored via mask so it adapts like the old inline SVG did */
-.icon-ig{
-  display:inline-block;flex:none;
-  width:18px;height:18px;
-  background-color:currentColor;
-  -webkit-mask-image:url('../assets/logos/instagram.png');
-  mask-image:url('../assets/logos/instagram.png');
-  -webkit-mask-size:contain;mask-size:contain;
-  -webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;
-  -webkit-mask-position:center;mask-position:center;
-}
-.icon-ig-sm{width:16px;height:16px;}
-.icon-ig-lg{width:30px;height:30px;background-color:var(--rust);}
 .footer-bottom{padding-top:22px;padding-bottom:22px;}
 .footer-bottom p{margin:0;font-size:.78rem;color:var(--olive-300);}
 
@@ -719,6 +792,10 @@ ul{list-style:none;margin:0;padding:0;}
   .steps{grid-template-columns:repeat(2,1fr);}
   .nosotros-grid{grid-template-columns:1fr;gap:44px;}
   .contact-cards{grid-template-columns:1fr;}
+  .category-layout{flex-direction:column;gap:24px;}
+  .category-sidebar{position:static;flex:none;width:100%;}
+  .quality-filter-vertical{flex-direction:row;flex-wrap:wrap;}
+  .quality-filter-vertical button{flex:1 1 auto;text-align:center;}
 }
 @media (max-width:560px){
   .hero-bg{

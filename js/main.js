@@ -77,10 +77,103 @@
     }));
   }
 
+  // Header search: fetches a prebuilt product index and filters it live.
+  const searchToggle = document.getElementById('searchToggle');
+  const searchOverlay = document.getElementById('searchOverlay');
+  const searchInput = document.getElementById('searchInput');
+  const searchClose = document.getElementById('searchClose');
+  const searchResults = document.getElementById('searchResults');
+
+  if (searchToggle && searchOverlay && searchInput && searchResults) {
+    let indexPromise = null;
+    const loadIndex = () => {
+      if (!indexPromise) {
+        const pre = searchOverlay.dataset.pre || '';
+        indexPromise = fetch(pre + 'search-index.json').then(r => r.json()).catch(() => []);
+      }
+      return indexPromise;
+    };
+
+    const renderResults = (items, query) => {
+      if (!query) {
+        searchResults.innerHTML = '<p class="search-hint">Escribí el nombre de un equipo, selección o liga.</p>';
+        return;
+      }
+      if (!items.length) {
+        searchResults.innerHTML = '';
+        const p = document.createElement('p');
+        p.className = 'search-empty';
+        p.textContent = 'No encontramos camisetas para "' + query + '".';
+        searchResults.appendChild(p);
+        return;
+      }
+      const pre = searchOverlay.dataset.pre || '';
+      searchResults.innerHTML = items.slice(0, 20).map(p => `
+        <a class="search-result" href="${pre}${p.href}">
+          <img src="${pre}${p.img}" alt="" loading="lazy" width="44" height="44">
+          <div class="search-result-info">
+            <p class="search-result-name">${p.name}</p>
+            <p class="search-result-tag">${p.tag}</p>
+          </div>
+        </a>`).join('');
+    };
+
+    const runSearch = (query) => {
+      const q = query.trim().toLowerCase();
+      loadIndex().then(items => {
+        const matches = q ? items.filter(p => p.name.toLowerCase().includes(q) || p.tag.toLowerCase().includes(q)) : [];
+        renderResults(matches, q);
+      });
+    };
+
+    const openSearch = () => {
+      searchOverlay.classList.add('open');
+      document.body.style.overflow = 'hidden';
+      loadIndex();
+      renderResults([], '');
+      setTimeout(() => searchInput.focus(), 50);
+    };
+    const closeSearch = () => {
+      searchOverlay.classList.remove('open');
+      document.body.style.overflow = '';
+      searchInput.value = '';
+    };
+
+    searchToggle.addEventListener('click', openSearch);
+    searchClose.addEventListener('click', closeSearch);
+    searchOverlay.addEventListener('click', (e) => {
+      if (e.target === searchOverlay) closeSearch();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && searchOverlay.classList.contains('open')) closeSearch();
+      if ((e.key === '/' || (e.key === 'k' && (e.metaKey || e.ctrlKey))) && !searchOverlay.classList.contains('open') && document.activeElement.tagName !== 'INPUT') {
+        e.preventDefault();
+        openSearch();
+      }
+    });
+    searchInput.addEventListener('input', () => runSearch(searchInput.value));
+  }
+
   if (pdpMainWrap && pdpLightbox && pdpLightboxImg) {
+    const slides = Array.from(pdpThumbs).map(btn => {
+      const img = btn.querySelector('img');
+      return { src: img.getAttribute('src'), alt: img.getAttribute('alt') };
+    });
+    let slideIndex = 0;
+
+    const showSlide = (i) => {
+      slideIndex = (i + slides.length) % slides.length;
+      const s = slides[slideIndex];
+      pdpLightboxImg.setAttribute('src', s.src);
+      pdpLightboxImg.setAttribute('alt', s.alt);
+    };
+    const nextSlide = () => showSlide(slideIndex + 1);
+    const prevSlide = () => showSlide(slideIndex - 1);
+
     const openLightbox = () => {
-      pdpLightboxImg.setAttribute('src', pdpMain.getAttribute('src'));
-      pdpLightboxImg.setAttribute('alt', pdpMain.getAttribute('alt'));
+      const currentSrc = pdpMain.getAttribute('src');
+      const found = slides.findIndex(s => s.src === currentSrc);
+      showSlide(found >= 0 ? found : 0);
       pdpLightbox.classList.add('open');
       document.body.style.overflow = 'hidden';
     };
@@ -89,9 +182,43 @@
       document.body.style.overflow = '';
     };
     pdpMainWrap.addEventListener('click', openLightbox);
-    pdpLightbox.addEventListener('click', closeLightbox);
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') closeLightbox();
+    pdpLightbox.addEventListener('click', (e) => {
+      if (e.target === pdpLightboxImg) return;
+      closeLightbox();
     });
+    document.addEventListener('keydown', (e) => {
+      if (!pdpLightbox.classList.contains('open')) return;
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowRight' && slides.length > 1) nextSlide();
+      if (e.key === 'ArrowLeft' && slides.length > 1) prevSlide();
+    });
+
+    if (slides.length > 1) {
+      let touchStartX = null;
+      pdpLightboxImg.addEventListener('touchstart', (e) => {
+        touchStartX = e.touches[0].clientX;
+      }, { passive: true });
+      pdpLightboxImg.addEventListener('touchend', (e) => {
+        if (touchStartX === null) return;
+        const dx = e.changedTouches[0].clientX - touchStartX;
+        if (Math.abs(dx) > 40) (dx < 0 ? nextSlide : prevSlide)();
+        touchStartX = null;
+      }, { passive: true });
+
+      const prevBtn = document.createElement('button');
+      prevBtn.className = 'pdp-lightbox-nav pdp-lightbox-prev';
+      prevBtn.setAttribute('aria-label', 'Foto anterior');
+      prevBtn.innerHTML = '&#8249;';
+      prevBtn.addEventListener('click', (e) => { e.stopPropagation(); prevSlide(); });
+
+      const nextBtn = document.createElement('button');
+      nextBtn.className = 'pdp-lightbox-nav pdp-lightbox-next';
+      nextBtn.setAttribute('aria-label', 'Foto siguiente');
+      nextBtn.innerHTML = '&#8250;';
+      nextBtn.addEventListener('click', (e) => { e.stopPropagation(); nextSlide(); });
+
+      pdpLightbox.appendChild(prevBtn);
+      pdpLightbox.appendChild(nextBtn);
+    }
   }
 })();

@@ -7,6 +7,20 @@ function extractTeamKey(name) {
   return n.trim();
 }
 
+function extractShortTeamKey(name) {
+  let n = name.replace(/^Short\s+/i, "");
+  n = n.split(/\s+(Home|Supl|Suplente|Entrenamiento|Edicion|Ter\s|Mundial|x\s|Pro\s|ICON)/i)[0];
+  n = n.replace(/\s+\d{4}$/, "");
+  return n.trim();
+}
+
+function findTeamMeta(key) {
+  if (teams[key]) return teams[key];
+  const lower = key.toLowerCase();
+  const found = Object.keys(teams).find((k) => k.toLowerCase() === lower);
+  return found ? teams[found] : null;
+}
+
 function isRetroByYear(name) {
   if (/\b(19\d{2}|200[0-9]|201[0-9])\b/.test(name)) return true;
   if (/\b(0[0-9]|1[0-9])\/(0[0-9]|1[0-9])\b/.test(name)) return true;
@@ -66,4 +80,31 @@ function classify(product) {
   };
 }
 
-module.exports = { classify, extractTeamKey, isRetroByYear, isMundial2026, detectQuality, slugify };
+// Classify a scraped "Short ..." product into the shorts section.
+function classifyShort(product) {
+  const teamKey = extractShortTeamKey(product.name);
+  const meta = findTeamMeta(teamKey);
+  const quality = detectQuality(product.name, product.price);
+
+  let league = null,
+    leagueName = null;
+  if (meta && meta.type === "club") {
+    league = meta.league;
+    leagueName = meta.leagueName;
+  }
+
+  const slug = slugify(product.name.replace(/^Short\s+/i, "") + "-short");
+  return {
+    ...product,
+    teamKey,
+    teamMeta: meta || null,
+    quality,
+    section: "shorts",
+    league,
+    leagueName,
+    slug,
+    priceDisplay: quality === "player" ? 32000 : 27000,
+  };
+}
+
+module.exports = { classify, classifyShort, extractTeamKey, isRetroByYear, isMundial2026, detectQuality, slugify };

@@ -6,7 +6,14 @@
     "sku": "2472",
     "price": 56250,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3722-9ad06ed636eb0d760717888307200656-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3723-dbbb0bed316450adc517888307199549-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3724-9770a22b32d63a9c8217888307206449-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3725-0405def8ef401846f317888307136581-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3726-8aac1a4e93f82994e017888307126871-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3728-564f7402e0b5e8676017888307138346-1024-1024.webp"
+    ],
     "teamKey": "AC Milan",
     "teamMeta": {
       "type": "club",
@@ -20,7 +27,13 @@
     "slug": "ac-milan-home-player-26-27",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp",
+      "6.webp",
+      "7.webp"
     ]
   },
   {
@@ -30,7 +43,13 @@
     "sku": "2498",
     "price": 56250,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3710-3cb08e130da662959317888309900182-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3711-eb65c1fa0fce226fac17888309895564-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3712-17e91c415d9cac166717888309899374-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3713-8a85fdda4dec5a780517888309856271-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3714-4cb072b6ca8c234b7717888309902132-1024-1024.webp"
+    ],
     "teamKey": "AC Milan",
     "teamMeta": {
       "type": "club",
@@ -44,7 +63,12 @@
     "slug": "ac-milan-supl-player-26-27",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp",
+      "6.webp"
     ]
   },
   {
@@ -54,7 +78,12 @@
     "sku": "1233",
     "price": 45000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8273-d087866aff815bd52017628939252548-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8274-900503957d30297e9e17628939271770-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8275-795d37b1b7f259add017628939316153-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8236-7b4f7cd74e12ef1ef117628939259070-1024-1024.webp"
+    ],
     "teamKey": "Ajax",
     "teamMeta": {
       "type": "club",
@@ -68,7 +97,11 @@
     "slug": "ajax-home-fan-25-26",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp"
     ]
   },
   {
@@ -78,7 +111,11 @@
     "sku": "2256",
     "price": 45000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9852-79b72eb358ee1ddd3e17839856441702-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9853-b19cc1c74ebdb7ca4e17839856474035-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9854-43ba1f716d6ea0bdf917839856484919-1024-1024.webp"
+    ],
     "teamKey": "Alemania",
     "teamMeta": {
       "type": "seleccion"
@@ -90,7 +127,10 @@
     "slug": "alemania-home-25-26-fan",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
     ]
   },
   {
@@ -100,7 +140,11 @@
     "sku": "74",
     "price": 75000,
     "availability": "https://schema.org/OutOfStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_6659-37ae69e84bd2967f9117345800745273-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_6660-6c35d16a0682032e9317345800743786-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_6661-8dc479fb8c939859d717345800728499-1024-1024.webp"
+    ],
     "teamKey": "Alemania",
     "teamMeta": {
       "type": "seleccion"
@@ -112,7 +156,10 @@
     "slug": "alemania-mundial-2006",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
     ]
   },
   {
@@ -122,7 +169,11 @@
     "sku": "2262",
     "price": 45000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9805-2d7ee1a5b5556ad98517839857934070-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9806-d480755fa0800c76d917839857943907-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9807-003aca32218dc187e517839858068491-1024-1024.webp"
+    ],
     "teamKey": "Alemania",
     "teamMeta": {
       "type": "seleccion"
@@ -134,7 +185,10 @@
     "slug": "alemania-supl-2026-fan",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
     ]
   },
   {
@@ -144,7 +198,11 @@
     "sku": "2250",
     "price": 45000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9817-802d1ef9fa7d9f33fa17839857488792-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9818-2fb67cd02eaa6d34cb17839857471797-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9819-844c67f5237a2bccb717839857514932-1024-1024.webp"
+    ],
     "teamKey": "Alemania",
     "teamMeta": {
       "type": "seleccion"
@@ -156,7 +214,10 @@
     "slug": "alemania-supl-25-26-fan",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
     ]
   },
   {
@@ -166,7 +227,11 @@
     "sku": "2244",
     "price": 45000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9793-be0cf1008440766bfe17839855587248-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9794-04b1645bbb6ae5e86217839855597216-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9795-c1fb31c297eb6597cb17839855593720-1024-1024.webp"
+    ],
     "teamKey": "Argelia",
     "teamMeta": {
       "type": "seleccion"
@@ -178,7 +243,10 @@
     "slug": "argelia-home-2026-fan",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
     ]
   },
   {
@@ -188,7 +256,13 @@
     "sku": "2405",
     "price": 56250,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9965-e11793c83d90e559f417863715885830-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9967-827ca1c532a49df6a917863715861121-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9969-7bd85f266fbdb8d0dc17863715897764-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9970-4cb3ed5b022d6ad5c317863715882443-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9971-06302b48a51c1173e717863715894842-1024-1024.webp"
+    ],
     "teamKey": "Argelia",
     "teamMeta": {
       "type": "seleccion"
@@ -200,7 +274,12 @@
     "slug": "argelia-home-player-2026",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp",
+      "6.webp"
     ]
   },
   {
@@ -210,7 +289,13 @@
     "sku": "2430",
     "price": 56250,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/22fc4234-7c3d-4df0-974b-54006e13873a-c0bd265869853eb9bd17867137579884-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/95c1090d-51d7-412c-b8aa-c4de8c856d89-a5a6a9c55592fe34ab17867137582752-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/0ac8ee11-2938-41f9-8812-16f23be3bd7c-4f840a968b1de26de217867137564360-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/ec1e9ccb-29ea-4751-b400-1f303e35f07e-4f4d0da1451e57603417867137581655-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/79979b59-9238-4530-8465-d8b86e9d2d24-435e67bd8eb14e8f8d17867137566550-1024-1024.webp"
+    ],
     "teamKey": "Argentina",
     "teamMeta": {
       "type": "seleccion"
@@ -222,7 +307,12 @@
     "slug": "argentina-entrenamiento-home-player-2026",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp",
+      "6.webp"
     ]
   },
   {
@@ -232,7 +322,11 @@
     "sku": "2367",
     "price": 56250,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9903-5d0af3f763216b89eb17858524654050-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9904-2516e852b74d55182a17858524687058-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9905-acad229323009de07d17858524683976-1024-1024.webp"
+    ],
     "teamKey": "Argentina",
     "teamMeta": {
       "type": "seleccion"
@@ -244,7 +338,10 @@
     "slug": "argentina-entrenamiento-player-2026",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
     ]
   },
   {
@@ -254,7 +351,12 @@
     "sku": "2437",
     "price": 56250,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/f1f25eae-e878-4dd5-a46d-e4c1c8e5da51-23c64941256866b15e17867138365629-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/8fc243a7-403f-479c-9a5a-18d27af87f0b-4268311cbb9a5f8e7d17867138377751-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/ea370d66-b305-4b47-8094-9d1e9202ad78-105974174573ec6b6b17867138381517-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/7eeedf00-baf7-47c1-a54e-b62a8e9a6623-e390e3eadcadd63a6f17867138381507-1024-1024.webp"
+    ],
     "teamKey": "Argentina",
     "teamMeta": {
       "type": "seleccion"
@@ -266,7 +368,11 @@
     "slug": "argentina-entrenamiento-supl-player-2026",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp"
     ]
   },
   {
@@ -276,7 +382,18 @@
     "sku": "1766",
     "price": 56250,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9544-8343283e43908729c517817307251659-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9545-258b843c2788aadfff17817307376071-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9546-d459257215acfa7c1517817307402881-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9547-7e87b7e90817a4eb5f17817307216039-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9548-b69a06d99a4d4cd52017817307399406-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9550-be012eea2d82af18df17817307238115-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9551-5c051dd71ceabb08b217817307353836-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9552-2a1ad15776b5ab3bfb17817307336513-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9554-b0b0ca6e75f5b3bcdd17817307297135-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/f9d30c59-9be9-4265-b2ea-3c3b101f6346-7ce351255a49b8cfba17817306803285-1024-1024.webp"
+    ],
     "teamKey": "Argentina",
     "teamMeta": {
       "type": "seleccion"
@@ -288,7 +405,14 @@
     "slug": "argentina-home-player-2026",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp",
+      "6.webp",
+      "7.webp",
+      "8.webp"
     ]
   },
   {
@@ -298,7 +422,10 @@
     "sku": "1750",
     "price": 56250,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9365-6de1dce686d579d0e817703178844592-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9367-3902b0d9b7602ea1d517703178878937-1024-1024.webp"
+    ],
     "teamKey": "Arsenal",
     "teamMeta": {
       "type": "club",
@@ -312,7 +439,9 @@
     "slug": "arsenal-supl-player-25-26",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp"
     ]
   },
   {
@@ -322,7 +451,12 @@
     "sku": "1626",
     "price": 45000,
     "availability": "https://schema.org/OutOfStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9269-841ee6005e55ca33a517695297943269-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9270-5d32a712b2cc3b3f9717695297919864-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9271-854241e645b40556b317695297975423-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9273-8bad0a8af28722f1bd17695298000190-1024-1024.webp"
+    ],
     "teamKey": "Athletic Club Bilbao",
     "teamMeta": {
       "type": "club",
@@ -336,7 +470,11 @@
     "slug": "athletic-club-bilbao-home-fan-25-26",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp"
     ]
   },
   {
@@ -346,7 +484,11 @@
     "sku": "815",
     "price": 75000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8553-f2993b6c727dfc16f317643799890746-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8554-fe7072d493efae34b717643799888156-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8555-46ec17412a8018d27517643799895235-1024-1024.webp"
+    ],
     "teamKey": "Atletico Madrid 14/15",
     "teamMeta": null,
     "quality": "player",
@@ -356,7 +498,10 @@
     "slug": "atletico-madrid-14-15-home",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
     ]
   },
   {
@@ -366,7 +511,11 @@
     "sku": "1322",
     "price": 35000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8850-67eb07b5e3909d4a9817644198198497-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8851-d2babefb52002a190e17644198201852-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8853-5ee24273cbc2b5b8cf17644198197099-1024-1024.webp"
+    ],
     "teamKey": "Barcelona",
     "teamMeta": {
       "type": "club",
@@ -380,7 +529,10 @@
     "slug": "barcelona-edicion-especial-1899-2024-player",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
     ]
   },
   {
@@ -390,7 +542,13 @@
     "sku": "1910",
     "price": 56250,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9417-bd43e6f917488ad26c17761042376407-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9418-920ec18c78d371dbcc17761042527872-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9419-6700726ddf512e122717761042530594-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9420-56731e763ce6733ae417761042553624-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9421-24d393ed31fc86eaa317761042583636-1024-1024.webp"
+    ],
     "teamKey": "Barcelona",
     "teamMeta": {
       "type": "club",
@@ -404,7 +562,12 @@
     "slug": "barcelona-home-2001-x-cactus-jack",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp",
+      "6.webp"
     ]
   },
   {
@@ -414,7 +577,14 @@
     "sku": "2503",
     "price": 56250,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3715-f4f18fcdb6038b78d117888310961942-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3718-5ecf76b6aca46c0ede17888310926928-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3716-35780e1e3030b39f2317888310959262-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3717-70f93f4b9b11c8a1d417888310951426-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3719-5a6b7edb1aa785a2c617888310963254-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3721-acfd3b97b423a1f3ad17888310970292-1024-1024.webp"
+    ],
     "teamKey": "Bayern Munich",
     "teamMeta": {
       "type": "club",
@@ -428,7 +598,13 @@
     "slug": "bayern-munich-home-player-26-27",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp",
+      "6.webp",
+      "7.webp"
     ]
   },
   {
@@ -438,7 +614,13 @@
     "sku": "1078",
     "price": 45000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9615-1a98411495082b9bb017770399177975-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/c89c2530-f4ce-4459-aa82-181b61cfb854-ddee2a613c6d67dd2b17770399062086-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9617-ab87b44731cca9571417770399166624-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9618-0d268bc9fa09d176da17770399176568-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9620-c12205fddf9066efca17770399170747-1024-1024.webp"
+    ],
     "teamKey": "Bayern Munich",
     "teamMeta": {
       "type": "club",
@@ -452,7 +634,12 @@
     "slug": "bayern-munich-supl-3-fan-25-26",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp",
+      "6.webp"
     ]
   },
   {
@@ -462,7 +649,12 @@
     "sku": "1083",
     "price": 45000,
     "availability": "https://schema.org/OutOfStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8297-fdc6e1679d7b9ac72117634939754872-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8300-c50f3b9db1669ac45317634939781593-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8301-a6778600ccc3a7a8c417634939766771-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8302-d8892b7a333b3e429517634939808825-1024-1024.webp"
+    ],
     "teamKey": "Bayern Munich",
     "teamMeta": {
       "type": "club",
@@ -476,7 +668,11 @@
     "slug": "bayern-munich-supl-fan-25-26",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp"
     ]
   },
   {
@@ -486,7 +682,13 @@
     "sku": "2545",
     "price": 56250,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3686-6153bc3f9e3f3fc30217890495571047-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3687-e0d15aae67c94c754f17890495570185-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3688-2a0fca538fd81537bb17890495563051-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3689-b36330a93355091c2b17890495545457-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3690-ce194c1a099b73061017890495565938-1024-1024.webp"
+    ],
     "teamKey": "Benfica",
     "teamMeta": {
       "type": "club",
@@ -500,7 +702,12 @@
     "slug": "benfica-home-player-26-27",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp",
+      "6.webp"
     ]
   },
   {
@@ -510,7 +717,12 @@
     "sku": "761",
     "price": 35000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_7875-fd15278c92d30a24c217507057794606-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_7876-4d02f6c6b335554dc417507057775617-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_7877-8a2d1790a960d5d24317507057772327-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_7878-6d09b317cbcaa7d68217507057751091-1024-1024.webp"
+    ],
     "teamKey": "Boca",
     "teamMeta": {
       "type": "club",
@@ -525,7 +737,11 @@
     "slug": "boca-home-mangas-largas-player-24-25",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp"
     ]
   },
   {
@@ -535,7 +751,13 @@
     "sku": "1999",
     "price": 56250,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/8bbcbb12-f403-457e-b764-40007243fa19-f2ee4e5f59029e1be817762850436750-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/c414750e-6885-44df-85a2-e8e07e063326-8291629b778a75d71217762850455148-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/964db64a-154f-4ecb-b5b5-c1159eac96e8-4bf139f734fd82375617762850454618-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/81b63ae2-f903-4a05-8cab-e8178f92e172-7011f004efde56a7a117762850455231-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/c11f454d-552c-4f81-9119-ed561a3c8582-21d1f1f58816def32517762850453771-1024-1024.webp"
+    ],
     "teamKey": "Brasil",
     "teamMeta": {
       "type": "seleccion"
@@ -547,7 +769,12 @@
     "slug": "brasil-home-1998",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp",
+      "6.webp"
     ]
   },
   {
@@ -557,7 +784,10 @@
     "sku": "2276",
     "price": 45000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9820-2e3475f772f3b3fc6517839858887403-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9821-cb0728177f122e5aeb17839858930501-1024-1024.webp"
+    ],
     "teamKey": "Brasil",
     "teamMeta": {
       "type": "seleccion"
@@ -569,7 +799,9 @@
     "slug": "brasil-home-2026-fan",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp"
     ]
   },
   {
@@ -579,7 +811,10 @@
     "sku": "2284",
     "price": 45000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9808-e114ba3d3bda677b3617839859652789-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9809-56ebc30fe2f4a0d35a17839859656786-1024-1024.webp"
+    ],
     "teamKey": "Brasil",
     "teamMeta": {
       "type": "seleccion"
@@ -591,7 +826,9 @@
     "slug": "brasil-supl-2026-fan",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp"
     ]
   },
   {
@@ -601,7 +838,11 @@
     "sku": "1523",
     "price": 56250,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/f5cf4883-749f-4eda-8632-32483a3707d6-06d533437f5428973317762841788607-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/36e713f3-b3a7-456a-93f6-c04359dbd8bb-9334e7204309d37f6c17762841788623-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/b12ff7ae-ec8d-4362-bd8a-8387b23eb93b-ddc169f692cdc60add17762841791583-1024-1024.webp"
+    ],
     "teamKey": "Chelsea",
     "teamMeta": {
       "type": "club",
@@ -615,7 +856,10 @@
     "slug": "chelsea-supl-3-player-25-26",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
     ]
   },
   {
@@ -625,7 +869,12 @@
     "sku": "2010",
     "price": 45000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9612-acd08490467785046217762850968077-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/32a9b601-f66d-41bd-b32f-71d6c7c19f44-f337a0288319f004f217762850914314-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/2769efe1-eb1b-4e4f-adec-948393d8e91a-140b0277d6f357ec6417762850936051-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/7c06d459-942e-44a2-b948-22a3dd0ba37e-abc3388943d614c12a17762850941033-1024-1024.webp"
+    ],
     "teamKey": "Corinthians",
     "teamMeta": {
       "type": "club",
@@ -639,7 +888,11 @@
     "slug": "corinthians-supl-total-90-fan-25-26",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp"
     ]
   },
   {
@@ -649,7 +902,10 @@
     "sku": "2218",
     "price": 45000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9803-7f1afc1c2780bdd05517839853016911-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9804-62d844938e60a9892b17839853018777-1024-1024.webp"
+    ],
     "teamKey": "Croacia",
     "teamMeta": {
       "type": "seleccion"
@@ -661,7 +917,9 @@
     "slug": "croacia-home-2026-fan",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp"
     ]
   },
   {
@@ -671,7 +929,12 @@
     "sku": "1493",
     "price": 56250,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_2386-42c064a1491d96290f17655688539329-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_2387-87cf58e5ead690f4df17655688574005-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_2388-74b9ed810e525ef89d17655688579293-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_2389-7563fd566a77150d4017655688590209-1024-1024.webp"
+    ],
     "teamKey": "España",
     "teamMeta": {
       "type": "seleccion"
@@ -683,7 +946,11 @@
     "slug": "espana-home-2026-pro-lamine-yamal-19",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp"
     ]
   },
   {
@@ -693,7 +960,13 @@
     "sku": "2527",
     "price": 56250,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3693-be0ee3a49bf70a5b8417888311558712-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3696-e9cbfee1e56211c5be17888311532359-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3694-ed04cbd3e36a796f3a17888311536514-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3695-e95b2f26ae46cab8a517888311582172-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3697-5122e6ad43bbdb828017888311573170-1024-1024.webp"
+    ],
     "teamKey": "Flamengo",
     "teamMeta": {
       "type": "club",
@@ -707,7 +980,12 @@
     "slug": "flamengo-supl-player-26-27",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp",
+      "6.webp"
     ]
   },
   {
@@ -717,7 +995,10 @@
     "sku": "909",
     "price": 45000,
     "availability": "https://schema.org/OutOfStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8429-d322686d842f22198e17634950331824-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8430-9003170a41aedb2e5817634950358837-1024-1024.webp"
+    ],
     "teamKey": "Galatasaray",
     "teamMeta": {
       "type": "club",
@@ -731,7 +1012,9 @@
     "slug": "galatasaray-home-fan-24-25",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp"
     ]
   },
   {
@@ -741,7 +1024,12 @@
     "sku": "2224",
     "price": 45000,
     "availability": "https://schema.org/OutOfStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9848-e42df97adaf71f0abd17839853683374-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9849-1b2e89018b2970da2617839853711795-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9850-74881ab2b97d1d5d3217839853684571-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9851-3c30053343f3cafcd117839853727544-1024-1024.webp"
+    ],
     "teamKey": "Gales",
     "teamMeta": {
       "type": "seleccion"
@@ -753,7 +1041,11 @@
     "slug": "gales-home-2026-fan",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp"
     ]
   },
   {
@@ -763,7 +1055,11 @@
     "sku": "2203",
     "price": 45000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9814-438b8386d0efd1591e17839850555967-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9815-3196f8b54309c3f34517839850554400-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9816-9e906c366285080bb317839850555734-1024-1024.webp"
+    ],
     "teamKey": "Grecia",
     "teamMeta": {
       "type": "seleccion"
@@ -775,7 +1071,10 @@
     "slug": "grecia-home-2026-fan",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
     ]
   },
   {
@@ -785,7 +1084,11 @@
     "sku": "2278",
     "price": 45000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9784-151851aacaca0a149417839859379457-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9785-038ae58d0252c5e4b617839859389725-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9786-9642f947f22ebc18fe17839859395600-1024-1024.webp"
+    ],
     "teamKey": "Inglaterra",
     "teamMeta": {
       "type": "seleccion"
@@ -797,7 +1100,10 @@
     "slug": "inglaterra-supl-3-2026-fan",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
     ]
   },
   {
@@ -807,7 +1113,13 @@
     "sku": "2491",
     "price": 56250,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3729-c83187acd5286c9b8e17888312437198-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3731-8890c8d015e8cc098417888312359495-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3730-0b2f6e26b1037d4edb17888312416813-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3732-a4eb168b600beb626a17888312430551-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3733-4fda2b24bff7412cf317888312434591-1024-1024.webp"
+    ],
     "teamKey": "Inter",
     "teamMeta": {
       "type": "club",
@@ -821,7 +1133,12 @@
     "slug": "inter-home-player-26-27",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp",
+      "6.webp"
     ]
   },
   {
@@ -831,7 +1148,11 @@
     "sku": "1597",
     "price": 45000,
     "availability": "https://schema.org/OutOfStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9091-eec46d691d7ec825d517664400892496-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9092-b3ea8419bcc172bcc217664400954461-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9090-59fcf261fb54630e6b17664400950757-1024-1024.webp"
+    ],
     "teamKey": "Inter",
     "teamMeta": {
       "type": "club",
@@ -845,7 +1166,10 @@
     "slug": "inter-supl-3-total-90-25-26-fan-martinez-10",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
     ]
   },
   {
@@ -855,7 +1179,11 @@
     "sku": "1246",
     "price": 45000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/4d4304e3-248c-44be-84bf-f85671577e1b-96a96349957909e8cf17628941015526-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8270-b2cb2151649d02025e17628941122491-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8271-5ee36feb65e7b0f1e217628941136160-1024-1024.webp"
+    ],
     "teamKey": "Inter",
     "teamMeta": {
       "type": "club",
@@ -869,7 +1197,10 @@
     "slug": "inter-supl-3-total-90-fan-25-26",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
     ]
   },
   {
@@ -879,7 +1210,12 @@
     "sku": "2346",
     "price": 56250,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9882-f8ef125098156c084517858524342123-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9883-189b605b36102197c317858524393395-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9884-2838ed8be9e93fa6b817858524377214-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9885-cd9a88485e2ca15fc217858524394480-1024-1024.webp"
+    ],
     "teamKey": "Italia",
     "teamMeta": {
       "type": "seleccion"
@@ -891,7 +1227,11 @@
     "slug": "italia-supl-player-2026",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp"
     ]
   },
   {
@@ -901,7 +1241,12 @@
     "sku": "975",
     "price": 31250,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8521-17019394eddf02e44217634949187686-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8522-1208c24ac3ac8a2d4017634949165968-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8523-e8f3e853009da1041f17634949208690-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8524-beb9054dc12fa573ad17634949149959-1024-1024.webp"
+    ],
     "teamKey": "Japon",
     "teamMeta": {
       "type": "seleccion"
@@ -913,7 +1258,11 @@
     "slug": "japon-edicion-especial-fan-goku",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp"
     ]
   },
   {
@@ -923,7 +1272,11 @@
     "sku": "1023",
     "price": 31250,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8533-2815d75a33a8e6fa0817634944320733-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8534-fc0d5b413583ee8e3817634944354693-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8536-154552dcdaa7d1e2a517634944353705-1024-1024.webp"
+    ],
     "teamKey": "Japon",
     "teamMeta": {
       "type": "seleccion"
@@ -935,7 +1288,10 @@
     "slug": "japon-edicion-especial-fan-2024-guerreros-azul",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
     ]
   },
   {
@@ -945,7 +1301,10 @@
     "sku": "1221",
     "price": 45000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/5f7a283c-2bcc-4a7d-b339-352127c6c0c7-a2915ea34e96595a9017634922719754-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/6573e7d0-f223-4b35-bfcd-e13054022e83-2ca176a778485c1ad217634922721539-1024-1024.webp"
+    ],
     "teamKey": "Juventus",
     "teamMeta": {
       "type": "club",
@@ -959,7 +1318,9 @@
     "slug": "juventus-home-fan-25-26",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp"
     ]
   },
   {
@@ -969,7 +1330,13 @@
     "sku": "1089",
     "price": 45000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/554470e8-a17a-4b69-9f05-6b25eb042ebc-b6ea1b91aeb694f11617762836166624-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/c507d08d-25d0-48a4-9453-24f0bd9f43b9-f8a6201bf1a0b9708a17762836167323-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/fac24e15-49b7-497f-924d-88b721f56bdd-a19a710ac342e67fcd17762836168876-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/f142434a-2ea5-490a-bdfe-7374e32a4044-42d89e4581f349b07217762836159033-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/c9c5bcb6-af47-4b5b-86fa-5771838aea32-b3d3790ec7fd33a34b17762836175731-1024-1024.webp"
+    ],
     "teamKey": "Juventus",
     "teamMeta": {
       "type": "club",
@@ -983,7 +1350,12 @@
     "slug": "juventus-supl-3-fan-25-26",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp",
+      "6.webp"
     ]
   },
   {
@@ -993,7 +1365,11 @@
     "sku": "2321",
     "price": 45000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9837-fa19660c52f761b36c17839862001952-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9838-d1817cc5cb54a97dc417839862017762-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9839-b5889fd8fabe307d3517839862024994-1024-1024.webp"
+    ],
     "teamKey": "Juventus",
     "teamMeta": {
       "type": "club",
@@ -1007,7 +1383,10 @@
     "slug": "juventus-supl-3-x-studiosgura-26-27",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
     ]
   },
   {
@@ -1017,7 +1396,16 @@
     "sku": "1905",
     "price": 56250,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/808db936-ca1d-4dbf-8c58-96638cf872e6-578bc82e7c6d6579fb17747076135850-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/126ab191-cd3d-4b4f-8778-d5525a453059-49ac253f93c1579f6a17747076154947-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/9f550086-dfa7-4790-9ba0-cc53593b2238-00f7db48a6ec572f9c17747076194017-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/cd98c893-26c1-44ea-8864-65568bce2a65-ad2ed6ae05fb2c08e317747076166180-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/2d52ebab-03dc-4c42-abdf-fc02082a4220-bc7a07b4cb6977ea8417747076185927-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/5785a970-d9bc-4214-b172-fd912e2111be-59f280ff98c2b2ca0217747076201444-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/2b5aed28-abc9-4a61-b8b6-640ba0d9ef5f-a61cb4b2b6d2f1c0c117747076213076-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/1e1af665-017a-42f9-a8d6-f1ead16d733e-d3c8c3c518cbe395cf17747076211436-1024-1024.webp"
+    ],
     "teamKey": "Juventus",
     "teamMeta": {
       "type": "club",
@@ -1031,7 +1419,14 @@
     "slug": "juventus-ter-equip-player-25-26",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp",
+      "6.webp",
+      "7.webp",
+      "8.webp"
     ]
   },
   {
@@ -1041,7 +1436,12 @@
     "sku": "1030",
     "price": 56250,
     "availability": "https://schema.org/OutOfStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8415-0d0f0cea3391a3d37917634942720130-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8416-a05cd14e045a6e709c17634942838922-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8417-7c6b91efd4e55fc29517634942887805-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8418-03fb528a5f03ea2dfe17634942867833-1024-1024.webp"
+    ],
     "teamKey": "Liverpool",
     "teamMeta": {
       "type": "club",
@@ -1055,7 +1455,11 @@
     "slug": "liverpool-home-player-25-26",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp"
     ]
   },
   {
@@ -1065,7 +1469,15 @@
     "sku": "2448",
     "price": 56250,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3764-f4216409ea06b4163717888312866070-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3767-da8210da5499f6559117888312797786-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3766-3025f94d52ff588d9217888312854999-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3765-bfb1fb51ba1f531ef517888312854184-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3768-8bfb5dbc13018a1b3217888312792035-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3770-48738b3e25cbe4ed0f17888312856154-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3771-4b4fd6c5303c40d33617888312805572-1024-1024.webp"
+    ],
     "teamKey": "Manchester City",
     "teamMeta": {
       "type": "club",
@@ -1079,7 +1491,14 @@
     "slug": "manchester-city-home-player-26-27",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp",
+      "6.webp",
+      "7.webp",
+      "8.webp"
     ]
   },
   {
@@ -1089,7 +1508,11 @@
     "sku": "1121",
     "price": 45000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8291-8160fa8f1ebdd5903a17634934672508-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8292-ae0170a87bde513bd117634934673597-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8295-8b0d5f7efda1d2076817634934657162-1024-1024.webp"
+    ],
     "teamKey": "Manchester City",
     "teamMeta": {
       "type": "club",
@@ -1103,7 +1526,10 @@
     "slug": "manchester-city-supl-3-fan-25-26",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
     ]
   },
   {
@@ -1113,7 +1539,14 @@
     "sku": "2454",
     "price": 56250,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3753-9a560a1fd6d81c881e17888314855670-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3756-436f76a72a47cba9eb17888314814813-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3754-663a5448d779af1cc217888314862447-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3755-4d39cf4d530a01baff17888314851571-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3757-ed625b89e095abd55917888314804685-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3759-47c3846a0e0434990117888314849365-1024-1024.webp"
+    ],
     "teamKey": "Manchester City",
     "teamMeta": {
       "type": "club",
@@ -1127,7 +1560,13 @@
     "slug": "manchester-city-supl-player-26-27",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp",
+      "6.webp",
+      "7.webp"
     ]
   },
   {
@@ -1137,7 +1576,12 @@
     "sku": "1551",
     "price": 45000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9063-69ac6904696ce0563717658333164661-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9064-c88d4b0cdb576ef54217658333244917-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9062-e42dedb6c5b806dcd217658333243420-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9060-4d734e85d9aafca80d17658333231271-1024-1024.webp"
+    ],
     "teamKey": "Manchester United",
     "teamMeta": {
       "type": "club",
@@ -1151,7 +1595,11 @@
     "slug": "manchester-united-home-25-26-martinez-6",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp"
     ]
   },
   {
@@ -1161,7 +1609,12 @@
     "sku": "1567",
     "price": 45000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9080-3eb49794bc143f574917660950114171-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9081-e873d6ffb36aed691017660950153091-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9060-a3921570fea03d053417660950176198-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9062-b804b81e1af604ffa917660950183082-1024-1024.webp"
+    ],
     "teamKey": "Manchester United",
     "teamMeta": {
       "type": "club",
@@ -1175,7 +1628,11 @@
     "slug": "manchester-united-home-25-26-fan-b-fernades-8",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp"
     ]
   },
   {
@@ -1185,7 +1642,12 @@
     "sku": "1756",
     "price": 56250,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9347-562c3335e1cb4b031d17703178338358-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9348-49017cf1f6bd2bde4c17703178393473-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9349-4d93547839cc2f803317703178329894-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9351-9b3e5868b15dd9fc1c17703178404916-1024-1024.webp"
+    ],
     "teamKey": "Manchester United",
     "teamMeta": {
       "type": "club",
@@ -1199,7 +1661,11 @@
     "slug": "manchester-united-home-player-25-26",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp"
     ]
   },
   {
@@ -1209,7 +1675,14 @@
     "sku": "2467",
     "price": 56250,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3746-38a54986705790d7b617888313509335-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3749-28990ed8e815d8bc0017888313484278-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3747-47a0cc7e55d3890d2f17888313498012-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3748-3edf9ab8d59a9416f017888313519128-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3750-1c52fc0776a1e717b517888313510737-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3752-70ef26534bee87cc6717888313479248-1024-1024.webp"
+    ],
     "teamKey": "Manchester United",
     "teamMeta": {
       "type": "club",
@@ -1223,7 +1696,13 @@
     "slug": "manchester-united-home-player-26-27",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp",
+      "6.webp",
+      "7.webp"
     ]
   },
   {
@@ -1233,7 +1712,12 @@
     "sku": "1573",
     "price": 45000,
     "availability": "https://schema.org/OutOfStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9058-176e7c79bfd331596b17660948073850-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9059-9a6d2d3b57337820f617660948164993-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9056-6058ba6d6ea10069e817660948160554-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9057-374afa818b237208ab17660948139204-1024-1024.webp"
+    ],
     "teamKey": "Manchester United",
     "teamMeta": {
       "type": "club",
@@ -1247,7 +1731,11 @@
     "slug": "manchester-united-supl-3-25-26-fan-martinez-6",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp"
     ]
   },
   {
@@ -1257,7 +1745,12 @@
     "sku": "1567",
     "price": 45000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9083-a191d40a190c2a489d17660948977183-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9084-d59c8e8edb82bdfe0517660949003924-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9056-8619b95846274199c817660949021468-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9057-d4b6c3095d882bed4017660949059730-1024-1024.webp"
+    ],
     "teamKey": "Manchester United",
     "teamMeta": {
       "type": "club",
@@ -1271,7 +1764,11 @@
     "slug": "manchester-united-supl-3-fan-25-26-b-fernandes-8",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp"
     ]
   },
   {
@@ -1281,7 +1778,11 @@
     "sku": "1208",
     "price": 45000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/387232fa-1b80-4e72-83f7-c5622ac30c49-0582adc9fa85c9f41b17634923352020-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/02e72e79-4454-44be-a4d0-13372084339b-29e1d5b4c16185c49c17634923358082-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/3e18bb9a-f7e5-4f3f-b532-aef2d06e22a2-0396f4d2378338015c17634923358555-1024-1024.webp"
+    ],
     "teamKey": "Milan",
     "teamMeta": {
       "type": "club",
@@ -1296,7 +1797,10 @@
     "slug": "milan-supl-fan-25-26",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
     ]
   },
   {
@@ -1306,7 +1810,11 @@
     "sku": "1313",
     "price": 45000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_2756-7e425b8a3211ac215717827540959088-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_2758-a3fc9cd14dec59703217827540956344-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_2759-40b461211a6b9d527817827540956343-1024-1024.webp"
+    ],
     "teamKey": "Nacional",
     "teamMeta": {
       "type": "club",
@@ -1321,7 +1829,10 @@
     "slug": "nacional-home-25-26",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
     ]
   },
   {
@@ -1331,7 +1842,13 @@
     "sku": "2521",
     "price": 56250,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3699-6636fe3690f1c4979817888316208602-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3701-330a3109915e1c0b4217888316178727-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3700-4fb965e188f683a9f817888316207123-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3702-fb2dfa3d309595abe917888316197585-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3703-dcf8a3a0c826d0fbe417888316213768-1024-1024.webp"
+    ],
     "teamKey": "Palmeiras",
     "teamMeta": {
       "type": "club",
@@ -1345,7 +1862,12 @@
     "slug": "palmeiras-supl-player-26-27",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp",
+      "6.webp"
     ]
   },
   {
@@ -1355,7 +1877,11 @@
     "sku": "2028",
     "price": 45000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9627-f05e8244cd8560733217762851567089-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9628-d55dc502e18e623a6217762851604214-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9629-ba3596c3d2bf66464117762851634798-1024-1024.webp"
+    ],
     "teamKey": "PSG",
     "teamMeta": {
       "type": "club",
@@ -1369,7 +1895,10 @@
     "slug": "psg-supl-fan-25-26",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
     ]
   },
   {
@@ -1379,7 +1908,13 @@
     "sku": "1936",
     "price": 56250,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9441-84aa04e9ddb4e92a4c17761057029068-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9442-eade6a4c69202de61817761057108742-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9443-d571b32aa79ecbc0c617761057190192-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9444-5227bb3d58ab9c96bb17761057175059-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9446-8aed62984e73324a1a17761057196714-1024-1024.webp"
+    ],
     "teamKey": "Racing Club",
     "teamMeta": {
       "type": "club",
@@ -1393,7 +1928,12 @@
     "slug": "racing-club-supl-player-25-26",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp",
+      "6.webp"
     ]
   },
   {
@@ -1403,7 +1943,11 @@
     "sku": "1621",
     "price": 45000,
     "availability": "https://schema.org/OutOfStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9241-8b784e1fe98b9255e417695295859888-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9244-4b2a16e7cab4ae5a4717695295840218-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9245-70aeeb89fa6060ab4617695295858833-1024-1024.webp"
+    ],
     "teamKey": "Real Betis",
     "teamMeta": {
       "type": "club",
@@ -1417,7 +1961,10 @@
     "slug": "real-betis-home-edicion-especial-fan-25-26",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
     ]
   },
   {
@@ -1427,7 +1974,10 @@
     "sku": "1004",
     "price": 45000,
     "availability": "https://schema.org/OutOfStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8525-6815e0c11d965cc55517634946224726-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8526-24138fbbdf594a9a5a17634946263372-1024-1024.webp"
+    ],
     "teamKey": "Real Madrid",
     "teamMeta": {
       "type": "club",
@@ -1441,7 +1991,9 @@
     "slug": "real-madrid-edicion-especial-fan-2025-dragon",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp"
     ]
   },
   {
@@ -1451,7 +2003,12 @@
     "sku": "1544",
     "price": 45000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9074-dc28db29ffbfea12c917658332680733-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9075-b833bb0a2d511d625117658332671013-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/0d24217e-a2d1-48e2-83ba-c39cd942580d-8c66d5cc1398e7924317658332585237-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/7de24b65-d783-4cc8-9bc8-0c79cd05184b-3f65ab36d3d0b5bdc617658332594532-1024-1024.webp"
+    ],
     "teamKey": "Real Madrid",
     "teamMeta": {
       "type": "club",
@@ -1465,7 +2022,11 @@
     "slug": "real-madrid-home-25-26-mastantuono-30",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp"
     ]
   },
   {
@@ -1475,7 +2036,10 @@
     "sku": "738",
     "price": 45000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8391-c6ffdca5b3e70fc51917635648473489-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8392-26841704995b2f6c2417635648477456-1024-1024.webp"
+    ],
     "teamKey": "Real Madrid",
     "teamMeta": {
       "type": "club",
@@ -1489,7 +2053,9 @@
     "slug": "real-madrid-home-fan-25-26",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp"
     ]
   },
   {
@@ -1499,7 +2065,13 @@
     "sku": "2059",
     "price": 56250,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/1e35cb60-1e1e-4083-a238-80acb17b21e3-1d456d1a8da8eb225b17762847084318-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/5b16a201-bfcb-4364-bc45-59edf97443fe-555c33198d1d98bfd417762847104652-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/3b4b915c-e332-43c4-b006-e4a7545e145a-0f92d63263f9caa82817762847080902-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/53b435d3-809c-49c9-9359-b56fe1c0ba33-f79d95c5a70f23ca9c17762847093422-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/845de621-fbb1-4662-97b8-aa9e2e1d4197-eb7c706ae9a91c2ce817762847101285-1024-1024.webp"
+    ],
     "teamKey": "Real Madrid",
     "teamMeta": {
       "type": "club",
@@ -1513,7 +2085,12 @@
     "slug": "real-madrid-home-player-25-26",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp",
+      "6.webp"
     ]
   },
   {
@@ -1523,7 +2100,13 @@
     "sku": "2052",
     "price": 56250,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9717-ccdde97ec137a7855517770407975548-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9718-4b14569fb79add37ac17770408072497-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9719-5242656fe52156130b17770407987993-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9720-d26bd293c6678689a917770408046687-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9721-4fb71fde05cba2a20217770408037511-1024-1024.webp"
+    ],
     "teamKey": "Real Madrid",
     "teamMeta": {
       "type": "club",
@@ -1537,7 +2120,12 @@
     "slug": "real-madrid-home-player-26-27",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp",
+      "6.webp"
     ]
   },
   {
@@ -1547,7 +2135,11 @@
     "sku": "1368",
     "price": 56250,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8826-499e1174a008f97f4c17663297755704-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/e6f32419-1980-4e4d-8aba-3e0a381f7e1a-f1966177c212b606f217663297435150-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8828-00d292ab187b7ea2ef17663297530912-1024-1024.webp"
+    ],
     "teamKey": "Real Madrid",
     "teamMeta": {
       "type": "club",
@@ -1561,7 +2153,10 @@
     "slug": "real-madrid-icon-2025-player",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
     ]
   },
   {
@@ -1571,7 +2166,11 @@
     "sku": "1010",
     "price": 45000,
     "availability": "https://schema.org/OutOfStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8411-0e1b1a4fda9ee2677717634946688985-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8412-03de076a7979d745f017634946736682-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8414-77731ea41e1e2ddfa817634946757396-1024-1024.webp"
+    ],
     "teamKey": "Real Madrid",
     "teamMeta": {
       "type": "club",
@@ -1585,7 +2184,10 @@
     "slug": "real-madrid-supl-fan-25-26",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
     ]
   },
   {
@@ -1595,7 +2197,11 @@
     "sku": "1478",
     "price": 45000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8854-015f356855c4cdd16c17646148344442-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8855-43ba95c4bbf21590a717646148365360-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8856-867b41decd399ccf3117646148381927-1024-1024.webp"
+    ],
     "teamKey": "River Plate",
     "teamMeta": {
       "type": "club",
@@ -1609,7 +2215,10 @@
     "slug": "river-plate-supl-3-fan-25-26",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
     ]
   },
   {
@@ -1619,7 +2228,11 @@
     "sku": "1239",
     "price": 45000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8276-d70316441f2d242dd817628938568273-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8277-3e9b051362e281dd2a17628938613384-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8278-8bb6918e100d8f028d17628938609153-1024-1024.webp"
+    ],
     "teamKey": "River Plate",
     "teamMeta": {
       "type": "club",
@@ -1633,7 +2246,10 @@
     "slug": "river-plate-supl-fan-25-26",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
     ]
   },
   {
@@ -1642,7 +2258,10 @@
     "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_6539-31c356ffb7c4ff05b217313349653495-480-0.webp",
     "price": 44000,
     "availability": "https://schema.org/InStock",
-    "gallery": [],
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_6539-31c356ffb7c4ff05b217313349653495-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_6540-f05582daf2cb294a2517313349656789-1024-1024.webp"
+    ],
     "teamKey": "Uruguay",
     "teamMeta": {
       "type": "seleccion"
@@ -1654,7 +2273,379 @@
     "slug": "uruguay-2024",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp"
+      "1.webp",
+      "2.webp",
+      "3.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/short-alemania-home-player-2026-5zd34/",
+    "name": "Short Alemania Home Player 2026",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9957-66a54e4f0a92c33db717863716310384-480-0.webp",
+    "sku": "2387",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9957-66a54e4f0a92c33db717863716310384-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9958-cd09704ae0287fb5fb17863716348213-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9959-28c30e6626b9990cb317863716361436-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9961-8699c3d232ef06f22917863716332061-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9962-50bc187e86a6656b2917863716360565-1024-1024.webp"
+    ],
+    "teamKey": "Alemania",
+    "teamMeta": {
+      "type": "seleccion"
+    },
+    "quality": "player",
+    "section": "shorts",
+    "league": null,
+    "leagueName": null,
+    "slug": "alemania-home-player-2026-short",
+    "priceDisplay": 32000,
+    "localImages": [
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp",
+      "6.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/short-alemania-supl-player-2026-1qhh8/",
+    "name": "Short Alemania Supl Player 2026",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9948-9a42ff0d4a91a001a117863716768138-480-0.webp",
+    "sku": "2394",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9948-9a42ff0d4a91a001a117863716768138-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9950-6dc8844cafd28e38ff17863716824692-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9951-ac9e7a4ac72f2cf87017863716839921-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9952-4adebf7d6bd49c5f9717863716777511-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9954-a945b00daf7a22fc4b17863716788815-1024-1024.webp"
+    ],
+    "teamKey": "Alemania",
+    "teamMeta": {
+      "type": "seleccion"
+    },
+    "quality": "player",
+    "section": "shorts",
+    "league": null,
+    "leagueName": null,
+    "slug": "alemania-supl-player-2026-short",
+    "priceDisplay": 32000,
+    "localImages": [
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp",
+      "6.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/short-argelia-home-player-2026-1qeg6/",
+    "name": "Short Argelia Home Player 2026",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9940-9f27a7cfd09d7a5ba417863717273408-480-0.webp",
+    "sku": "2383",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9940-9f27a7cfd09d7a5ba417863717273408-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9941-5eb88967351fdff51117863717273938-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9942-ca9ea27d9aa9b076e117863717276073-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9943-8eff59c0fd91ad6cc817863717271724-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9944-ad82b1c91cab1f511b17863717244730-1024-1024.webp"
+    ],
+    "teamKey": "Argelia",
+    "teamMeta": {
+      "type": "seleccion"
+    },
+    "quality": "player",
+    "section": "shorts",
+    "league": null,
+    "leagueName": null,
+    "slug": "argelia-home-player-2026-short",
+    "priceDisplay": 32000,
+    "localImages": [
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp",
+      "6.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/short-argentina-entrenamiento-2026-17ssi/",
+    "name": "Short Argentina Entrenamiento 2026",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/ef40b82f-994e-4cc2-9af2-7a6bbaf94cf2-7f7bc9d50e82abbea617867138847527-480-0.webp",
+    "sku": "2443",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/ef40b82f-994e-4cc2-9af2-7a6bbaf94cf2-7f7bc9d50e82abbea617867138847527-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/aa1fb175-12be-4417-89dc-bda80d6a4b3d-b3df4746392c2f10d717867138861984-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/867d20e3-9640-4f5c-bc93-40d4de408bf2-3c839b15f30510203317867138869121-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/2bafe694-fd15-4f23-afbd-a272f9ec9abc-219c6b9ded519c3c0117867138858641-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/27881448-bdec-4f7a-b120-542d2dc1f27a-500295c8bdc7be7b8517867138870158-1024-1024.webp"
+    ],
+    "teamKey": "Argentina",
+    "teamMeta": {
+      "type": "seleccion"
+    },
+    "quality": "player",
+    "section": "shorts",
+    "league": null,
+    "leagueName": null,
+    "slug": "argentina-entrenamiento-2026-short",
+    "priceDisplay": 32000,
+    "localImages": [
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp",
+      "6.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/short-arsenal-supl-25-26-player-olvry/",
+    "name": "Short Arsenal Supl 25/26 Player",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9747-9b9a886ea368413eca17779930652460-480-0.webp",
+    "sku": "2106",
+    "price": 57500,
+    "availability": "https://schema.org/InStock",
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9747-9b9a886ea368413eca17779930652460-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9748-82356da6b785efff3317779930648607-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9750-68abcd69e46c89875317779930664580-1024-1024.webp"
+    ],
+    "teamKey": "Arsenal",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-inglesa",
+      "leagueName": "Liga Inglesa"
+    },
+    "quality": "player",
+    "section": "shorts",
+    "league": "liga-inglesa",
+    "leagueName": "Liga Inglesa",
+    "slug": "arsenal-supl-25-26-player-short",
+    "priceDisplay": 32000,
+    "localImages": [
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/short-italia-home-player-2026-61qd1/",
+    "name": "Short Italia Home Player 2026",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9923-fe38c4476d62096d2f17863720922553-480-0.webp",
+    "sku": "2374",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9923-fe38c4476d62096d2f17863720922553-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9925-a7c1df70cee4ff8ae617863720974183-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9928-907113340db8f46ba617863720954302-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9930-7451154827f1ff09df17863720972586-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9931-142ab6d16432eaf9c617863720971942-1024-1024.webp"
+    ],
+    "teamKey": "Italia",
+    "teamMeta": {
+      "type": "seleccion"
+    },
+    "quality": "player",
+    "section": "shorts",
+    "league": null,
+    "leagueName": null,
+    "slug": "italia-home-player-2026-short",
+    "priceDisplay": 32000,
+    "localImages": [
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp",
+      "6.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/short-l-a-galaxy-fan-1uyh6/",
+    "name": "Short L.A Galaxy FAN",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/99195cfa-bcbb-4c82-a933-d0f72b3c3daf-08816a822f6134f6da17811211915872-480-0.webp",
+    "sku": "2131",
+    "price": 37500,
+    "availability": "https://schema.org/OutOfStock",
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/99195cfa-bcbb-4c82-a933-d0f72b3c3daf-08816a822f6134f6da17811211915872-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/f56667e7-ec3d-4c28-a46c-580cebdf9dbf-777559a9a5161dd3cc17811211921036-1024-1024.webp"
+    ],
+    "teamKey": "L.A Galaxy FAN",
+    "teamMeta": null,
+    "quality": "fan",
+    "section": "shorts",
+    "league": null,
+    "leagueName": null,
+    "slug": "l-a-galaxy-fan-short",
+    "priceDisplay": 27000,
+    "localImages": [
+      "1.webp",
+      "2.webp",
+      "3.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/short-liverpool-supl-2-25-26-player-1w12p/",
+    "name": "Short LIverpool Supl 2 25/26 Player",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9745-23704986fb5e2cb50217779929881175-480-0.webp",
+    "sku": "2100",
+    "price": 57500,
+    "availability": "https://schema.org/InStock",
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9745-23704986fb5e2cb50217779929881175-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9746-f676642ec25894827917779929890528-1024-1024.webp"
+    ],
+    "teamKey": "LIverpool",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-inglesa",
+      "leagueName": "Liga Inglesa"
+    },
+    "quality": "player",
+    "section": "shorts",
+    "league": "liga-inglesa",
+    "leagueName": "Liga Inglesa",
+    "slug": "liverpool-supl-2-25-26-player-short",
+    "priceDisplay": 32000,
+    "localImages": [
+      "1.webp",
+      "2.webp",
+      "3.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/short-manchester-united-supl-3-25-26-player-1s4cc/",
+    "name": "Short Manchester United Supl 3 25/26 Player",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9738-d2156a10dab59a1bf517779931200871-480-0.webp",
+    "sku": "2112",
+    "price": 57500,
+    "availability": "https://schema.org/InStock",
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9738-d2156a10dab59a1bf517779931200871-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9741-abd3fb332d821efdfe17779931225297-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9742-a381170200b2b500b917779931210633-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9743-eb2bb85746b7aeb98d17779931240465-1024-1024.webp"
+    ],
+    "teamKey": "Manchester United",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-inglesa",
+      "leagueName": "Liga Inglesa"
+    },
+    "quality": "player",
+    "section": "shorts",
+    "league": "liga-inglesa",
+    "leagueName": "Liga Inglesa",
+    "slug": "manchester-united-supl-3-25-26-player-short",
+    "priceDisplay": 32000,
+    "localImages": [
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/short-psv-fan-1k1ep/",
+    "name": "Short PSV Fan",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/2fce3258-02f3-484f-a359-bf71457ab8bb-7ec10a9afaaf6f601d17811213849825-480-0.webp",
+    "sku": "2146",
+    "price": 37500,
+    "availability": "https://schema.org/InStock",
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/2fce3258-02f3-484f-a359-bf71457ab8bb-7ec10a9afaaf6f601d17811213849825-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/fbe679e3-6029-4996-9362-02f83d060a21-541192ce03a880bbbb17811213851516-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9671-dd6de66371dae9a47017811213914655-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9672-d1d91370b9ccee2a5c17811213917540-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9673-1e8c40e1f6f0c07f1a17811213894027-1024-1024.webp"
+    ],
+    "teamKey": "PSV Fan",
+    "teamMeta": null,
+    "quality": "fan",
+    "section": "shorts",
+    "league": null,
+    "leagueName": null,
+    "slug": "psv-fan-short",
+    "priceDisplay": 27000,
+    "localImages": [
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp",
+      "6.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/short-real-madrid-home-25-26-player-mu6r2/",
+    "name": "Short Real Madrid Home 25/26 Player",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9735-97f28bf6701ae90dc017779931567998-480-0.webp",
+    "sku": "2118",
+    "price": 57500,
+    "availability": "https://schema.org/InStock",
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9735-97f28bf6701ae90dc017779931567998-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9736-31274d4b976809b15317779931586961-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9737-86ed7b09ff6941880d17779931579726-1024-1024.webp"
+    ],
+    "teamKey": "Real Madrid",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-espanola",
+      "leagueName": "Liga Española"
+    },
+    "quality": "player",
+    "section": "shorts",
+    "league": "liga-espanola",
+    "leagueName": "Liga Española",
+    "slug": "real-madrid-home-25-26-player-short",
+    "priceDisplay": 32000,
+    "localImages": [
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/short-santos-fan-mof8x/",
+    "name": "Short Santos Fan",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/2a185ff4-5713-4085-b4a9-24e1e4275913-822bd9346d08accbba17811215021929-480-0.webp",
+    "sku": "2150",
+    "price": 37500,
+    "availability": "https://schema.org/InStock",
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/2a185ff4-5713-4085-b4a9-24e1e4275913-822bd9346d08accbba17811215021929-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/485197ff-b757-4c19-9737-cdee22bd6f21-c6c4c74fab05e6b59a17811215022266-1024-1024.webp"
+    ],
+    "teamKey": "Santos Fan",
+    "teamMeta": null,
+    "quality": "fan",
+    "section": "shorts",
+    "league": null,
+    "leagueName": null,
+    "slug": "santos-fan-short",
+    "priceDisplay": 27000,
+    "localImages": [
+      "1.webp",
+      "2.webp",
+      "3.webp"
     ]
   }
 ]
