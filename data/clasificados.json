@@ -1,0 +1,1660 @@
+[
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-ac-milan-home-player-26-27-iobhj/",
+    "name": "Camiseta AC Milan Home Player 26/27",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3722-9ad06ed636eb0d760717888307200656-480-0.webp",
+    "sku": "2472",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "AC Milan",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-italiana",
+      "leagueName": "Liga Italiana"
+    },
+    "quality": "player",
+    "section": "clubes",
+    "league": "liga-italiana",
+    "leagueName": "Liga Italiana",
+    "slug": "ac-milan-home-player-26-27",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-ac-milan-supl-player-26-27-1hv69/",
+    "name": "Camiseta AC Milan Supl Player 26/27",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3710-3cb08e130da662959317888309900182-480-0.webp",
+    "sku": "2498",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "AC Milan",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-italiana",
+      "leagueName": "Liga Italiana"
+    },
+    "quality": "player",
+    "section": "clubes",
+    "league": "liga-italiana",
+    "leagueName": "Liga Italiana",
+    "slug": "ac-milan-supl-player-26-27",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-ajax-home-25-26-x3pmr/",
+    "name": "Camiseta Ajax Home FAN 25/26",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8273-d087866aff815bd52017628939252548-480-0.webp",
+    "sku": "1233",
+    "price": 45000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Ajax",
+    "teamMeta": {
+      "type": "club",
+      "league": "resto-del-mundo",
+      "leagueName": "Resto del Mundo"
+    },
+    "quality": "fan",
+    "section": "clubes",
+    "league": "resto-del-mundo",
+    "leagueName": "Resto del Mundo",
+    "slug": "ajax-home-fan-25-26",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-alemania-home-25-26-fan-s18u2/",
+    "name": "Camiseta Alemania Home 25/26 FAN",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9852-79b72eb358ee1ddd3e17839856441702-480-0.webp",
+    "sku": "2256",
+    "price": 45000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Alemania",
+    "teamMeta": {
+      "type": "seleccion"
+    },
+    "quality": "fan",
+    "section": "selecciones",
+    "league": null,
+    "leagueName": null,
+    "slug": "alemania-home-25-26-fan",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-alemania-mundial-2006/",
+    "name": "Camiseta Alemania Mundial 2006",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_6659-37ae69e84bd2967f9117345800745273-480-0.webp",
+    "sku": "74",
+    "price": 75000,
+    "availability": "https://schema.org/OutOfStock",
+    "gallery": [],
+    "teamKey": "Alemania",
+    "teamMeta": {
+      "type": "seleccion"
+    },
+    "quality": "player",
+    "section": "retro",
+    "league": null,
+    "leagueName": null,
+    "slug": "alemania-mundial-2006",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-alemania-supl-2026-fan-u5xxe/",
+    "name": "Camiseta Alemania Supl 2026 FAN",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9805-2d7ee1a5b5556ad98517839857934070-480-0.webp",
+    "sku": "2262",
+    "price": 45000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Alemania",
+    "teamMeta": {
+      "type": "seleccion"
+    },
+    "quality": "fan",
+    "section": "mundial-2026",
+    "league": null,
+    "leagueName": null,
+    "slug": "alemania-supl-2026-fan",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-alemania-supl-25-26-fan-2s0rs/",
+    "name": "Camiseta Alemania Supl 25/26 FAN",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9817-802d1ef9fa7d9f33fa17839857488792-480-0.webp",
+    "sku": "2250",
+    "price": 45000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Alemania",
+    "teamMeta": {
+      "type": "seleccion"
+    },
+    "quality": "fan",
+    "section": "selecciones",
+    "league": null,
+    "leagueName": null,
+    "slug": "alemania-supl-25-26-fan",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-argelia-home-2026-fan-h28u1/",
+    "name": "Camiseta Argelia Home 2026 FAN",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9793-be0cf1008440766bfe17839855587248-480-0.webp",
+    "sku": "2244",
+    "price": 45000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Argelia",
+    "teamMeta": {
+      "type": "seleccion"
+    },
+    "quality": "fan",
+    "section": "mundial-2026",
+    "league": null,
+    "leagueName": null,
+    "slug": "argelia-home-2026-fan",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-argelia-home-player-2026-1tsta/",
+    "name": "Camiseta Argelia Home Player 2026",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9965-e11793c83d90e559f417863715885830-480-0.webp",
+    "sku": "2405",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Argelia",
+    "teamMeta": {
+      "type": "seleccion"
+    },
+    "quality": "player",
+    "section": "mundial-2026",
+    "league": null,
+    "leagueName": null,
+    "slug": "argelia-home-player-2026",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-argentina-entrenamiento-home-player-2026-5fser/",
+    "name": "Camiseta Argentina Entrenamiento Home Player 2026",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/22fc4234-7c3d-4df0-974b-54006e13873a-c0bd265869853eb9bd17867137579884-480-0.webp",
+    "sku": "2430",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Argentina",
+    "teamMeta": {
+      "type": "seleccion"
+    },
+    "quality": "player",
+    "section": "mundial-2026",
+    "league": null,
+    "leagueName": null,
+    "slug": "argentina-entrenamiento-home-player-2026",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-argentina-entrenamiento-player-2026-e5c20/",
+    "name": "Camiseta Argentina Entrenamiento Player 2026",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9903-5d0af3f763216b89eb17858524654050-480-0.webp",
+    "sku": "2367",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Argentina",
+    "teamMeta": {
+      "type": "seleccion"
+    },
+    "quality": "player",
+    "section": "mundial-2026",
+    "league": null,
+    "leagueName": null,
+    "slug": "argentina-entrenamiento-player-2026",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-argentina-entrenamiento-supl-player-2026-jtoyt/",
+    "name": "Camiseta Argentina Entrenamiento Supl Player 2026",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/f1f25eae-e878-4dd5-a46d-e4c1c8e5da51-23c64941256866b15e17867138365629-480-0.webp",
+    "sku": "2437",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Argentina",
+    "teamMeta": {
+      "type": "seleccion"
+    },
+    "quality": "player",
+    "section": "mundial-2026",
+    "league": null,
+    "leagueName": null,
+    "slug": "argentina-entrenamiento-supl-player-2026",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-argentina-home-player-2026-6ulwg/",
+    "name": "Camiseta Argentina Home Player 2026",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9544-8343283e43908729c517817307251659-480-0.webp",
+    "sku": "1766",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Argentina",
+    "teamMeta": {
+      "type": "seleccion"
+    },
+    "quality": "player",
+    "section": "mundial-2026",
+    "league": null,
+    "leagueName": null,
+    "slug": "argentina-home-player-2026",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-arsenal-supl-player-25-26-tv3ts/",
+    "name": "Camiseta Arsenal Supl Player 25/26",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9365-6de1dce686d579d0e817703178844592-480-0.webp",
+    "sku": "1750",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Arsenal",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-inglesa",
+      "leagueName": "Liga Inglesa"
+    },
+    "quality": "player",
+    "section": "clubes",
+    "league": "liga-inglesa",
+    "leagueName": "Liga Inglesa",
+    "slug": "arsenal-supl-player-25-26",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-athletic-club-bilbao-home-25-26-1o7fb/",
+    "name": "Camiseta Athletic Club Bilbao Home FAN 25/26",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9269-841ee6005e55ca33a517695297943269-480-0.webp",
+    "sku": "1626",
+    "price": 45000,
+    "availability": "https://schema.org/OutOfStock",
+    "gallery": [],
+    "teamKey": "Athletic Club Bilbao",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-espanola",
+      "leagueName": "Liga Española"
+    },
+    "quality": "fan",
+    "section": "clubes",
+    "league": "liga-espanola",
+    "leagueName": "Liga Española",
+    "slug": "athletic-club-bilbao-home-fan-25-26",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-atletico-madrid-14-15-home/",
+    "name": "Camiseta Atletico Madrid 14/15 home",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8553-f2993b6c727dfc16f317643799890746-480-0.webp",
+    "sku": "815",
+    "price": 75000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Atletico Madrid 14/15",
+    "teamMeta": null,
+    "quality": "player",
+    "section": "retro",
+    "league": null,
+    "leagueName": null,
+    "slug": "atletico-madrid-14-15-home",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-barcelona-edicion-especial-1899-2024-player-5ykni/",
+    "name": "Camiseta Barcelona Edicion Especial 1899-2024 Player",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8850-67eb07b5e3909d4a9817644198198497-480-0.webp",
+    "sku": "1322",
+    "price": 35000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Barcelona",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-espanola",
+      "leagueName": "Liga Española"
+    },
+    "quality": "player",
+    "section": "clubes",
+    "league": "liga-espanola",
+    "leagueName": "Liga Española",
+    "slug": "barcelona-edicion-especial-1899-2024-player",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-barcelona-home-2001-x-cactus-jack-1ubvk/",
+    "name": "Camiseta Barcelona Home 2001 x Cactus Jack",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9417-bd43e6f917488ad26c17761042376407-480-0.webp",
+    "sku": "1910",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Barcelona",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-espanola",
+      "leagueName": "Liga Española"
+    },
+    "quality": "player",
+    "section": "retro",
+    "league": null,
+    "leagueName": null,
+    "slug": "barcelona-home-2001-x-cactus-jack",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-bayern-munich-home-player-26-27-1aqr1/",
+    "name": "Camiseta Bayern Munich Home player 26/27",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3715-f4f18fcdb6038b78d117888310961942-480-0.webp",
+    "sku": "2503",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Bayern Munich",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-alemana",
+      "leagueName": "Liga Alemana"
+    },
+    "quality": "player",
+    "section": "clubes",
+    "league": "liga-alemana",
+    "leagueName": "Liga Alemana",
+    "slug": "bayern-munich-home-player-26-27",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-bayern-munich-supl-3-25-26-rexg1/",
+    "name": "Camiseta Bayern Munich Supl 3 FAN 25/26",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9615-1a98411495082b9bb017770399177975-480-0.webp",
+    "sku": "1078",
+    "price": 45000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Bayern Munich",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-alemana",
+      "leagueName": "Liga Alemana"
+    },
+    "quality": "fan",
+    "section": "clubes",
+    "league": "liga-alemana",
+    "leagueName": "Liga Alemana",
+    "slug": "bayern-munich-supl-3-fan-25-26",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-bayern-munich-supl-25-26-wswmm/",
+    "name": "Camiseta Bayern Munich Supl FAN 25/26",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8297-fdc6e1679d7b9ac72117634939754872-480-0.webp",
+    "sku": "1083",
+    "price": 45000,
+    "availability": "https://schema.org/OutOfStock",
+    "gallery": [],
+    "teamKey": "Bayern Munich",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-alemana",
+      "leagueName": "Liga Alemana"
+    },
+    "quality": "fan",
+    "section": "clubes",
+    "league": "liga-alemana",
+    "leagueName": "Liga Alemana",
+    "slug": "bayern-munich-supl-fan-25-26",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-benfica-home-player-26-27-1o77i/",
+    "name": "Camiseta Benfica Home Player 26/27",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3686-6153bc3f9e3f3fc30217890495571047-480-0.webp",
+    "sku": "2545",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Benfica",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-portuguesa",
+      "leagueName": "Liga Portuguesa"
+    },
+    "quality": "player",
+    "section": "clubes",
+    "league": "liga-portuguesa",
+    "leagueName": "Liga Portuguesa",
+    "slug": "benfica-home-player-26-27",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-boca-home-mangas-largas-player-24-25/",
+    "name": "Camiseta Boca Home Mangas Largas Player 24/25",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_7875-fd15278c92d30a24c217507057794606-480-0.webp",
+    "sku": "761",
+    "price": 35000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Boca",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-argentina",
+      "leagueName": "Liga Argentina",
+      "displayName": "Boca Juniors"
+    },
+    "quality": "player",
+    "section": "clubes",
+    "league": "liga-argentina",
+    "leagueName": "Liga Argentina",
+    "slug": "boca-home-mangas-largas-player-24-25",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-brasil-home-1998-1tpg1/",
+    "name": "Camiseta Brasil Home 1998",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/8bbcbb12-f403-457e-b764-40007243fa19-f2ee4e5f59029e1be817762850436750-480-0.webp",
+    "sku": "1999",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Brasil",
+    "teamMeta": {
+      "type": "seleccion"
+    },
+    "quality": "player",
+    "section": "retro",
+    "league": null,
+    "leagueName": null,
+    "slug": "brasil-home-1998",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-brasil-home-2026-fan-153gt/",
+    "name": "Camiseta Brasil Home 2026 FAN",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9820-2e3475f772f3b3fc6517839858887403-480-0.webp",
+    "sku": "2276",
+    "price": 45000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Brasil",
+    "teamMeta": {
+      "type": "seleccion"
+    },
+    "quality": "fan",
+    "section": "mundial-2026",
+    "league": null,
+    "leagueName": null,
+    "slug": "brasil-home-2026-fan",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-brasil-supl-2026-fan-ab954/",
+    "name": "Camiseta Brasil Supl 2026 FAN",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9808-e114ba3d3bda677b3617839859652789-480-0.webp",
+    "sku": "2284",
+    "price": 45000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Brasil",
+    "teamMeta": {
+      "type": "seleccion"
+    },
+    "quality": "fan",
+    "section": "mundial-2026",
+    "league": null,
+    "leagueName": null,
+    "slug": "brasil-supl-2026-fan",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-chelsea-supl-3-player-25-26-167i5/",
+    "name": "Camiseta Chelsea Supl 3 Player 25/26",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/f5cf4883-749f-4eda-8632-32483a3707d6-06d533437f5428973317762841788607-480-0.webp",
+    "sku": "1523",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Chelsea",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-inglesa",
+      "leagueName": "Liga Inglesa"
+    },
+    "quality": "player",
+    "section": "clubes",
+    "league": "liga-inglesa",
+    "leagueName": "Liga Inglesa",
+    "slug": "chelsea-supl-3-player-25-26",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-corinthians-supl-total-90-25-26-1sbjd/",
+    "name": "Camiseta Corinthians Supl total 90 FAN 25/26",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9612-acd08490467785046217762850968077-480-0.webp",
+    "sku": "2010",
+    "price": 45000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Corinthians",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-brasilena",
+      "leagueName": "Liga Brasileña"
+    },
+    "quality": "fan",
+    "section": "clubes",
+    "league": "liga-brasilena",
+    "leagueName": "Liga Brasileña",
+    "slug": "corinthians-supl-total-90-fan-25-26",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-croacia-home-2026-fan-v73ub/",
+    "name": "Camiseta Croacia Home 2026 FAN",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9803-7f1afc1c2780bdd05517839853016911-480-0.webp",
+    "sku": "2218",
+    "price": 45000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Croacia",
+    "teamMeta": {
+      "type": "seleccion"
+    },
+    "quality": "fan",
+    "section": "mundial-2026",
+    "league": null,
+    "leagueName": null,
+    "slug": "croacia-home-2026-fan",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-espana-home-2026-pro-lamine-yamal-19-fxu6x/",
+    "name": "Camiseta España Home 2026 Pro (Lamine Yamal 19)",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_2386-42c064a1491d96290f17655688539329-480-0.webp",
+    "sku": "1493",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "España",
+    "teamMeta": {
+      "type": "seleccion"
+    },
+    "quality": "player",
+    "section": "mundial-2026",
+    "league": null,
+    "leagueName": null,
+    "slug": "espana-home-2026-pro-lamine-yamal-19",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-flamengo-supl-player-26-27-1f261/",
+    "name": "Camiseta Flamengo Supl Player 26/27",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3693-be0ee3a49bf70a5b8417888311558712-480-0.webp",
+    "sku": "2527",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Flamengo",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-brasilena",
+      "leagueName": "Liga Brasileña"
+    },
+    "quality": "player",
+    "section": "clubes",
+    "league": "liga-brasilena",
+    "leagueName": "Liga Brasileña",
+    "slug": "flamengo-supl-player-26-27",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-galatasaray-home-24-25/",
+    "name": "Camiseta Galatasaray Home FAN 24/25",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8429-d322686d842f22198e17634950331824-480-0.webp",
+    "sku": "909",
+    "price": 45000,
+    "availability": "https://schema.org/OutOfStock",
+    "gallery": [],
+    "teamKey": "Galatasaray",
+    "teamMeta": {
+      "type": "club",
+      "league": "resto-del-mundo",
+      "leagueName": "Resto del Mundo"
+    },
+    "quality": "fan",
+    "section": "clubes",
+    "league": "resto-del-mundo",
+    "leagueName": "Resto del Mundo",
+    "slug": "galatasaray-home-fan-24-25",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-gales-home-2026-fan-pedy4/",
+    "name": "Camiseta Gales Home 2026 FAN",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9848-e42df97adaf71f0abd17839853683374-480-0.webp",
+    "sku": "2224",
+    "price": 45000,
+    "availability": "https://schema.org/OutOfStock",
+    "gallery": [],
+    "teamKey": "Gales",
+    "teamMeta": {
+      "type": "seleccion"
+    },
+    "quality": "fan",
+    "section": "mundial-2026",
+    "league": null,
+    "leagueName": null,
+    "slug": "gales-home-2026-fan",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-grecia-home-2026-fan-b8kwr/",
+    "name": "Camiseta Grecia Home 2026 FAN",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9814-438b8386d0efd1591e17839850555967-480-0.webp",
+    "sku": "2203",
+    "price": 45000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Grecia",
+    "teamMeta": {
+      "type": "seleccion"
+    },
+    "quality": "fan",
+    "section": "mundial-2026",
+    "league": null,
+    "leagueName": null,
+    "slug": "grecia-home-2026-fan",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-inglaterra-supl-3-2026-fan-1uvku/",
+    "name": "Camiseta Inglaterra Supl 3 2026 FAN",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9784-151851aacaca0a149417839859379457-480-0.webp",
+    "sku": "2278",
+    "price": 45000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Inglaterra",
+    "teamMeta": {
+      "type": "seleccion"
+    },
+    "quality": "fan",
+    "section": "mundial-2026",
+    "league": null,
+    "leagueName": null,
+    "slug": "inglaterra-supl-3-2026-fan",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-inter-home-player-26-27-szfes/",
+    "name": "Camiseta Inter Home Player 26/27",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3729-c83187acd5286c9b8e17888312437198-480-0.webp",
+    "sku": "2491",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Inter",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-italiana",
+      "leagueName": "Liga Italiana"
+    },
+    "quality": "player",
+    "section": "clubes",
+    "league": "liga-italiana",
+    "leagueName": "Liga Italiana",
+    "slug": "inter-home-player-26-27",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-inter-supl-3-total-90-25-26-martinez-10-qokex/",
+    "name": "Camiseta Inter Supl 3 Total 90 25/26 FAN (Martinez 10)",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9091-eec46d691d7ec825d517664400892496-480-0.webp",
+    "sku": "1597",
+    "price": 45000,
+    "availability": "https://schema.org/OutOfStock",
+    "gallery": [],
+    "teamKey": "Inter",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-italiana",
+      "leagueName": "Liga Italiana"
+    },
+    "quality": "fan",
+    "section": "clubes",
+    "league": "liga-italiana",
+    "leagueName": "Liga Italiana",
+    "slug": "inter-supl-3-total-90-25-26-fan-martinez-10",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-inter-supl-3-total-90-25-26-phxgc/",
+    "name": "Camiseta Inter Supl 3 Total 90 FAN 25/26",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/4d4304e3-248c-44be-84bf-f85671577e1b-96a96349957909e8cf17628941015526-480-0.webp",
+    "sku": "1246",
+    "price": 45000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Inter",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-italiana",
+      "leagueName": "Liga Italiana"
+    },
+    "quality": "fan",
+    "section": "clubes",
+    "league": "liga-italiana",
+    "leagueName": "Liga Italiana",
+    "slug": "inter-supl-3-total-90-fan-25-26",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-italia-supl-player-2026-15ljf/",
+    "name": "Camiseta Italia Supl Player 2026",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9882-f8ef125098156c084517858524342123-480-0.webp",
+    "sku": "2346",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Italia",
+    "teamMeta": {
+      "type": "seleccion"
+    },
+    "quality": "player",
+    "section": "mundial-2026",
+    "league": null,
+    "leagueName": null,
+    "slug": "italia-supl-player-2026",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-japon-edicion-especial-goku/",
+    "name": "Camiseta Japon Edicion Especial FAN (Goku",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8521-17019394eddf02e44217634949187686-480-0.webp",
+    "sku": "975",
+    "price": 31250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Japon",
+    "teamMeta": {
+      "type": "seleccion"
+    },
+    "quality": "fan",
+    "section": "selecciones",
+    "league": null,
+    "leagueName": null,
+    "slug": "japon-edicion-especial-fan-goku",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-japon-edicion-especial-2024-guerreros-azul/",
+    "name": "Camiseta Japon Edicion Especial FAN 2024 (Guerreros-Azul)",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8533-2815d75a33a8e6fa0817634944320733-480-0.webp",
+    "sku": "1023",
+    "price": 31250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Japon",
+    "teamMeta": {
+      "type": "seleccion"
+    },
+    "quality": "fan",
+    "section": "selecciones",
+    "league": null,
+    "leagueName": null,
+    "slug": "japon-edicion-especial-fan-2024-guerreros-azul",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-juventus-home-25-26-3tz77/",
+    "name": "Camiseta Juventus Home FAN 25/26",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/5f7a283c-2bcc-4a7d-b339-352127c6c0c7-a2915ea34e96595a9017634922719754-480-0.webp",
+    "sku": "1221",
+    "price": 45000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Juventus",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-italiana",
+      "leagueName": "Liga Italiana"
+    },
+    "quality": "fan",
+    "section": "clubes",
+    "league": "liga-italiana",
+    "leagueName": "Liga Italiana",
+    "slug": "juventus-home-fan-25-26",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-juventus-supl-3-25-26-unrru/",
+    "name": "Camiseta Juventus Supl 3 FAN 25/26",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/554470e8-a17a-4b69-9f05-6b25eb042ebc-b6ea1b91aeb694f11617762836166624-480-0.webp",
+    "sku": "1089",
+    "price": 45000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Juventus",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-italiana",
+      "leagueName": "Liga Italiana"
+    },
+    "quality": "fan",
+    "section": "clubes",
+    "league": "liga-italiana",
+    "leagueName": "Liga Italiana",
+    "slug": "juventus-supl-3-fan-25-26",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-juventus-supl-3-x-studiosgura-26-27-egduj/",
+    "name": "Camiseta Juventus Supl 3 x StudioSgura 26/27",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9837-fa19660c52f761b36c17839862001952-480-0.webp",
+    "sku": "2321",
+    "price": 45000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Juventus",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-italiana",
+      "leagueName": "Liga Italiana"
+    },
+    "quality": "fan",
+    "section": "clubes",
+    "league": "liga-italiana",
+    "leagueName": "Liga Italiana",
+    "slug": "juventus-supl-3-x-studiosgura-26-27",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-juventus-ter-equip-player-25-26-89ki5/",
+    "name": "Camiseta Juventus Ter Equip Player 25/26",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/808db936-ca1d-4dbf-8c58-96638cf872e6-578bc82e7c6d6579fb17747076135850-480-0.webp",
+    "sku": "1905",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Juventus",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-italiana",
+      "leagueName": "Liga Italiana"
+    },
+    "quality": "player",
+    "section": "clubes",
+    "league": "liga-italiana",
+    "leagueName": "Liga Italiana",
+    "slug": "juventus-ter-equip-player-25-26",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-liverpool-home-player-25-26/",
+    "name": "Camiseta Liverpool Home Player 25/26",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8415-0d0f0cea3391a3d37917634942720130-480-0.webp",
+    "sku": "1030",
+    "price": 56250,
+    "availability": "https://schema.org/OutOfStock",
+    "gallery": [],
+    "teamKey": "Liverpool",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-inglesa",
+      "leagueName": "Liga Inglesa"
+    },
+    "quality": "player",
+    "section": "clubes",
+    "league": "liga-inglesa",
+    "leagueName": "Liga Inglesa",
+    "slug": "liverpool-home-player-25-26",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-manchester-city-home-player-26-27-1stik/",
+    "name": "Camiseta Manchester City Home Player 26/27",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3764-f4216409ea06b4163717888312866070-480-0.webp",
+    "sku": "2448",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Manchester City",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-inglesa",
+      "leagueName": "Liga Inglesa"
+    },
+    "quality": "player",
+    "section": "clubes",
+    "league": "liga-inglesa",
+    "leagueName": "Liga Inglesa",
+    "slug": "manchester-city-home-player-26-27",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-manchester-city-supl-3-25-26-zr1dx/",
+    "name": "Camiseta Manchester City Supl 3 FAN 25/26",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8291-8160fa8f1ebdd5903a17634934672508-480-0.webp",
+    "sku": "1121",
+    "price": 45000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Manchester City",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-inglesa",
+      "leagueName": "Liga Inglesa"
+    },
+    "quality": "fan",
+    "section": "clubes",
+    "league": "liga-inglesa",
+    "leagueName": "Liga Inglesa",
+    "slug": "manchester-city-supl-3-fan-25-26",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-manchester-city-supl-player-26-27-j64zr/",
+    "name": "Camiseta Manchester City Supl Player 26/27",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3753-9a560a1fd6d81c881e17888314855670-480-0.webp",
+    "sku": "2454",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Manchester City",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-inglesa",
+      "leagueName": "Liga Inglesa"
+    },
+    "quality": "player",
+    "section": "clubes",
+    "league": "liga-inglesa",
+    "leagueName": "Liga Inglesa",
+    "slug": "manchester-city-supl-player-26-27",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-manchester-united-home-25-26-martinez-6-hvbar/",
+    "name": "Camiseta Manchester United Home 25/26 (Martinez 6)",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9063-69ac6904696ce0563717658333164661-480-0.webp",
+    "sku": "1551",
+    "price": 45000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Manchester United",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-inglesa",
+      "leagueName": "Liga Inglesa"
+    },
+    "quality": "fan",
+    "section": "clubes",
+    "league": "liga-inglesa",
+    "leagueName": "Liga Inglesa",
+    "slug": "manchester-united-home-25-26-martinez-6",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-manchester-united-home-25-26-b-fernades-8-m4v1y/",
+    "name": "Camiseta Manchester United Home 25/26 FAN (B.Fernades 8)",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9080-3eb49794bc143f574917660950114171-480-0.webp",
+    "sku": "1567",
+    "price": 45000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Manchester United",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-inglesa",
+      "leagueName": "Liga Inglesa"
+    },
+    "quality": "fan",
+    "section": "clubes",
+    "league": "liga-inglesa",
+    "leagueName": "Liga Inglesa",
+    "slug": "manchester-united-home-25-26-fan-b-fernades-8",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-manchester-united-home-player-25-26-nw67u/",
+    "name": "Camiseta Manchester United Home Player 25/26",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9347-562c3335e1cb4b031d17703178338358-480-0.webp",
+    "sku": "1756",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Manchester United",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-inglesa",
+      "leagueName": "Liga Inglesa"
+    },
+    "quality": "player",
+    "section": "clubes",
+    "league": "liga-inglesa",
+    "leagueName": "Liga Inglesa",
+    "slug": "manchester-united-home-player-25-26",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-manchester-united-home-player-26-27-171e2/",
+    "name": "Camiseta Manchester United Home Player 26/27",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3746-38a54986705790d7b617888313509335-480-0.webp",
+    "sku": "2467",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Manchester United",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-inglesa",
+      "leagueName": "Liga Inglesa"
+    },
+    "quality": "player",
+    "section": "clubes",
+    "league": "liga-inglesa",
+    "leagueName": "Liga Inglesa",
+    "slug": "manchester-united-home-player-26-27",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-manchester-united-supl-3-25-26-martinez-6-1yypm/",
+    "name": "Camiseta Manchester United Supl 3 25/26 FAN (Martinez 6)",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9058-176e7c79bfd331596b17660948073850-480-0.webp",
+    "sku": "1573",
+    "price": 45000,
+    "availability": "https://schema.org/OutOfStock",
+    "gallery": [],
+    "teamKey": "Manchester United",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-inglesa",
+      "leagueName": "Liga Inglesa"
+    },
+    "quality": "fan",
+    "section": "clubes",
+    "league": "liga-inglesa",
+    "leagueName": "Liga Inglesa",
+    "slug": "manchester-united-supl-3-25-26-fan-martinez-6",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-manchester-united-supl-3-25-26-b-fernandes-8-ncm48/",
+    "name": "Camiseta Manchester United Supl 3 FAN 25/26 (B.Fernandes 8)",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9083-a191d40a190c2a489d17660948977183-480-0.webp",
+    "sku": "1567",
+    "price": 45000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Manchester United",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-inglesa",
+      "leagueName": "Liga Inglesa"
+    },
+    "quality": "fan",
+    "section": "clubes",
+    "league": "liga-inglesa",
+    "leagueName": "Liga Inglesa",
+    "slug": "manchester-united-supl-3-fan-25-26-b-fernandes-8",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-milan-supl-25-26-34jdn/",
+    "name": "Camiseta Milan Supl FAN 25/26",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/387232fa-1b80-4e72-83f7-c5622ac30c49-0582adc9fa85c9f41b17634923352020-480-0.webp",
+    "sku": "1208",
+    "price": 45000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Milan",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-italiana",
+      "leagueName": "Liga Italiana",
+      "canonical": "AC Milan"
+    },
+    "quality": "fan",
+    "section": "clubes",
+    "league": "liga-italiana",
+    "leagueName": "Liga Italiana",
+    "slug": "milan-supl-fan-25-26",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-nacional-supl-25-26-m3lfh/",
+    "name": "Camiseta Nacional Home 25/26",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_2756-7e425b8a3211ac215717827540959088-480-0.webp",
+    "sku": "1313",
+    "price": 45000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Nacional",
+    "teamMeta": {
+      "type": "club",
+      "league": "resto-del-mundo",
+      "leagueName": "Resto del Mundo",
+      "displayName": "Nacional de Uruguay"
+    },
+    "quality": "fan",
+    "section": "clubes",
+    "league": "resto-del-mundo",
+    "leagueName": "Resto del Mundo",
+    "slug": "nacional-home-25-26",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-palmeiras-supl-player-26-27-gj96a/",
+    "name": "Camiseta Palmeiras Supl Player 26/27",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3699-6636fe3690f1c4979817888316208602-480-0.webp",
+    "sku": "2521",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Palmeiras",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-brasilena",
+      "leagueName": "Liga Brasileña"
+    },
+    "quality": "player",
+    "section": "clubes",
+    "league": "liga-brasilena",
+    "leagueName": "Liga Brasileña",
+    "slug": "palmeiras-supl-player-26-27",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-psg-supl-25-26-k2sek/",
+    "name": "Camiseta PSG Supl FAN 25/26",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9627-f05e8244cd8560733217762851567089-480-0.webp",
+    "sku": "2028",
+    "price": 45000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "PSG",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-francesa",
+      "leagueName": "Liga Francesa"
+    },
+    "quality": "fan",
+    "section": "clubes",
+    "league": "liga-francesa",
+    "leagueName": "Liga Francesa",
+    "slug": "psg-supl-fan-25-26",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-racing-club-supl-25-26-jyn6i/",
+    "name": "Camiseta Racing Club Supl PLAYER 25/26",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9441-84aa04e9ddb4e92a4c17761057029068-480-0.webp",
+    "sku": "1936",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Racing Club",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-argentina",
+      "leagueName": "Liga Argentina"
+    },
+    "quality": "player",
+    "section": "clubes",
+    "league": "liga-argentina",
+    "leagueName": "Liga Argentina",
+    "slug": "racing-club-supl-player-25-26",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-real-betis-home-edicion-especial-25-26-wk49y/",
+    "name": "Camiseta Real Betis Home Edicion Especial FAN 25/26",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9241-8b784e1fe98b9255e417695295859888-480-0.webp",
+    "sku": "1621",
+    "price": 45000,
+    "availability": "https://schema.org/OutOfStock",
+    "gallery": [],
+    "teamKey": "Real Betis",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-espanola",
+      "leagueName": "Liga Española"
+    },
+    "quality": "fan",
+    "section": "clubes",
+    "league": "liga-espanola",
+    "leagueName": "Liga Española",
+    "slug": "real-betis-home-edicion-especial-fan-25-26",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-real-madrid-edicion-especial-2025-dragon/",
+    "name": "Camiseta Real Madrid Edicion Especial FAN 2025 (Dragon)",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8525-6815e0c11d965cc55517634946224726-480-0.webp",
+    "sku": "1004",
+    "price": 45000,
+    "availability": "https://schema.org/OutOfStock",
+    "gallery": [],
+    "teamKey": "Real Madrid",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-espanola",
+      "leagueName": "Liga Española"
+    },
+    "quality": "fan",
+    "section": "clubes",
+    "league": "liga-espanola",
+    "leagueName": "Liga Española",
+    "slug": "real-madrid-edicion-especial-fan-2025-dragon",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-real-madrid-home-25-26-mastantuono-30-bxn5k/",
+    "name": "Camiseta Real Madrid Home 25/26 (Mastantuono 30)",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9074-dc28db29ffbfea12c917658332680733-480-0.webp",
+    "sku": "1544",
+    "price": 45000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Real Madrid",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-espanola",
+      "leagueName": "Liga Española"
+    },
+    "quality": "fan",
+    "section": "clubes",
+    "league": "liga-espanola",
+    "leagueName": "Liga Española",
+    "slug": "real-madrid-home-25-26-mastantuono-30",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-real-madrid-home-25-26/",
+    "name": "Camiseta Real Madrid Home FAN 25/26",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8391-c6ffdca5b3e70fc51917635648473489-480-0.webp",
+    "sku": "738",
+    "price": 45000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Real Madrid",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-espanola",
+      "leagueName": "Liga Española"
+    },
+    "quality": "fan",
+    "section": "clubes",
+    "league": "liga-espanola",
+    "leagueName": "Liga Española",
+    "slug": "real-madrid-home-fan-25-26",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-real-madrid-home-player-25-26-rqbrx/",
+    "name": "Camiseta Real Madrid Home Player 25/26",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/1e35cb60-1e1e-4083-a238-80acb17b21e3-1d456d1a8da8eb225b17762847084318-480-0.webp",
+    "sku": "2059",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Real Madrid",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-espanola",
+      "leagueName": "Liga Española"
+    },
+    "quality": "player",
+    "section": "clubes",
+    "league": "liga-espanola",
+    "leagueName": "Liga Española",
+    "slug": "real-madrid-home-player-25-26",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-real-madrid-home-player-26-27-16c83/",
+    "name": "Camiseta Real Madrid Home Player 26/27",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9717-ccdde97ec137a7855517770407975548-480-0.webp",
+    "sku": "2052",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Real Madrid",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-espanola",
+      "leagueName": "Liga Española"
+    },
+    "quality": "player",
+    "section": "clubes",
+    "league": "liga-espanola",
+    "leagueName": "Liga Española",
+    "slug": "real-madrid-home-player-26-27",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-real-madrid-icon-2025-player-mgawf/",
+    "name": "Camiseta Real Madrid ICON 2025 Player",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8826-499e1174a008f97f4c17663297755704-480-0.webp",
+    "sku": "1368",
+    "price": 56250,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Real Madrid",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-espanola",
+      "leagueName": "Liga Española"
+    },
+    "quality": "player",
+    "section": "clubes",
+    "league": "liga-espanola",
+    "leagueName": "Liga Española",
+    "slug": "real-madrid-icon-2025-player",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-real-madrid-supl-25-26/",
+    "name": "Camiseta Real Madrid Supl FAN 25/26",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8411-0e1b1a4fda9ee2677717634946688985-480-0.webp",
+    "sku": "1010",
+    "price": 45000,
+    "availability": "https://schema.org/OutOfStock",
+    "gallery": [],
+    "teamKey": "Real Madrid",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-espanola",
+      "leagueName": "Liga Española"
+    },
+    "quality": "fan",
+    "section": "clubes",
+    "league": "liga-espanola",
+    "leagueName": "Liga Española",
+    "slug": "real-madrid-supl-fan-25-26",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-river-plate-supl-3-25-26-1to8n/",
+    "name": "Camiseta River Plate Supl 3 FAN 25/26",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8854-015f356855c4cdd16c17646148344442-480-0.webp",
+    "sku": "1478",
+    "price": 45000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "River Plate",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-argentina",
+      "leagueName": "Liga Argentina"
+    },
+    "quality": "fan",
+    "section": "clubes",
+    "league": "liga-argentina",
+    "leagueName": "Liga Argentina",
+    "slug": "river-plate-supl-3-fan-25-26",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-river-plate-supl-25-26-eyitv/",
+    "name": "Camiseta River Plate Supl FAN 25/26",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8276-d70316441f2d242dd817628938568273-480-0.webp",
+    "sku": "1239",
+    "price": 45000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "River Plate",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-argentina",
+      "leagueName": "Liga Argentina"
+    },
+    "quality": "fan",
+    "section": "clubes",
+    "league": "liga-argentina",
+    "leagueName": "Liga Argentina",
+    "slug": "river-plate-supl-fan-25-26",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-uruguay-2024/",
+    "name": "Camiseta Uruguay 2024",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_6539-31c356ffb7c4ff05b217313349653495-480-0.webp",
+    "price": 44000,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": "Uruguay",
+    "teamMeta": {
+      "type": "seleccion"
+    },
+    "quality": "fan",
+    "section": "selecciones",
+    "league": null,
+    "leagueName": null,
+    "slug": "uruguay-2024",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp"
+    ]
+  }
+]

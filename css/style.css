@@ -153,6 +153,42 @@ ul{list-style:none;margin:0;padding:0;}
   transition:transform .3s var(--ease);
 }
 .main-nav a:hover::after{transform:scaleX(1);}
+.main-nav .has-dropdown{position:relative;}
+.main-nav .dropdown{
+  position:absolute;top:100%;left:50%;transform:translateX(-50%) translateY(4px);
+  background:var(--paper);border:1px solid var(--line);box-shadow:0 18px 40px rgba(28,27,21,.14);
+  min-width:210px;padding:8px 0;display:flex;flex-direction:column;
+  opacity:0;visibility:hidden;pointer-events:none;
+  transition:opacity .2s var(--ease),transform .2s var(--ease);
+  z-index:50;
+}
+.main-nav .has-dropdown:hover .dropdown,
+.main-nav .has-dropdown:focus-within .dropdown{
+  opacity:1;visibility:visible;pointer-events:auto;transform:translateX(-50%) translateY(0);
+}
+.main-nav .dropdown a{
+  color:var(--ink)!important;padding:10px 20px;font-size:.78rem;white-space:nowrap;
+}
+.main-nav .dropdown a::after{display:none;}
+.main-nav .dropdown a:hover{background:var(--sand,#f3ede2);}
+.mobile-nav .submenu{display:flex;flex-direction:column;background:rgba(0,0,0,.02);}
+.mobile-nav .submenu a{padding-left:44px;font-size:.8rem;border-bottom:1px solid var(--line);}
+
+.quality-filter{display:flex;gap:10px;margin:0 0 28px;flex-wrap:wrap;}
+.quality-filter button{
+  padding:9px 20px;border:1px solid var(--line);background:var(--paper);
+  font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;font-weight:500;
+  cursor:pointer;transition:background .2s,color .2s,border-color .2s;
+}
+.quality-filter button.active{background:var(--ink);color:var(--paper);border-color:var(--ink);}
+.league-subnav{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 40px;}
+.league-subnav a{
+  padding:7px 16px;border:1px solid var(--line);font-size:.74rem;
+  text-transform:uppercase;letter-spacing:.04em;color:var(--ink);
+}
+.league-subnav a:hover{background:var(--ink);color:var(--paper);border-color:var(--ink);}
+.league-heading{margin:48px 0 20px;font-size:1.3rem;scroll-margin-top:100px;}
+.league-heading:first-of-type{margin-top:0;}
 .header-cta{display:flex;gap:10px;align-items:center;}
 .site-header:not(.scrolled) .btn-ghost-sm{color:var(--cream);border-color:var(--line-inv);}
 
