@@ -11,433 +11,498 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://rdhimports.vercel.app/producto-argentina-titular.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://rdhimports.vercel.app/producto-francia-alternativa.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://rdhimports.vercel.app/producto-manchester-united.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://rdhimports.vercel.app/producto-italia-suplente.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://rdhimports.vercel.app/producto-real-madrid-home.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://rdhimports.vercel.app/producto-bayern-munich-home.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://rdhimports.vercel.app/producto-manchester-city-home.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://rdhimports.vercel.app/producto-manchester-city-suplente.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://rdhimports.vercel.app/producto-manchester-united-home.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://rdhimports.vercel.app/producto-barcelona-edicion-especial.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://rdhimports.vercel.app/producto-ac-milan-suplente.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/index.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/selecciones/index.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/mundial-2026/index.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/retro/index.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/shorts/index.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/medias/index.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-italiana/ac-milan-home-player-26-27.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-italiana/ac-milan-supl-player-26-27.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/resto-del-mundo/ajax-home-fan-25-26.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/selecciones/alemania-home-25-26-fan.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/retro/alemania-mundial-2006.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/mundial-2026/alemania-supl-2026-fan.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/selecciones/alemania-supl-25-26-fan.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/mundial-2026/argelia-home-2026-fan.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/mundial-2026/argelia-home-player-2026.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/mundial-2026/argentina-entrenamiento-home-player-2026.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/mundial-2026/argentina-entrenamiento-player-2026.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/mundial-2026/argentina-entrenamiento-supl-player-2026.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/mundial-2026/argentina-home-player-2026.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-inglesa/arsenal-supl-player-25-26.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-espanola/athletic-club-bilbao-home-fan-25-26.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/retro/atletico-madrid-14-15-home.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-espanola/barcelona-edicion-especial-1899-2024-player.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/retro/barcelona-home-2001-x-cactus-jack.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-alemana/bayern-munich-home-player-26-27.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-alemana/bayern-munich-supl-3-fan-25-26.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-alemana/bayern-munich-supl-fan-25-26.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-portuguesa/benfica-home-player-26-27.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-argentina/boca-home-mangas-largas-player-24-25.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/retro/brasil-home-1998.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/mundial-2026/brasil-home-2026-fan.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/mundial-2026/brasil-supl-2026-fan.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/mundial-2026/canada-home-2026-fan.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-inglesa/chelsea-supl-3-player-25-26.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-brasilena/corinthians-supl-total-90-fan-25-26.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/mundial-2026/croacia-home-2026-fan.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/mundial-2026/espana-home-2026-pro-lamine-yamal-19.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/mundial-2026/estados-unidos-home-player-2026.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-brasilena/flamengo-supl-player-26-27.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/mundial-2026/francia-home-2026-fan.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/resto-del-mundo/galatasaray-home-fan-24-25.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/mundial-2026/gales-home-2026-fan.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/mundial-2026/grecia-home-2026-fan.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/mundial-2026/inglaterra-supl-3-2026-fan.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-italiana/inter-home-player-26-27.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-italiana/inter-supl-3-total-90-25-26-fan-martinez-10.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-italiana/inter-supl-3-total-90-fan-25-26.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/mundial-2026/italia-supl-player-2026.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/selecciones/japon-edicion-especial-fan-goku.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/selecciones/japon-edicion-especial-fan-2024-guerreros-azul.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-italiana/juventus-home-fan-25-26.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-italiana/juventus-supl-3-fan-25-26.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-italiana/juventus-supl-3-x-studiosgura-26-27.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-italiana/juventus-ter-equip-player-25-26.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-inglesa/liverpool-home-player-25-26.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-inglesa/manchester-city-home-player-26-27.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-inglesa/manchester-city-supl-3-fan-25-26.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-inglesa/manchester-city-supl-player-26-27.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-inglesa/manchester-united-home-25-26-martinez-6.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-inglesa/manchester-united-home-25-26-fan-b-fernades-8.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-inglesa/manchester-united-home-player-25-26.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-inglesa/manchester-united-home-player-26-27.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-inglesa/manchester-united-supl-3-25-26-fan-martinez-6.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-inglesa/manchester-united-supl-3-fan-25-26-b-fernandes-8.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-italiana/milan-supl-fan-25-26.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/resto-del-mundo/nacional-home-25-26.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-brasilena/palmeiras-supl-player-26-27.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-francesa/psg-supl-fan-25-26.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-argentina/racing-club-supl-player-25-26.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-espanola/real-betis-home-edicion-especial-fan-25-26.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-espanola/real-madrid-edicion-especial-fan-2025-dragon.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-espanola/real-madrid-home-25-26-mastantuono-30.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-espanola/real-madrid-home-fan-25-26.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-espanola/real-madrid-home-player-25-26.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-espanola/real-madrid-home-player-26-27.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-espanola/real-madrid-icon-2025-player.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-espanola/real-madrid-supl-fan-25-26.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-argentina/river-plate-supl-3-fan-25-26.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/clubes/liga-argentina/river-plate-supl-fan-25-26.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/clubes/liga-brasilena/sao-paulo-24-25.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rdhimports.vercel.app/tienda/selecciones/uruguay-2024.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/shorts/alemania-home-player-2026-short.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/shorts/alemania-supl-player-2026-short.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/shorts/argelia-home-player-2026-short.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/shorts/argentina-entrenamiento-2026-short.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/shorts/liga-inglesa/arsenal-supl-25-26-player-short.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/shorts/benfica-fan-short.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/shorts/italia-home-player-2026-short.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/shorts/l-a-galaxy-fan-short.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/shorts/liga-inglesa/liverpool-supl-2-25-26-player-short.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/shorts/liga-inglesa/manchester-united-supl-3-25-26-player-short.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/shorts/psv-fan-short.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/shorts/liga-espanola/real-madrid-home-25-26-player-short.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/shorts/santos-fan-short.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/medias/medias-1-2-cana-antideslizantes-importadas-negras.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/medias/medias-3-4-antideslizantes-importadas-blancas.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/medias/medias-3-4-antideslizantes-importadas-negras.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/medias/medias-soquetes-antideslizantes-importadas-blancas.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rdhimports.vercel.app/tienda/medias/medias-soquetes-antideslizantes-importadas-negras.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

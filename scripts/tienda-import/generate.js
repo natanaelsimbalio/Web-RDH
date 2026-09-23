@@ -2,7 +2,7 @@
 // for every jersey into tienda/<section>/[<league>/]<slug>.html plus category index pages.
 const fs = require("fs");
 const path = require("path");
-const { classify, classifyShort } = require("./classify");
+const { classify, classifyShort, classifyMedias } = require("./classify");
 const teams = require("./teams");
 
 const ROOT = path.join(__dirname, "..", "..");
@@ -50,7 +50,11 @@ function relPrefix(depth) {
 }
 
 function sectionLabel(section) {
-  return { clubes: "Clubes", selecciones: "Selecciones", "mundial-2026": "Mundial 2026", retro: "Retro", shorts: "Shorts" }[section] || section;
+  return (
+    { clubes: "Clubes", selecciones: "Selecciones", "mundial-2026": "Mundial 2026", retro: "Retro", shorts: "Shorts", medias: "Medias" }[
+      section
+    ] || section
+  );
 }
 
 function displayName(p) {
@@ -59,6 +63,7 @@ function displayName(p) {
   n = n.replace(/\bSupl\s*3\b/gi, "Tercera Equipación");
   n = n.replace(/\bSupl\b/gi, "Alternativa");
   n = n.replace(/\bHome\b/gi, "Titular");
+  if (p.section === "medias") n = n.replace(/\bImportadas\b/gi, "");
   n = n.replace(/\s{2,}/g, " ").trim();
   if (p.section === "shorts") n = `Short ${n}`;
   return n;
@@ -125,9 +130,18 @@ const SHORTS_OPENERS = [
   (team) => `Sumá el short de ${team} y llevá el conjunto entero, de arriba a abajo.`,
 ];
 
+const MEDIAS_OPENERS = [
+  () => "Medias antideslizantes para no perder pisada en cada jugada.",
+  () => "El extra que evita que la media se baje: agarre antideslizante durante todo el partido.",
+  () => "Comodidad y sujeción: medias antideslizantes importadas para entrenar o jugar.",
+];
+
 function productDesc(p) {
   const team = teamDisplay(p);
   const seed = hashSeed(p.slug);
+  if (p.section === "medias") {
+    return `${pick(MEDIAS_OPENERS, seed)()} Material importado, agarre antideslizante y talle único.`;
+  }
   let opener;
   if (p.section === "shorts") {
     opener = pick(SHORTS_OPENERS, seed)(team);
@@ -145,6 +159,7 @@ function productDesc(p) {
 }
 
 function productDescShort(p) {
+  if (p.section === "medias") return "Antideslizantes · Importadas.";
   const team = teamDisplay(p);
   const qualityWord = p.quality === "player" ? "Player" : "Fan";
   if (p.section === "shorts") return `Conjunto con ${team} · Edición ${qualityWord}.`;
@@ -156,7 +171,10 @@ function productDescShort(p) {
 
 function productPageHtml(p, depth) {
   const pre = relPrefix(depth);
-  const title = `${displayName(p)} · ${p.quality === "player" ? "Versión Player" : "Versión Fan"} — RDH Imports`;
+  const isMedias = p.section === "medias";
+  const title = isMedias
+    ? `${displayName(p)} — RDH Imports`
+    : `${displayName(p)} · ${p.quality === "player" ? "Versión Player" : "Versión Fan"} — RDH Imports`;
   const desc = productDesc(p);
   const catHref = `${pre}tienda/${p.section}/index.html`;
   const images = p.localImages.map((f) => `assets/tienda/${p.section}/${p.slug}/${f}`);
@@ -168,7 +186,9 @@ function productPageHtml(p, depth) {
           </button>`
     )
     .join("\n");
-  const waText = `Hola! Me interesa la camiseta ${displayName(p)} (${p.quality === "player" ? "Player" : "Fan"}), ¿tienen stock?`;
+  const waText = isMedias
+    ? `Hola! Me interesan las ${displayName(p)}, ¿tienen stock?`
+    : `Hola! Me interesa la camiseta ${displayName(p)} (${p.quality === "player" ? "Player" : "Fan"}), ¿tienen stock?`;
   const jsonLdImages = images.map((img) => `"https://rdhimports.vercel.app/${img}"`).join(",\n    ");
 
   return `<!DOCTYPE html>
@@ -255,7 +275,7 @@ ${thumbs}
       <div class="pdp-info">
         <p class="pdp-tag">${sectionLabel(p.section)}${p.leagueName ? " · " + p.leagueName : ""}</p>
         <h1 class="pdp-title">${displayName(p)}</h1>
-        <p class="pdp-subtitle">Edición ${p.quality === "player" ? "Player" : "Fan"}</p>
+        <p class="pdp-subtitle">${isMedias ? "Antideslizantes · Importadas" : `Edición ${p.quality === "player" ? "Player" : "Fan"}`}</p>
         <p class="pdp-price">${priceFmt(p.priceDisplay)}</p>
         <p class="pdp-desc">${productDesc(p)}</p>
 
@@ -267,10 +287,16 @@ ${thumbs}
         <div class="pdp-specs-block">
           <h2>Detalles del producto</h2>
           <ul class="pdp-specs">
-            <li><span>Edición</span><strong>${p.quality === "player" ? "Player" : "Fan"}</strong></li>
+${
+  isMedias
+    ? `            <li><span>Tipo</span><strong>Antideslizantes</strong></li>
+            <li><span>Talle</span><strong>Único (adulto)</strong></li>
+            <li><span>Origen</span><strong>Importada</strong></li>`
+    : `            <li><span>Edición</span><strong>${p.quality === "player" ? "Player" : "Fan"}</strong></li>
             <li><span>Tela</span><strong>Liviana y transpirable</strong></li>
             <li><span>Talles</span><strong>S · M · L · XL · XXL</strong></li>
-            <li><span>Origen</span><strong>Importada</strong></li>
+            <li><span>Origen</span><strong>Importada</strong></li>`
+}
           </ul>
         </div>
       </div>
@@ -340,6 +366,7 @@ function headerHtml(pre) {
             <a href="${pre}tienda/mundial-2026/index.html">Mundial 2026</a>
             <a href="${pre}tienda/retro/index.html">Retro</a>
             <a href="${pre}tienda/shorts/index.html">Shorts</a>
+            <a href="${pre}tienda/medias/index.html">Medias</a>
           </div>
           <div class="dropdown-col">
             <p class="dropdown-heading">Ligas</p>
@@ -388,6 +415,7 @@ ${leagueLinks}
       <a href="${pre}tienda/mundial-2026/index.html">Mundial 2026</a>
       <a href="${pre}tienda/retro/index.html">Retro</a>
       <a href="${pre}tienda/shorts/index.html">Shorts</a>
+      <a href="${pre}tienda/medias/index.html">Medias</a>
     </div>
     <a href="${pre}index.html#como-comprar">Cómo comprar</a>
     <a href="${pre}index.html#nosotros">Nosotros</a>
@@ -436,8 +464,11 @@ function productCardHtml(p, depth) {
   const pre = relPrefix(depth);
   const href = `${pre}tienda/${p.section}/${p.league ? p.league + "/" : ""}${p.slug}.html`;
   const img = `${pre}assets/tienda/${p.section}/${p.slug}/${p.localImages[0]}`;
-  const waText = `Hola! Me interesa la camiseta ${displayName(p)} (${p.quality === "player" ? "Player" : "Fan"}), ¿tienen stock?`;
-  return `      <article class="product-card reveal" data-quality="${p.quality}">
+  const waText =
+    p.section === "medias"
+      ? `Hola! Me interesan las ${displayName(p)}, ¿tienen stock?`
+      : `Hola! Me interesa la camiseta ${displayName(p)} (${p.quality === "player" ? "Player" : "Fan"}), ¿tienen stock?`;
+  return `      <article class="product-card reveal" data-quality="${p.quality || ""}">
         <a class="product-media product-link" href="${href}">
           <img src="${img}" alt="${displayName(p)}" loading="lazy" width="800" height="800">
         </a>
@@ -469,7 +500,7 @@ const QUALITY_FILTER_SCRIPT = `<script>
 })();
 </script>`;
 
-function categoryIndexHtml({ section, title, desc, bodySections, extraNote }) {
+function categoryIndexHtml({ section, title, desc, bodySections, extraNote, filter = true }) {
   const pre = relPrefix(2); // tienda/<section>/index.html is 2 folders below root
   return `<!DOCTYPE html>
 <html lang="es-AR">
@@ -520,7 +551,9 @@ ${headerHtml(pre)}
   </div>
 </section>
 
-<section class="category-block">
+${
+  filter
+    ? `<section class="category-block">
   <div class="wrap category-layout">
     <aside class="category-sidebar">
       <p class="sidebar-heading">Filtrar</p>
@@ -535,7 +568,14 @@ ${bodySections}
 ${extraNote || ""}
     </div>
   </div>
-</section>
+</section>`
+    : `<section class="category-block">
+  <div class="wrap">
+${bodySections}
+${extraNote || ""}
+  </div>
+</section>`
+}
 
 ${footerHtml(pre)}
 
@@ -560,12 +600,14 @@ ${QUALITY_FILTER_SCRIPT}
 
 async function main() {
   const data = JSON.parse(fs.readFileSync(DATA_FILE, "utf8"));
-  const camisetas = data.products.filter((p) => p.name.toLowerCase().startsWith("camiseta") && p.price > 0);
-  const shorts = data.products.filter((p) => p.name.toLowerCase().startsWith("short") && p.price > 0);
+  const camisetas = data.products.filter((p) => p.name.toLowerCase().startsWith("camiseta"));
+  const shorts = data.products.filter((p) => p.name.toLowerCase().startsWith("short"));
+  const medias = data.products.filter((p) => p.name.toLowerCase().startsWith("medias"));
   const classified = camisetas
     .map(classify)
     .filter((p) => p.section !== "sin-clasificar")
-    .concat(shorts.map(classifyShort));
+    .concat(shorts.map(classifyShort))
+    .concat(medias.map(classifyMedias));
 
   console.log(`Classified ${classified.length} products.`);
 
@@ -602,7 +644,7 @@ async function main() {
   }
 
   // ---- Category index pages ----
-  const bySection = { clubes: [], selecciones: [], "mundial-2026": [], retro: [], shorts: [] };
+  const bySection = { clubes: [], selecciones: [], "mundial-2026": [], retro: [], shorts: [], medias: [] };
   classified.forEach((p) => bySection[p.section].push(p));
 
   // Clubes: grouped by league, with a sub-nav.
@@ -686,6 +728,19 @@ async function main() {
     })
   );
 
+  // Medias antideslizantes (flat grid, no player/fan filter)
+  ensureDir(path.join(ROOT, "tienda", "medias"));
+  fs.writeFileSync(
+    path.join(ROOT, "tienda", "medias", "index.html"),
+    categoryIndexHtml({
+      section: "medias",
+      title: "Medias Antideslizantes",
+      desc: "Medias antideslizantes importadas, para no perder pisada en cada jugada. $13.500 cada una.",
+      bodySections: `    <div class="product-grid">\n${bySection.medias.map((p) => productCardHtml(p, 2)).join("\n")}\n    </div>`,
+      filter: false,
+    })
+  );
+
   fs.writeFileSync(path.join(ROOT, "data", "clasificados.json"), JSON.stringify(classified, null, 2));
 
   // ---- Search index (consumed client-side by the header search overlay) ----
@@ -697,7 +752,36 @@ async function main() {
   }));
   fs.writeFileSync(path.join(ROOT, "search-index.json"), JSON.stringify(searchIndex));
 
-  console.log(`Done. Wrote ${classified.length} product pages + 4 category index pages.`);
+  // ---- sitemap.xml (kept in sync with every generated + static page) ----
+  const SITE = "https://rdhimports.vercel.app";
+  const staticUrls = [
+    { loc: `${SITE}/`, changefreq: "weekly", priority: "1.0" },
+    { loc: `${SITE}/tienda.html`, changefreq: "weekly", priority: "0.9" },
+  ];
+  const categoryUrls = Object.keys(bySection).map((section) => ({
+    loc: `${SITE}/tienda/${section}/index.html`,
+    changefreq: "weekly",
+    priority: "0.8",
+  }));
+  const productUrls = classified.map((p) => ({
+    loc: `${SITE}/tienda/${p.section}/${p.league ? p.league + "/" : ""}${p.slug}.html`,
+    changefreq: "weekly",
+    priority: "0.7",
+  }));
+  const allUrls = [...staticUrls, ...categoryUrls, ...productUrls];
+  const sitemapXml =
+    `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
+    allUrls
+      .map(
+        (u) =>
+          `  <url>\n    <loc>${u.loc}</loc>\n    <changefreq>${u.changefreq}</changefreq>\n    <priority>${u.priority}</priority>\n  </url>`
+      )
+      .join("\n") +
+    `\n</urlset>\n`;
+  fs.writeFileSync(path.join(ROOT, "sitemap.xml"), sitemapXml);
+
+  console.log(`Done. Wrote ${classified.length} product pages + 6 category index pages.`);
+  console.log(`Sitemap: ${allUrls.length} URLs.`);
   console.log("Section counts:", Object.fromEntries(Object.entries(bySection).map(([k, v]) => [k, v.length])));
 }
 

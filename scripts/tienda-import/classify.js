@@ -1,16 +1,20 @@
 const teams = require("./teams");
 
+function stripSeasonSuffix(n) {
+  return n.replace(/\s+\d{2}\/\d{2}$/, "").replace(/\s+\d{4}$/, "");
+}
+
 function extractTeamKey(name) {
   let n = name.replace(/^Camiseta\s+/i, "");
   n = n.split(/\s+(Home|Supl|Suplente|Entrenamiento|Edicion|Ter\s|Mundial|x\s|Pro\s|ICON)/i)[0];
-  n = n.replace(/\s+\d{4}$/, "");
+  n = stripSeasonSuffix(n);
   return n.trim();
 }
 
 function extractShortTeamKey(name) {
   let n = name.replace(/^Short\s+/i, "");
   n = n.split(/\s+(Home|Supl|Suplente|Entrenamiento|Edicion|Ter\s|Mundial|x\s|Pro\s|ICON)/i)[0];
-  n = n.replace(/\s+\d{4}$/, "");
+  n = stripSeasonSuffix(n);
   return n.trim();
 }
 
@@ -103,8 +107,34 @@ function classifyShort(product) {
     league,
     leagueName,
     slug,
-    priceDisplay: quality === "player" ? 32000 : 27000,
+    priceDisplay: quality === "player" ? 43000 : 38000,
   };
 }
 
-module.exports = { classify, classifyShort, extractTeamKey, isRetroByYear, isMundial2026, detectQuality, slugify };
+// Classify a "Medias ..." product into the medias (antideslizantes) section.
+// No player/fan tiers here — flat price for every pair.
+function classifyMedias(product) {
+  const slug = slugify(product.name);
+  return {
+    ...product,
+    teamKey: null,
+    teamMeta: null,
+    quality: null,
+    section: "medias",
+    league: null,
+    leagueName: null,
+    slug,
+    priceDisplay: 13500,
+  };
+}
+
+module.exports = {
+  classify,
+  classifyShort,
+  classifyMedias,
+  extractTeamKey,
+  isRetroByYear,
+  isMundial2026,
+  detectQuality,
+  slugify,
+};

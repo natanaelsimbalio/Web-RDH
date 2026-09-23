@@ -108,14 +108,34 @@
         return;
       }
       const pre = searchOverlay.dataset.pre || '';
-      searchResults.innerHTML = items.slice(0, 20).map(p => `
-        <a class="search-result" href="${pre}${p.href}">
-          <img src="${pre}${p.img}" alt="" loading="lazy" width="44" height="44">
-          <div class="search-result-info">
-            <p class="search-result-name">${p.name}</p>
-            <p class="search-result-tag">${p.tag}</p>
-          </div>
-        </a>`).join('');
+      searchResults.innerHTML = '';
+      items.slice(0, 20).forEach(p => {
+        const a = document.createElement('a');
+        a.className = 'search-result';
+        a.href = pre + p.href;
+
+        const img = document.createElement('img');
+        img.src = pre + p.img;
+        img.alt = '';
+        img.loading = 'lazy';
+        img.width = 44;
+        img.height = 44;
+
+        const info = document.createElement('div');
+        info.className = 'search-result-info';
+        const name = document.createElement('p');
+        name.className = 'search-result-name';
+        name.textContent = p.name;
+        const tag = document.createElement('p');
+        tag.className = 'search-result-tag';
+        tag.textContent = p.tag;
+        info.appendChild(name);
+        info.appendChild(tag);
+
+        a.appendChild(img);
+        a.appendChild(info);
+        searchResults.appendChild(a);
+      });
     };
 
     const runSearch = (query) => {

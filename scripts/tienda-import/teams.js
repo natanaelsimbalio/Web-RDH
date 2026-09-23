@@ -6,8 +6,11 @@ module.exports = {
   "Argelia": { type: "seleccion" },
   "Argentina": { type: "seleccion" },
   "Brasil": { type: "seleccion" },
+  "Canada": { type: "seleccion", displayName: "Canadá" },
   "Croacia": { type: "seleccion" },
   "España": { type: "seleccion" },
+  "Estados Unidos": { type: "seleccion" },
+  "Francia": { type: "seleccion" },
   "Gales": { type: "seleccion" },
   "Grecia": { type: "seleccion" },
   "Inglaterra": { type: "seleccion" },
@@ -45,4 +48,5 @@ module.exports = {
   "PSV": { type: "club", league: "resto-del-mundo", leagueName: "Resto del Mundo" },
   "L.A Galaxy": { type: "club", league: "resto-del-mundo", leagueName: "Resto del Mundo", displayName: "LA Galaxy" },
   "Santos": { type: "club", league: "liga-brasilena", leagueName: "Liga Brasileña" },
+  "Sao Paulo": { type: "club", league: "liga-brasilena", leagueName: "Liga Brasileña", displayName: "São Paulo" },
 };

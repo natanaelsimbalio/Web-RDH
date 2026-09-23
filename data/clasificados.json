@@ -489,8 +489,12 @@
       "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8554-fe7072d493efae34b717643799888156-1024-1024.webp",
       "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8555-46ec17412a8018d27517643799895235-1024-1024.webp"
     ],
-    "teamKey": "Atletico Madrid 14/15",
-    "teamMeta": null,
+    "teamKey": "Atletico Madrid",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-espanola",
+      "leagueName": "Liga Española"
+    },
     "quality": "player",
     "section": "retro",
     "league": null,
@@ -832,6 +836,36 @@
     ]
   },
   {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-canada-home-2026-fan-zu8dk/",
+    "name": "Camiseta Canada Home 2026 FAN",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9796-e3941ed23d243dc26917839852313399-480-0.webp",
+    "sku": "2215",
+    "price": 0,
+    "availability": "https://schema.org/InStock",
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9796-e3941ed23d243dc26917839852313399-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9797-42c54c94622251fa3717839852300597-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9798-8ec2b74be25966563417839852311555-1024-1024.webp"
+    ],
+    "teamKey": "Canada",
+    "teamMeta": {
+      "type": "seleccion",
+      "displayName": "Canadá"
+    },
+    "quality": "fan",
+    "section": "mundial-2026",
+    "league": null,
+    "leagueName": null,
+    "slug": "canada-home-2026-fan",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
+    ]
+  },
+  {
     "url": "https://sacadelmedio.com.ar/productos/camiseta-chelsea-supl-3-player-25-26-167i5/",
     "name": "Camiseta Chelsea Supl 3 Player 25/26",
     "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/f5cf4883-749f-4eda-8632-32483a3707d6-06d533437f5428973317762841788607-480-0.webp",
@@ -954,6 +988,35 @@
     ]
   },
   {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-estados-unidos-home-player-2026-pizm0/",
+    "name": "Camiseta Estados Unidos Home Player 2026",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9888-a28d1feaedf73fe47217858523646017-480-0.webp",
+    "sku": "2356",
+    "price": 0,
+    "availability": "https://schema.org/InStock",
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9888-a28d1feaedf73fe47217858523646017-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9889-518c7362d3165ae36d17858523636208-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9890-bb73f86f4286976b1117858523616329-1024-1024.webp"
+    ],
+    "teamKey": "Estados Unidos",
+    "teamMeta": {
+      "type": "seleccion"
+    },
+    "quality": "player",
+    "section": "mundial-2026",
+    "league": null,
+    "leagueName": null,
+    "slug": "estados-unidos-home-player-2026",
+    "priceDisplay": 48000,
+    "localImages": [
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
+    ]
+  },
+  {
     "url": "https://sacadelmedio.com.ar/productos/camiseta-flamengo-supl-player-26-27-1f261/",
     "name": "Camiseta Flamengo Supl Player 26/27",
     "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_3693-be0ee3a49bf70a5b8417888311558712-480-0.webp",
@@ -986,6 +1049,35 @@
       "4.webp",
       "5.webp",
       "6.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-francia-home-2026-fan-egxb8/",
+    "name": "Camiseta Francia Home 2026 FAN",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9856-1561556bdf39d0e09b17839854539646-480-0.webp",
+    "sku": "2234",
+    "price": 0,
+    "availability": "https://schema.org/InStock",
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9856-1561556bdf39d0e09b17839854539646-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9857-e62175a8c81d10d73417839854615176-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9858-75373eed2d9905ba3517839854604851-1024-1024.webp"
+    ],
+    "teamKey": "Francia",
+    "teamMeta": {
+      "type": "seleccion"
+    },
+    "quality": "fan",
+    "section": "mundial-2026",
+    "league": null,
+    "leagueName": null,
+    "slug": "francia-home-2026-fan",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp"
     ]
   },
   {
@@ -2253,6 +2345,40 @@
     ]
   },
   {
+    "url": "https://sacadelmedio.com.ar/productos/camiseta-sao-paulo-24-25/",
+    "name": "Camiseta Sao Paulo 24/25",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_6634-7a2493cb3d05d7a97a17345788026710-480-0.webp",
+    "sku": "52",
+    "price": 0,
+    "availability": "https://schema.org/OutOfStock",
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_6634-7a2493cb3d05d7a97a17345788026710-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_6637-47f55e7fec6f554ba817345788024772-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_6636-4705718f3de06b2e2b17345788029996-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_6638-9afaabe5ff81dbc3d017345788024654-1024-1024.webp"
+    ],
+    "teamKey": "Sao Paulo",
+    "teamMeta": {
+      "type": "club",
+      "league": "liga-brasilena",
+      "leagueName": "Liga Brasileña",
+      "displayName": "São Paulo"
+    },
+    "quality": "fan",
+    "section": "clubes",
+    "league": "liga-brasilena",
+    "leagueName": "Liga Brasileña",
+    "slug": "sao-paulo-24-25",
+    "priceDisplay": 41000,
+    "localImages": [
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp"
+    ]
+  },
+  {
     "url": "https://sacadelmedio.com.ar/productos/camiseta-uruguay-2024/",
     "name": "Camiseta Uruguay 2024",
     "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_6539-31c356ffb7c4ff05b217313349653495-480-0.webp",
@@ -2301,7 +2427,7 @@
     "league": null,
     "leagueName": null,
     "slug": "alemania-home-player-2026-short",
-    "priceDisplay": 32000,
+    "priceDisplay": 43000,
     "localImages": [
       "1.webp",
       "2.webp",
@@ -2334,7 +2460,7 @@
     "league": null,
     "leagueName": null,
     "slug": "alemania-supl-player-2026-short",
-    "priceDisplay": 32000,
+    "priceDisplay": 43000,
     "localImages": [
       "1.webp",
       "2.webp",
@@ -2367,7 +2493,7 @@
     "league": null,
     "leagueName": null,
     "slug": "argelia-home-player-2026-short",
-    "priceDisplay": 32000,
+    "priceDisplay": 43000,
     "localImages": [
       "1.webp",
       "2.webp",
@@ -2400,7 +2526,7 @@
     "league": null,
     "leagueName": null,
     "slug": "argentina-entrenamiento-2026-short",
-    "priceDisplay": 32000,
+    "priceDisplay": 43000,
     "localImages": [
       "1.webp",
       "2.webp",
@@ -2433,12 +2559,37 @@
     "league": "liga-inglesa",
     "leagueName": "Liga Inglesa",
     "slug": "arsenal-supl-25-26-player-short",
-    "priceDisplay": 32000,
+    "priceDisplay": 43000,
     "localImages": [
       "1.webp",
       "2.webp",
       "3.webp",
       "4.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/short-benfica-fan-jab8p/",
+    "name": "Short Benfica Fan",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/827f30a0-c47e-459c-a00f-ab36dcfdc33f-b449a83d004c9838a517811213313695-480-0.webp",
+    "sku": "2141",
+    "price": 0,
+    "availability": "https://schema.org/InStock",
+    "gallery": [
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/827f30a0-c47e-459c-a00f-ab36dcfdc33f-b449a83d004c9838a517811213313695-1024-1024.webp",
+      "https://acdn-us.mitiendanube.com/stores/004/750/777/products/d874f26a-dcb8-4532-acaa-56470313ce6a-f1af85d10c808b972217811213314237-1024-1024.webp"
+    ],
+    "teamKey": "Benfica Fan",
+    "teamMeta": null,
+    "quality": "fan",
+    "section": "shorts",
+    "league": null,
+    "leagueName": null,
+    "slug": "benfica-fan-short",
+    "priceDisplay": 38000,
+    "localImages": [
+      "1.webp",
+      "2.webp",
+      "3.webp"
     ]
   },
   {
@@ -2464,7 +2615,7 @@
     "league": null,
     "leagueName": null,
     "slug": "italia-home-player-2026-short",
-    "priceDisplay": 32000,
+    "priceDisplay": 43000,
     "localImages": [
       "1.webp",
       "2.webp",
@@ -2492,7 +2643,7 @@
     "league": null,
     "leagueName": null,
     "slug": "l-a-galaxy-fan-short",
-    "priceDisplay": 27000,
+    "priceDisplay": 38000,
     "localImages": [
       "1.webp",
       "2.webp",
@@ -2521,7 +2672,7 @@
     "league": "liga-inglesa",
     "leagueName": "Liga Inglesa",
     "slug": "liverpool-supl-2-25-26-player-short",
-    "priceDisplay": 32000,
+    "priceDisplay": 43000,
     "localImages": [
       "1.webp",
       "2.webp",
@@ -2552,7 +2703,7 @@
     "league": "liga-inglesa",
     "leagueName": "Liga Inglesa",
     "slug": "manchester-united-supl-3-25-26-player-short",
-    "priceDisplay": 32000,
+    "priceDisplay": 43000,
     "localImages": [
       "1.webp",
       "2.webp",
@@ -2582,7 +2733,7 @@
     "league": null,
     "leagueName": null,
     "slug": "psv-fan-short",
-    "priceDisplay": 27000,
+    "priceDisplay": 38000,
     "localImages": [
       "1.webp",
       "2.webp",
@@ -2615,7 +2766,7 @@
     "league": "liga-espanola",
     "leagueName": "Liga Española",
     "slug": "real-madrid-home-25-26-player-short",
-    "priceDisplay": 32000,
+    "priceDisplay": 43000,
     "localImages": [
       "1.webp",
       "2.webp",
@@ -2641,11 +2792,111 @@
     "league": null,
     "leagueName": null,
     "slug": "santos-fan-short",
-    "priceDisplay": 27000,
+    "priceDisplay": 38000,
     "localImages": [
       "1.webp",
       "2.webp",
       "3.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/medias-1-2-cana-antideslizantes-importadas-negras-1jq4r/",
+    "name": "Medias 1/2 caña antideslizantes Importadas Negras",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_4633-1251e881ee6086c9b517865616543986-480-0.webp",
+    "sku": "2423",
+    "price": 8900,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": null,
+    "teamMeta": null,
+    "quality": null,
+    "section": "medias",
+    "league": null,
+    "leagueName": null,
+    "slug": "medias-1-2-cana-antideslizantes-importadas-negras",
+    "priceDisplay": 13500,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/medias-3-4-antideslizantes-importadas-blancas-18lhf/",
+    "name": "Medias 3/4 antideslizantes Importadas Blancas",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_4637-7c9cb9a2f48c2877dd17865618081557-480-0.webp",
+    "sku": "2426",
+    "price": 8900,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": null,
+    "teamMeta": null,
+    "quality": null,
+    "section": "medias",
+    "league": null,
+    "leagueName": null,
+    "slug": "medias-3-4-antideslizantes-importadas-blancas",
+    "priceDisplay": 13500,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/medias-3-4-antideslizantes-importadas-negras-1moa1/",
+    "name": "Medias 3/4 antideslizantes Importadas Negras",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_4636-50f26ae8f86f1e8f8117865627848436-480-0.webp",
+    "sku": "2425",
+    "price": 8900,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": null,
+    "teamMeta": null,
+    "quality": null,
+    "section": "medias",
+    "league": null,
+    "leagueName": null,
+    "slug": "medias-3-4-antideslizantes-importadas-negras",
+    "priceDisplay": 13500,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/medias-soquetes-antideslizantes-importadas-blancas-1dlmv/",
+    "name": "Medias Soquetes antideslizantes Importadas Blancas",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_4640-d6e54c3da9eeefaf0417865628506022-480-0.webp",
+    "sku": "2422",
+    "price": 8900,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": null,
+    "teamMeta": null,
+    "quality": null,
+    "section": "medias",
+    "league": null,
+    "leagueName": null,
+    "slug": "medias-soquetes-antideslizantes-importadas-blancas",
+    "priceDisplay": 13500,
+    "localImages": [
+      "1.webp"
+    ]
+  },
+  {
+    "url": "https://sacadelmedio.com.ar/productos/medias-soquetes-antideslizantes-importadas-negras-baxwv/",
+    "name": "Medias Soquetes antideslizantes Importadas Negras",
+    "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_4639-2cf2ab4978d42a19ca17865627330752-480-0.webp",
+    "sku": "2421",
+    "price": 8900,
+    "availability": "https://schema.org/InStock",
+    "gallery": [],
+    "teamKey": null,
+    "teamMeta": null,
+    "quality": null,
+    "section": "medias",
+    "league": null,
+    "leagueName": null,
+    "slug": "medias-soquetes-antideslizantes-importadas-negras",
+    "priceDisplay": 13500,
+    "localImages": [
+      "1.webp"
     ]
   }
 ]
