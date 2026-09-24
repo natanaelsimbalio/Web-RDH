@@ -750,7 +750,7 @@
   },
   {
     "url": "https://sacadelmedio.com.ar/productos/camiseta-brasil-home-1998-1tpg1/",
-    "name": "Camiseta Brasil Home 1998",
+    "name": "Camiseta Brasil Home 2002",
     "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/8bbcbb12-f403-457e-b764-40007243fa19-f2ee4e5f59029e1be817762850436750-480-0.webp",
     "sku": "1999",
     "price": 56250,
@@ -770,15 +770,10 @@
     "section": "retro",
     "league": null,
     "leagueName": null,
-    "slug": "brasil-home-1998",
+    "slug": "brasil-home-2002",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp",
-      "2.webp",
-      "3.webp",
-      "4.webp",
-      "5.webp",
-      "6.webp"
+      "1.webp"
     ]
   },
   {
@@ -1417,7 +1412,7 @@
   },
   {
     "url": "https://sacadelmedio.com.ar/productos/camiseta-juventus-supl-3-25-26-unrru/",
-    "name": "Camiseta Juventus Supl 3 FAN 25/26",
+    "name": "Camiseta Juventus Suplente 3 FAN 25/26",
     "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/554470e8-a17a-4b69-9f05-6b25eb042ebc-b6ea1b91aeb694f11617762836166624-480-0.webp",
     "sku": "1089",
     "price": 45000,
@@ -1439,20 +1434,15 @@
     "section": "clubes",
     "league": "liga-italiana",
     "leagueName": "Liga Italiana",
-    "slug": "juventus-supl-3-fan-25-26",
+    "slug": "juventus-suplente-3-fan-25-26",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp",
-      "2.webp",
-      "3.webp",
-      "4.webp",
-      "5.webp",
-      "6.webp"
+      "1.webp"
     ]
   },
   {
     "url": "https://sacadelmedio.com.ar/productos/camiseta-juventus-supl-3-x-studiosgura-26-27-egduj/",
-    "name": "Camiseta Juventus Supl 3 x StudioSgura 26/27",
+    "name": "Camiseta Juventus Suplente 3 x StudioSgura 26/27",
     "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_9837-fa19660c52f761b36c17839862001952-480-0.webp",
     "sku": "2321",
     "price": 45000,
@@ -1472,13 +1462,10 @@
     "section": "clubes",
     "league": "liga-italiana",
     "leagueName": "Liga Italiana",
-    "slug": "juventus-supl-3-x-studiosgura-26-27",
+    "slug": "juventus-suplente-3-x-studiosgura-26-27",
     "priceDisplay": 41000,
     "localImages": [
-      "1.webp",
-      "2.webp",
-      "3.webp",
-      "4.webp"
+      "1.webp"
     ]
   },
   {
@@ -1516,9 +1503,7 @@
       "3.webp",
       "4.webp",
       "5.webp",
-      "6.webp",
-      "7.webp",
-      "8.webp"
+      "6.webp"
     ]
   },
   {
