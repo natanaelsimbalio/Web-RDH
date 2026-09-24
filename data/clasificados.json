@@ -1412,7 +1412,7 @@
   },
   {
     "url": "https://sacadelmedio.com.ar/productos/camiseta-juventus-supl-3-25-26-unrru/",
-    "name": "Camiseta Juventus Suplente 3 FAN 25/26",
+    "name": "Camiseta Juventus Suplente Player 25/26",
     "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/554470e8-a17a-4b69-9f05-6b25eb042ebc-b6ea1b91aeb694f11617762836166624-480-0.webp",
     "sku": "1089",
     "price": 45000,
@@ -1430,12 +1430,12 @@
       "league": "liga-italiana",
       "leagueName": "Liga Italiana"
     },
-    "quality": "fan",
+    "quality": "player",
     "section": "clubes",
     "league": "liga-italiana",
     "leagueName": "Liga Italiana",
-    "slug": "juventus-suplente-3-fan-25-26",
-    "priceDisplay": 41000,
+    "slug": "juventus-suplente-player-25-26",
+    "priceDisplay": 48000,
     "localImages": [
       "1.webp"
     ]
@@ -1470,7 +1470,7 @@
   },
   {
     "url": "https://sacadelmedio.com.ar/productos/camiseta-juventus-ter-equip-player-25-26-89ki5/",
-    "name": "Camiseta Juventus Ter Equip Player 25/26",
+    "name": "Camiseta Juventus Supl 3 Player 25/26",
     "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/808db936-ca1d-4dbf-8c58-96638cf872e6-578bc82e7c6d6579fb17747076135850-480-0.webp",
     "sku": "1905",
     "price": 56250,
@@ -1495,15 +1495,10 @@
     "section": "clubes",
     "league": "liga-italiana",
     "leagueName": "Liga Italiana",
-    "slug": "juventus-ter-equip-player-25-26",
+    "slug": "juventus-supl-3-player-25-26",
     "priceDisplay": 48000,
     "localImages": [
-      "1.webp",
-      "2.webp",
-      "3.webp",
-      "4.webp",
-      "5.webp",
-      "6.webp"
+      "1.webp"
     ]
   },
   {
@@ -2238,10 +2233,10 @@
   },
   {
     "url": "https://sacadelmedio.com.ar/productos/camiseta-real-madrid-supl-25-26/",
-    "name": "Camiseta Real Madrid Supl FAN 25/26",
+    "name": "Camiseta Real Madrid Suplente Player 25/26",
     "image": "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8411-0e1b1a4fda9ee2677717634946688985-480-0.webp",
     "sku": "1010",
-    "price": 45000,
+    "price": 56250,
     "availability": "https://schema.org/OutOfStock",
     "gallery": [
       "https://acdn-us.mitiendanube.com/stores/004/750/777/products/img_8411-0e1b1a4fda9ee2677717634946688985-1024-1024.webp",
@@ -2254,17 +2249,14 @@
       "league": "liga-espanola",
       "leagueName": "Liga Española"
     },
-    "quality": "fan",
+    "quality": "player",
     "section": "clubes",
     "league": "liga-espanola",
     "leagueName": "Liga Española",
-    "slug": "real-madrid-supl-fan-25-26",
-    "priceDisplay": 41000,
+    "slug": "real-madrid-suplente-player-25-26",
+    "priceDisplay": 48000,
     "localImages": [
-      "1.webp",
-      "2.webp",
-      "3.webp",
-      "4.webp"
+      "1.webp"
     ]
   },
   {
